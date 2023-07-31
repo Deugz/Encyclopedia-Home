@@ -7,6 +7,21 @@
 
 Introduction/Definition
 Introduction/Objectifs
+Introduction/Roadmap
+```
+
+```{toctree}
+:maxdepth: 2
+:caption: Sections
+:hidden:
+
+Sections/Panorama
+Sections/Science
+Sections/Education
+Sections/Music
+Sections/Pharma
+Sections/Societe
+
 
 ```
 
@@ -21,7 +36,10 @@ Appendix/to-check
 
 ```{admonition} C'est parti
 
-Allé faut se lancer
+Allé faut se lancer:
+Sur cette page on veut:
+- Expliquer le projet (Definition)
+
 
 ```
 

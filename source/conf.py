@@ -80,7 +80,7 @@ html_theme_options = {
         },
         {
             "url": "https://deugz.github.io/nb-blog/_build/html/intro.html",
-            "name": "&nbsp &nbsp &nbsp ✊ Société",
+            "name": "&nbsp &nbsp &nbsp ✊ Politique",
             "attributes": {"target": "_blank"},
         },
     ],
@@ -88,12 +88,12 @@ html_theme_options = {
     "icon_links": [
         {
             "name": "GitHub",
-            "url": "https://github.com/pydata/pydata-sphinx-theme",
+            "url": "https://github.com/Deugz/Encyclopedia-Home",
             "icon": "fa-brands fa-github",
         },
         {
             "name": "Home",
-            "url": "https://github.com/pydata/pydata-sphinx-theme",
+            "url": "https://deugz.github.io/Encyclopedia-Home/build/html/index.html",
             "icon": "fa-solid fa-house",
         },
         {
@@ -102,8 +102,13 @@ html_theme_options = {
             "icon": "fa-solid fa-user",
         },
         {
+            "name": "Blog",
+            "url": "https://deugz.github.io/ab-blog/_website/index.html",
+            "icon": "fa-solid fa-blog",
+        },
+        {
             "name": "Tools",
-            "url": "https://github.com/pydata/pydata-sphinx-theme",
+            "url": "https://deugz.github.io/nb-tools/_build/html/intro.html",
             "icon": "fa-solid fa-screwdriver-wrench",
         },
     ],
