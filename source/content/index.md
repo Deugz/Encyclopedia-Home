@@ -31,6 +31,7 @@ Sections/Societe
 :hidden:
 
 Appendix/to-check
+to-include
 
 ```
 

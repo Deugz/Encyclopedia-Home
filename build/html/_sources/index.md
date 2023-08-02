@@ -39,13 +39,39 @@ s0.parentNode.insertBefore(s1,s0);
 
 ***
 
-
+<br>
 <br>
 
+::::{grid} 2
+
+:::{grid-item}
+:columns: 7
+
+Un outil de prise de notes et d'idéation
+
+:::
+
+:::{grid-item}
+:columns: 5
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://lottie.host/e692a5c6-8949-46c7-ac7c-6afbac11da77/xRhlVa5Z5T.json" background="transparent" speed="0.6" style="width: 100%; height: auto;" direction="1"  autoplay></lottie-player>
+
+:::
+
+
+
+::::
+
+# Introduction
+
+<p class="emphase2"><strong>Les réseaux sociaux, la désinformation ...</strong></p>
 
 ```{admonition} To Do
 
 - Commencer a travailler pour définir le concept
+
+- 1 publication to host all my interests
 
 ```
 

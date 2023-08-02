@@ -11,6 +11,7 @@ copyright = '2023, Vincent Deguin'
 author = 'Vincent Deguin'
 release = '0.0.1'
 
+
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
@@ -59,32 +60,32 @@ html_static_path = ['_static']
 html_theme_options = {
     "external_links": [
         {
-            "url": "https://deugz.github.io/nb-sbfp/_build/html/intro.html",
+            "url": "https://deugz.github.io/sp-Science_Journey/build/html/index.html",
             "name": "&nbsp &nbsp &nbsp &nbsp 💫 Science",
             "attributes": {"target": "_blank"},
         },
         {
-            "url": "https://deugz.github.io/nb-notes/_build/html/intro.html",
+            "url": "https://deugz.github.io/sp-Education_Journey/build/html/index.html",
             "name": "&nbsp &nbsp &nbsp 🧠 Education",
             "attributes": {"target": "_blank"},
         },
         {
-            "url": "https://deugz.github.io/nb-publi/_build/html/intro.html",
+            "url": "https://deugz.github.io/sp-Hiphop_Journey/build/html/index.html",
             "name": "&nbsp &nbsp &nbsp 🎤 Music ",
             "attributes": {"target": "_blank"},
         },
         {
-            "url": "https://deugz.github.io/nb-teaching/_build/html/intro.html",
+            "url": "https://deugz.github.io/sp-Pharma_Journey/build/html/index.html",
             "name": "&nbsp &nbsp &nbsp 💊 Pharmacie",
             "attributes": {"target": "_blank"},
         },
         {
-            "url": "https://deugz.github.io/nb-blog/_build/html/intro.html",
+            "url": "https://deugz.github.io/sp-Politique_Journey/build/html/index.html",
             "name": "&nbsp &nbsp &nbsp ✊ Politique",
             "attributes": {"target": "_blank"},
         },
     ],
-    "header_links_before_dropdown": 10,    
+    "header_links_before_dropdown": 11,    
     "icon_links": [
         {
             "name": "GitHub",
@@ -111,8 +112,12 @@ html_theme_options = {
             "url": "https://deugz.github.io/nb-tools/_build/html/intro.html",
             "icon": "fa-solid fa-screwdriver-wrench",
         },
-    ],
-    
+        {
+            "name": "Forum",
+            "url": "https://deugz.github.io",
+            "icon": "fa-solid fa-comments",
+        },
+    ],   
 
     "logo": {
         "text": " &nbsp V. Deguin &nbsp ",
