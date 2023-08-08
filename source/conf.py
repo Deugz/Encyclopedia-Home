@@ -58,6 +58,7 @@ html_favicon = "_static/Logo/Encyclopedia-logo.png"
 html_static_path = ['_static']
 
 html_theme_options = {
+    "analytics": {"google_analytics_id": "G-E1LZY6PF7T"},
     "external_links": [
         {
             "url": "https://deugz.github.io/sp-Science_Journey/build/html/index.html",
