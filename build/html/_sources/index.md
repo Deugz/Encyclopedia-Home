@@ -369,3 +369,20 @@ Bien sur, cette methodde est particulièrement indiqué dans les domaine de la s
 - Insérer fish diagram
 
 ```
+
+
+<br>
+<br>
+
+# Comments
+
+<br>
+
+<script src="https://utteranc.es/client.js"
+        repo="Deugz/nb-Encyclopedia-Home"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
