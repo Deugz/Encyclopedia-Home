@@ -15,19 +15,6 @@ html_theme.sidebar_secondary.remove: true
 content/index
 ```
 
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/63da4028c2f1ac1e2030c5e3/1go68l7fv';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
 
 
 <br>
@@ -141,19 +128,21 @@ peut être les partagé vous sur les réseaux sociaux, ou mieux, vous les échan
 
 ::::
 
+::::{grid} 2
 
+:::{grid-item}
+:columns: 8
+
+<br>
 
 > Un **Outil** puissant et multitache Mais qui demande des **efforts** 💪
 
 
+:::
 
-
-
-::::{grid} 2
 
 :::{grid-item}
 :columns: 4
-
 
 
 <div id="colour">
@@ -168,6 +157,19 @@ peut être les partagé vous sur les réseaux sociaux, ou mieux, vous les échan
 <p><img src="_static\Svg_icons\hands-and-leaves-svgrepo-com.svg" style="width: 30px;"> &nbsp; <strong>Une pieuvre</strong></p>
 
 </div>    
+
+:::
+
+::::
+
+
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 8
+
+
     
 <br>
 
@@ -194,15 +196,21 @@ au sein d'un seul écocystem, dont vous avez le control et possédez les droits.
 
 <br>
 
+
+
+:::
+
+:::{grid-item}
+:columns: 4
+
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_rbexkvmr.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player>
 
 
 :::
 
-:::{grid-item}
-:columns: 8
 
+::::
 
 ```{figure} _static/SVG_files/Map/Map_Encyclopedia.svg
 :width: 100%
@@ -210,10 +218,6 @@ au sein d'un seul écocystem, dont vous avez le control et possédez les droits.
 Description
 ```
 
-:::
-
-
-::::
 
 <div id="P1">
     
@@ -379,7 +383,7 @@ Bien sur, cette methodde est particulièrement indiqué dans les domaine de la s
 <br>
 
 <script src="https://utteranc.es/client.js"
-        repo="Deugz/nb-Encyclopedia-Home"
+        repo="Deugz/Encyclopedia-Home"
         issue-term="pathname"
         theme="github-light"
         crossorigin="anonymous"
