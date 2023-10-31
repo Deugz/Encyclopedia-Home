@@ -2,17 +2,18 @@
 
 ```{toctree}
 :maxdepth: 2
-:caption: Introduction
+:caption: 💎 Le Projet
 :hidden:
 
 Introduction/Definition
+Introduction/Outils/Outils
 Introduction/Objectifs
-Introduction/Roadmap
+Introduction/Contribute
 ```
 
 ```{toctree}
 :maxdepth: 2
-:caption: Sections
+:caption: ➡️ Sections
 :hidden:
 
 Sections/Panorama

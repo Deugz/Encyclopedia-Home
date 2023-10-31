@@ -62,7 +62,7 @@ html_theme_options = {
     "external_links": [
         {
             "url": "https://deugz.github.io/sp-Science_Journey/build/html/index.html",
-            "name": "&nbsp &nbsp &nbsp &nbsp 💫 Science",
+            "name": "&nbsp &nbsp &nbsp &nbsp 💫 Research",
             "attributes": {"target": "_blank"},
         },
         {
@@ -72,7 +72,7 @@ html_theme_options = {
         },
         {
             "url": "https://deugz.github.io/sp-Hiphop_Journey/build/html/index.html",
-            "name": "&nbsp &nbsp &nbsp 🎤 Music ",
+            "name": "&nbsp &nbsp &nbsp 🎤 Hiphop ",
             "attributes": {"target": "_blank"},
         },
         {
@@ -82,7 +82,7 @@ html_theme_options = {
         },
         {
             "url": "https://deugz.github.io/sp-Politique_Journey/build/html/index.html",
-            "name": "&nbsp &nbsp &nbsp ✊ Politique",
+            "name": "&nbsp &nbsp &nbsp ✊ Société",
             "attributes": {"target": "_blank"},
         },
     ],
