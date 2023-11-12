@@ -14,181 +14,40 @@ présenter ici les différents projets sur lesquels je bosse et comments ils son
 
 ```
 
-This digital space where you have just set foot, is an **experiment** whose aim is to challenge the current *scientific publication system* by offering a creative alternative. There is a long way to go to get there though, and for the time being, it is a collection of `Jupyter Books`. They are canvas to share my research outputs and explore the tools available to make it `Findable, Accesible, Interoperable and Reusable`.
-
-***
-
-```{warning}
-
-**To implement**
-
-Potential funding / collaboration option:
-- [Summer of code - Google](https://summerofcode.withgoogle.com/how-it-works)
-
-- [Business model for Open Source software](https://en.wikipedia.org/wiki/Business_models_for_open-source_software#Selling_professional_services)
+## Lifelong Online Notebook
 
 
-```
+
+## Citizen Journalism Plateform
+
+aspect participatif et collaboratif au processus de création et de transmission de l'information
+
+### Problematics
+
+#### Quel modèle économique ?
+
+Contenue gratuit, pas de publicité!
+
+- Utiliser des technologies gratuites et open source. 
+- Financement participatif
+
+#### Quelle organisation ?
 
 
-## Research 
+#### Quel statut ?
 
-<p class="emphase2"><strong> PhD Thesis  </strong></p>
+La loi no 2009-669 du 12 juin 2009 favorisant la diffusion et la protection de la création sur internet
 
-### <strong> &#x2023; <u> Objectives </u></strong>
+```{note}
 
-## Web-sites
-
-### <strong> &#x2023; <u> nb-master </u></strong>
-
-
-::::::{div} full-width
-
-:::::{grid} 2
-
-::::{grid-item}
-:columns: 9
-
-```{epigraph}
-
-Explain here what the website is about and the objective it is aimed at.
+To check
 
 ```
 
-
-::::
-
-::::{grid-item}
-:columns: 3
+définition ce qu’elle appelle le « service de presse en ligne » comme « tout service de communication au public en ligne édité à titre professionnel par une personne physique ou morale qui a la maîtrise éditoriale de son contenu, consistant en la production et la mise à disposition du public d’un contenu original, d’intérêt général, renouvelé régulièrement, composé d’informations présentant un lien avec l’actualité et ayant fait l’objet d’un traitement à caractère journalistique, qui ne constitue pas un outil de promotion ou un accessoire d’une activité industrielle ou commerciale »
 
 
 
-::::
-
-
-:::::
-
-::::::
-
-
-### <strong> &#x2023; <u> nb-museum </u></strong>
-
-::::::{div} full-width
-
-:::::{grid} 2
-
-::::{grid-item}
-:columns: 9
-
-```{epigraph}
-
-Explain here what the website is about and the objective it is aimed at.
-
-```
-
-
-::::
-
-::::{grid-item}
-:columns: 3
-
-- **Info**
-
-:::{card}
-:link: https://deugz.github.io/nb-museum/_build/html
-:class-header: bg-light
-
-**Museum** ![flag alt >](../_static/Svg_icons/ring-svgrepo-com.svg)
-^^^
-
-Where you are now
-
-- ![GitHub last commit](https://img.shields.io/github/last-commit/Deugz/nb-museum?color=green&style=plastic) 
-- ![GitHub repo size](https://img.shields.io/github/repo-size/Deugz/nb-museum?color=yellow&style=plastic) 
-- ![GitHub contributors](https://img.shields.io/github/contributors/Deugz/nb-museum?color=red&style=plastic) 
-- ![visitors](https://page-views.glitch.me/badge?page_id=https://deugz.github.io/nb-museum/_build/html/intro.html) 
-- ![watchers](https://img.shields.io/github/watchers/Deugz/nb-museum?style=social) 
-- ![stars](https://img.shields.io/github/stars/Deugz/nb-museum?style=social)
-
-:::
-
-- **To Do Lists**
-
-<blockquote class="trello-board-compact">
-  <a href="https://trello.com/b/4ytZdAvP/nb-museum">Trello Board</a>
-</blockquote>
-
-- **RSS Flux**
-
-<script async defer src='https://p3k.org/rss/main.js?align=initial&amp;boxFillColor=%23ffead2&amp;compact=false&amp;fontFace=10pt%20sans-serif&amp;frameColor=%23b3a28e&amp;headless=false&amp;height=&amp;linkColor=%232c7395&amp;maxItems=7&amp;radius=5&amp;showXmlButton=true&amp;textColor=%2395412b&amp;titleBarColor=%2325652d&amp;titleBarTextColor=%23ffdb57&amp;url=https%3A%2F%2Fdeugz.github.io%2Fnb-museum%2Fnb-museum.xml&amp;width='></script>
-
-
-::::
-
-
-:::::
-
-::::::
-
-### <strong> &#x2023; <u> nb-phd </u></strong>
-
-
-::::::{div} full-width
-
-:::::{grid} 2
-
-::::{grid-item}
-:columns: 9
-
-```{epigraph}
-
-Explain here what the website is about and the objective it is aimed at.
-
-```
-
-
-::::
-
-::::{grid-item}
-:columns: 3
-
-- **Info**
-
-:::{card}
-:link: https://deugz.github.io/nb-phd/_build/html
-:class-header: bg-light
-
-**PhD**
-^^^
-
-Project 1
-
-- ![GitHub last commit](https://img.shields.io/github/last-commit/Deugz/nb-phd?color=green&style=plastic) 
-- ![GitHub repo size](https://img.shields.io/github/repo-size/Deugz/nb-phd?color=yellow&style=plastic) 
-- ![GitHub contributors](https://img.shields.io/github/contributors/Deugz/nb-phd?color=red&style=plastic) 
-- ![visitors](https://page-views.glitch.me/badge?page_id=https://deugz.github.io/nb-phd/_build/html/intro.html) 
-- ![watchers](https://img.shields.io/github/watchers/Deugz/nb-phd?style=social) 
-- ![stars](https://img.shields.io/github/stars/Deugz/nb-phd?style=social)
-
-:::
-
-
-- **To Do Lists**
-
-<blockquote class="trello-board-compact">
-  <a href="https://trello.com/b/xJc6OZFJ/nb-phd">Trello Board</a>
-</blockquote>
-
-- **RSS Flux**
-
-
-
-::::
-
-
-:::::
-
-::::::
 
 ### <strong> &#x2023; <u> nb-teaching </u></strong>
 
@@ -383,37 +242,6 @@ For people
 - Knowledge graph
 
 ```
-
-
-
-
-
-
-
-
-
-
-## Present
-
-````{margin} 
-```{warning}
-Main goal is **finish my PhD**
-- Deadline: **June 2023**
-```
-````
-
-
-### Do Research
-
-- **Focus**: nb-museum
-
-
-### Keep up to date with MYST-JS
-
-Using the Hip-Hop website we are creating with Barry
-
-- 
-
 
 
 

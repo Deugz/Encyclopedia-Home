@@ -31,6 +31,7 @@ Sections/Societe
 :caption: Appendix
 :hidden:
 
+Organisation/Organisation
 Appendix/to-check
 to-include
 
