@@ -39,6 +39,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/css/style_book_shell.css" />
     <link rel="stylesheet" type="text/css" href="../_static/css/style_flipping_card.css" />
     <link rel="stylesheet" type="text/css" href="../_static/css/style_wheel.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/periodic-table.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
@@ -80,8 +81,8 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="shortcut icon" href="../_static/Encyclopedia-logo.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Definition" href="Introduction/Definition.html" />
-    <link rel="prev" title="Encyclopedia" href="../index.html" />
+    <link rel="next" title="Definition" href="Introduction/Definition/Definition.html" />
+    <link rel="prev" title="Commentaires" href="../index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -512,32 +513,43 @@ document.write(`
   <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
   <div class="bd-toc-item navbar-nav"><p aria-level="2" class="caption" role="heading"><span class="caption-text">💎 Le Projet</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="Introduction/Definition.html">Definition</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="Introduction/Outils/Outils.html">Outils</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1"><a class="reference internal" href="Introduction/Definition/Definition.html">Definition</a></li>
+
+<li class="toctree-l1 has-children"><a class="reference internal" href="Introduction/Objectifs/Objectifs.html">Objectifs</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="Introduction/Objectifs/Note.html">✅ Bloc-Note, Organiseur en ligne (3.A)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Introduction/Objectifs/Archivage.html">🔧 Publication, Archivage de Contenue</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Introduction/Objectifs/Partage.html">🔧 Plateforme de Partage &amp; de Dialogue</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Introduction/Objectifs/Journalisme.html">🔧 Méthod de Journalisme Citoyen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Introduction/Objectifs/Reseau.html">🔎 Tissue Sociale &amp; Sémantique</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Introduction/Objectifs/Business.html">❌ Business ?</a></li>
+</ul>
+</li>
+
+<li class="toctree-l1 has-children"><a class="reference internal" href="Introduction/Outils/Outils.html">Outils</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="Introduction/Outils/Existants.html"><strong>Existants</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="Introduction/Outils/My-Stack.html"><strong>Mes choix</strong></a></li>
 </ul>
 </li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="Introduction/Objectifs.html">Objectifs</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="Introduction/Roadmap.html"><strong>Roadmap</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="Introduction/Roadmap/Roadmap.html">Roadmap</a></li>
 
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="Introduction/Contribute.html">Contribue</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Introduction/Contribute/Contribute.html">Contribue</a></li>
+
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">➡️ Sections</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="Sections/Panorama.html">Panorama</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Sections/Science.html">Research</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Sections/Education.html">Education</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Sections/Music.html">Hiphop</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Sections/Pharma.html">Pharma</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Sections/Societe.html">Société</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Sections/Research/Research.html">Research</a></li>
+
+<li class="toctree-l1"><a class="reference internal" href="Sections/Education/Education.html">Education</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Sections/Music/Music.html">Hiphop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Sections/Pharma/Pharma.html">Pharma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Sections/Societe/Societe.html">Société</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Appendix</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">📦 Appendix</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="Organisation/Organisation.html">Organisation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Appendix/to-check.html">To check</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Appendix/references.html">References / Bibliography</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Appendix/Organisation/Organisation.html">Organisation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Appendix/Versions/Versions.html">Versions</a></li>
 <li class="toctree-l1"><a class="reference internal" href="to-include.html">To include</a></li>
 </ul>
 </div>
@@ -609,6 +621,155 @@ Sur cette page on veut:</p>
 <li>Expliquer le projet (Definition)</li>
 </ul>
 </div>
+<p>Un moyen pour moi de …</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Insérer ce qui est dans la partie profile ?</p>
+</div>
+<ul class="simple">
+<li>Open Source</li>
+</ul>
+<p class="emphase2">Les Histoires</p>
+<h3><strong>My Scientific Journey</strong></h3>
+<br>
+<br>
+<p><strong>Introduction</strong>:</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Insérer différents types de pages pour expliquer mon experience scientifique dans un enchainement smooth.</p>
+<ul class="last simple">
+<li>Mettre en place les différents “plans” de l’histoire …</li>
+<li>Créer les pages (exemple Blog) …</li>
+<li>Créer un card effect stylé et transférer le vieux sur pages a réviser, a implémenter …</li>
+</ul>
+</div>
+<div class="sd-sphinx-override sd-cards-carousel sd-card-cols-2 docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Stairway to Heaven</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><em>Experimenting with the earliest stages of planet formation</em> (Part 2)</p>
+<ul class="simple">
+<li><p class="sd-card-text first">Job Type: PhD</p>
+</li>
+<li><p class="sd-card-text first">Lead supervisor: Anita Dawes</p>
+</li>
+<li><p class="sd-card-text first">Discipline: Astrochemistry</p>
+</li>
+<li><p class="sd-card-text first">Duration: 4.5 years</p>
+</li>
+<li><p class="sd-card-text first">Status: <img class ="small" src="_images/Under_construction.svg" > → <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Deugz/nb-phd?color=green&amp;style=plastic" /></p>
+</li>
+</ul>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">👀 → <a class="reference external" href="https://deugz.github.io/nb-phd/_build/html/" rel="noopener noreferrer" target="_blank"><img alt="Jupyter Book Badge" src="https://jupyterbook.org/badge.svg" /></a></p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Museum of non result</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><em>Experimenting with the earliest stages of planet formation</em> (Part 1)</p>
+<ul class="simple">
+<li><p class="sd-card-text first">Job Type: PhD</p>
+</li>
+<li><p class="sd-card-text first">Lead supervisor: Helen Fraser</p>
+</li>
+<li><p class="sd-card-text first">Discipline: Astrophysics / Engeneering / Material Sciences</p>
+</li>
+<li><p class="sd-card-text first">Duration: 4.5 years</p>
+</li>
+<li><p class="sd-card-text first">Status: <img class ="small" src="_images/Under_construction.svg" > → <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Deugz/nb-museum?color=green&amp;style=plastic" /></p>
+</li>
+</ul>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">👀 → <a class="reference external" href="https://deugz.github.io/nb-museum/_build/html/" rel="noopener noreferrer" target="_blank"><img alt="Jupyter Book Badge" src="https://jupyterbook.org/badge.svg" /></a></p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>First steps</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><em>Photochemistry of Fe:H<sub>2</sub>O adducts in argon matrixes: a combined experimental and theoretical study in the mid-ir and uv-visible regions</em></p>
+<ul class="simple">
+<li><p class="sd-card-text first">Job Type: Internship</p>
+</li>
+<li><p class="sd-card-text first">Lead supervisor: Jennifer Noble</p>
+</li>
+<li><p class="sd-card-text first">Discipline: Astrochemistry</p>
+</li>
+<li><p class="sd-card-text first">Duration: 2 month</p>
+</li>
+<li><p class="sd-card-text first">Status: Finished (✅)</p>
+</li>
+</ul>
+<br>
+<br>
+<ul class="simple">
+<li><p class="sd-card-text first"><a class="reference external" href="https://doi.org/10.1021/acs.jpca.7b09681" rel="noopener noreferrer" target="_blank"><img alt="DOI:10.1021/acs.jpca.7b09681" src="https://zenodo.org/badge/DOI/10.1021/acs.jpca.7b09681.svg" /></a> - <span class="xref myst"><img alt="Citation Badge" src="https://api.juleskreuer.eu/citation-badge.php?doi=10.1021/acs.jpca.7b09681" /></span></p>
+</li>
+</ul>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text"><strong>Scientific publication</strong>  → <a href="#id1"><span class="problematic" id="id2">Deguin2018</span></a></p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Condor Project</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<p class="sd-card-text">Sprinkle a lot of this <a href="#id3"><span class="problematic" id="id4">Hague2020</span></a> on top of that <a href="#id5"><span class="problematic" id="id6">Souza2017</span></a> and you get a pretty cool project:</p>
+<p class="sd-card-text"><em>3D tissue modelling with the CONDOR (link) model</em></p>
+<ul class="simple">
+<li><p class="sd-card-text first">Job Type: Research Associate (Postdoc)</p>
+</li>
+<li><p class="sd-card-text first">Discipline: Computer Sciences / Biologie</p>
+</li>
+<li><p class="sd-card-text first">Duration: 2 month</p>
+</li>
+</ul>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">⛔ - <strong>commercial application</strong></p>
+</div>
+</div>
+</div>
+<br>
+<br>
+</div>
+<div class="section" id="un-chantier">
+<h1>Un Chantier<a class="headerlink" href="#un-chantier" title="Permalink to this heading">#</a></h1>
+<div class="section" id="ce-site">
+<h2>Ce Site<a class="headerlink" href="#ce-site" title="Permalink to this heading">#</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Abstract: …</p>
+<p class="last">Collection de pages</p>
+</div>
+<div class="section" id="a-controler">
+<h3>A Controler<a class="headerlink" href="#a-controler" title="Permalink to this heading">#</a></h3>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">card + quoi faire footer</p>
+</div>
+</div>
+<div class="section" id="a-consommer">
+<h3>A Consommer<a class="headerlink" href="#a-consommer" title="Permalink to this heading">#</a></h3>
+</div>
+</div>
+<div class="section" id="et-sa-constellation">
+<h2>Et sa Constellation<a class="headerlink" href="#et-sa-constellation" title="Permalink to this heading">#</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">card effect stylé!</p>
+</div>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
@@ -647,11 +808,11 @@ Sur cette page on veut:</p>
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Encyclopedia</p>
+        <p class="prev-next-title">Commentaires</p>
       </div>
     </a>
     <a class="right-next"
-       href="Introduction/Definition.html"
+       href="Introduction/Definition/Definition.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
@@ -670,6 +831,28 @@ Sur cette page on veut:</p>
             
               
                 <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Home</a><ul class="visible nav section-nav flex-column">
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#un-chantier">Un Chantier</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ce-site">Ce Site</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a-controler">A Controler</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a-consommer">A Consommer</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#et-sa-constellation">Et sa Constellation</a></li>
+</ul>
+</li>
+</ul>
+
+  </nav></div>
 
   <div class="sidebar-secondary-item">
   <div class="tocsection sourcelink">

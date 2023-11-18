@@ -27,71 +27,582 @@ content/index
 ***
 
 <br>
-<p class="emphase"> Que faites vous de vos pensées, vos réflexions, lorsque vous naviguez sur les chemins de la connaissance? </p>
 <br>
 
+::::::{grid}
 
+:::::{grid-item}
+:columns: 6
 
+<h1><strong> Web Journal </strong></h1>
 
-::::{grid} 2
+:::::
+
+:::::{grid-item}
+:columns: 6
+
+<br>
+
+::::{grid}
 
 :::{grid-item}
-:columns: 8
+:columns: 3
 
-<canvas id="canvas-fading-face"></canvas>
-<!-- partial -->
-<script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
-<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MotionPathPlugin.min.js'></script>
-<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/EasePack3.min.js'></script><script  src="_static/assets/script/script-fading-face.js"></script>
+<span class="hovertext" data-hover="En construction"> ![flag alt >>](_static/Svg_icons/Under_construction.svg) </span> 
 
-- Copyright (c) 2023 Chris Gannon [Source](https://codepen.io/chrisgannon/pen/KKGYxxR)
+:::
 
-```{admonition} Le papier, le stylo, les cahiers ...
-:class: important, dropdown
 
-Je ne sais pas vous, mais moi, j'ai passé le plus clair de mon enfance a copier religieusement la sainte parole de mes professeurs sur des cahiers (dans le but de les apprendre bêtement et de les régurgiter ensuite pour pouvoir être jugé et ainsi prétendre a une place dans la société). Aujourd'hui cette masse conséquente de papier qui, a mes yeux, ne représente guère plus que de vague souvenirs a disparu.
+:::{grid-item}
+:columns: 3
 
-*Incroyable perte de temps et de ressource*
+<span class="hovertext" data-hover="Une experience"> ![flag alt >>](_static/SVG_files/human-head-silhouette-with-cogwheels-svgrepo-com.svg) </span>
+
+
+:::
+
+:::{grid-item}
+:columns: 3
+
+ <span class="hovertext" data-hover="Une collection de ressource en libre accès "> ![flag alt >>](_static/Svg_icons/folders-svgrepo-com.svg) </span>
+
+:::
+
+:::{grid-item}
+:columns: 3
+
+
+ <span class="hovertext" data-hover="Un lieu de réflexion collective"> ![flag alt >>](_static/SVG_files/work-together-collaborate-co-operate-join-forces-svgrepo-com.svg) </span>
+
+:::
+
+::::
+
+::::{grid}
+
+:::{grid-item}
+:columns: 3
+
+<span class="hovertext" data-hover="Un lieu parfait pour déposer son trésor"> ![flag alt >>](_static/Svg_icons/treasure-map-svgrepo-com.svg) </span>
+
+
+:::
+
+:::{grid-item}
+:columns: 3
+
+<span class="hovertext" data-hover="Une oeuvre collaborative"> ![flag alt >>](_static/Svg_icons/treasure-svgrepo-com.svg) </span> 
+
+:::
+
+
+
+
+:::{grid-item}
+:columns: 3
+
+
+ <span class="hovertext" data-hover="Participe :)"> ![flag alt >>](_static/Svg_icons/book-svgrepo-com.svg) </span>
+
+:::
+
+:::{grid-item}
+:columns: 3
+
+ <span class="hovertext" data-hover="I am trying to experiment with how research can be made interactive and entertaining for the general public (within which I count all researchers) "> ![flag alt >>](_static/Svg_icons/handshake-deal-svgrepo-com.svg) </span>
+
+:::
+
+
+::::
+
+
+
+:::::
+
+::::::
+
+
+::::::{grid} 2
+
+:::::{grid-item}
+:columns: 6
+
+<br>
+
+>  Bievenue au coeur de mon réseau sociale de <strong>Partage de Connaissance</strong>, une oeuvre personnel, experimentale, creative, ouverte, collaborative et libre. 
+> Le pouvoir d'<strong>Internet</strong>, potentialisé par les outils et connaissances nécessaire afin de construire <strong>Nous même</strong> notre profile sociale, en mode <strong>DIY</strong> en fonction de <strong>nos besoins</strong> et suivant nos envies. <strong>Pour héberger ses connaissances et construire sa réflexion </strong> 
+:::::
+
+:::::{grid-item}
+:columns: 6
+
+```{admonition} Avant de commencer
+:class: warning, dropdown
+
+- Ce site est accessible sur ordinateur et mobile via un navigateur web, en revanche il est designé pour se lire uniquement sur un écran d'ordinateur.
+
+- Il se construit de manière organique comme un journal et de nouvelles version sont mise en ligne de manière hebdomadaires. 
+
+<p class="emphase">Prenez le temps de lire </p>
 
 ```
 
-```{admonition} La révolution Internet
+:::{dropdown} En une phrase
+
+J'imagine une nouvelle façon de <strong>documenter, informer et dialoguer</strong> en ligne (en opposition totale avec les réseaux sociaux actuels), dont la méthode (pas toujours optimale) s'appuie sur quelques logiciels open source permettant de:
+
+<br>
+
+
+- Mon jardin numérique
+
+le tout gratuitement et avec plaisir, dans le but de créer un réseau sociale autogéré et indépendant de <strong>partage de connaissances</strong>.  
+
+
+
+
+:::
+
+<p class="emphase2"> 🤔 </p>
+
+```{admonition} C'est quoi ce truc ?
 :class: note, dropdown
 
-La méthode d'enseignement enseigné ci-dessus tue la créativité, annihile le questionement et donc déssert la science. Digitalisation ...
+Il s'agit en premier lieu d'un site internet. Il est le fruit de la découverte d'une nouvelle methode pour contruire des sites web qui s'appelle [JupyterBook](https://jupyterbook.org/en/stable/intro.html), que j'utilise pour mon usage personel depuis 1 ans (09/2022)
 
 ```
 
-```{admonition} L'art numérique
+
+```{admonition} Et pourquoi je suis là ?
 :class: tip, dropdown
 
-L'image que vous observez ci dessus est l'oeuvre d'un web developeur! En plus des sentiments générés par le travail de l'artiste, je trouve que cette oeuvre intérroge également sur la place de l'art numérique dans la société. 
+Probablement parce que t'es un pote ou un proche a ce stade de l'avancement du projet.
 
-- [Wikipedia](https://fr.wikipedia.org/wiki/Art_num%C3%A9rique)
+```
+
+
+```{admonition} OK, et ensuite ?
+:class: important, dropdown
+
+Tu peux finir de lire cette page déja, tu en sauras ainsi plus sur ma démarche et mes projets. Ensuite tu seras libre de voyager ou bon te semble en suivant tes propres interets.   
+
+```
+
+```{admonition} Mais attention !  ![flag alt >](_static/Svg_icons/review-svgrepo-com.svg)
+:class: warning, dropdown
+
+Le contenue de ce site n'a pas été révisé, corrigé. Il s'agit d'une version brute de notes que j'écris de manière plus ou moins assidue.
+
+```
+
+```{admonition} Apportez votre contribution
+:class: warning, dropdown
+
+Le but premier de ce siteweb est de créer une conversation et de féderer autour de cette nouvel methode qui se situe en marge des "réseaux sociaux classiques"... J'offre un site aux dix premières personnes qui commenteront cette page ;)
+
+```
+
+<br>
+
+
+
+
+
+:::::
+
+::::::
+
+
+<br>
+
+***
+
+<br>
+
+
+
+:::::{grid} 2
+
+::::{grid-item}
+:columns: 3
+
+
+
+```{image} _static/Images/profile-pic-round.png
+
+```
+
+<br>
+<br>
+<br>
+
+
+:::{card}
+:link: https://deugz.github.io/nb-profile/_build/html/intro.html
+:class-header: bg-light
+
+**Mon profile**
+
+^^^
+
+
+```{image} _static/Images/Title-profile-Viny-5.png
 
 ```
 
 :::
 
+
+<br>
+
+<p class="emphase"><strong>Flux RSS</strong></p>
+
+
+```{note} 
+
+A insérer!
+
+
+```
+
+
+::::
+
+
+::::{grid-item}
+:columns: 1
+
+::::
+
+::::{grid-item}
+:columns: 8
+
+<p class="emphase"><strong>Créé et édité par</strong></p>
+
+<p class="emphase2"><strong>Vincent Deguin</strong></p>
+
+<br>
+<br>
+
+> Some text to présent myself
+
+
+
+::::
+
+
+
+
+:::::
+
+
+<br>
+
+
+:::::::{admonition} Mon parcours et la génèse du projet
+:class: note, dropdown
+
+::::::{tab-set} 
+
+:::::{tab-item} La recherche
+
+J'ai eu la chance et l'honneur de participer a un projet de recherche dont l'objectif était de mieux comprendre la *formation des planètes* ...
+
+WTF Jackie chan meme
+
+:::::
+
+:::::{tab-item} La découverte
+
+::::{grid}
+
+:::{grid-item}
+:columns: 8
+
+:::
+
+
 :::{grid-item}
 :columns: 4
 
-peut être les partagé vous sur les réseaux sociaux, ou mieux, vous les échangez avec vos amis dans une discussion. Les réseaux sociaux sont efficaces dans le partage rapide d'une information, qui puisse fédérer un nombre important de personnes dans le but d'une action rapide. On l'a vue a l'oeuvre dans les révolutoins du monde arabe, mais également dans les émeutes du capitole. En revanche ces mêmes réseaux (qui occupent une part importante de notre "temps de cerveau"), ne permettent pas un processus de construction, ni même une discussion efficace des sujets traités. La construction d'un savoir a partir d'une source exponentielle de connaissance requiert du temps en plus d'être un processus itératif qui demande une prise de note consciencieuse. Il existe peu de méthodes, autre que la feuille de papier et un stylo pour réaliser cela.   
-
-
-
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://lottie.host/dbf85d89-b9c8-401e-93e4-9e892e74dc07/0dRaAgh35b.json" background="#fff" speed="1" style="width: 100%; height: auto" direction="1" mode=“normal” loop autoplay></lottie-player>
+<lottie-player src="https://assets7.lottiefiles.com/packages/lf20_ZAY921.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player>
+
+:::
+
+::::
+
+:::::
+
+:::::{tab-item} la phase de Test
+
+
+
+:::::
+
+:::::{tab-item} La réflexion
+
+
+
+:::::
+
+:::::{tab-item} Implémentation
+
+On en est la
+
+:::::
+
+
+
+::::::
+
+:::::::
+
+
+<br>
+<br>
+
+<p class="emphase2"> <strong>Mon Champ d'Action</strong></p>
+
+<br>
+<br>
+
+
+:::::{grid} 5
+
+::::{grid-item}
+
+:::{card}
+:link: https://deugz.github.io/sp-Science_Journey/build/html/index.html
+:class-header: bg-light
+
+**Research**
+^^^
+
+<br>
+
+```{image} _static/Logo/logo_SFTP.png
+
+```
+
 
 
 :::
 
 ::::
 
+
+
+::::{grid-item}
+
+:::{card}
+:link: https://deugz.github.io/sp-Education_Journey/build/html/index.html
+:class-header: bg-light
+
+**Education** 
+^^^
+
+
+<br>
+
+```{image} _static/Svg_icons/Under_construction.svg
+:width: 93%
+:align: center
+
+```
+
+
+:::
+
+
+
+::::
+
+::::{grid-item}
+
+:::{card}
+:link: https://deugz.github.io/sp-Hiphop_Journey/build/html/index.html
+:class-header: bg-light
+
+**Hiphop**
+^^^
+
+<br>
+
+```{image} _static/Logo/HLA-Logo.png
+:width: 91%
+:align: center
+
+```
+
+
+:::
+
+::::
+
+::::{grid-item}
+
+:::{card}
+:link: https://deugz.github.io/sp-Pharma_Journey/build/html/index.html
+:class-header: bg-light
+
+**Pharmacie** 
+^^^
+
+<br>
+
+```{image} _static/Svg_icons/Under_construction.svg
+:width: 93%
+:align: center
+```
+
+:::
+
+::::
+
+::::{grid-item}
+
+:::{card}
+:link: https://deugz.github.io/sp-Politique_Journey/build/html/index.html
+:class-header: bg-light
+
+**Société** 
+^^^
+
+<br>
+
+```{image} _static/Svg_icons/Under_construction.svg
+:width: 93%
+:align: center
+```
+
+
+
+:::
+
+::::
+
+:::::
+
+
+```{image} _static/Images/Arrow-intro-solo.png
+
+```
+
+
+
+
+
+:::::{grid} 4
+
+::::{grid-item}
+:columns: 2
+
+
+
+::::
+
+
+::::{grid-item}
+:columns: 3
+
+<br>
+
+:::{card}
+:link: https://deugz.github.io/Encyclopedia-Home/build/html/index.html
+:class-header: bg-light
+
+**Encyclopedia 3.A** ![flag alt >](_static/Svg_icons/web-svgrepo-com.svg)
+^^^
+
+<br>
+
+```{image} _static/Logo/Encyclopedia-logo.png
+
+```
+
+<br>
 <br>
 <br>
 
-<p class="emphase">Personelement je vous propose une <strong>méthode</strong> un peu ... <strong>Différente</strong></p>
+
+- **Status**: 💚
+- **Version**: 0.1
+
+:::
+
+<br>
+
+::::
+
+::::{grid-item}
+:columns: 1
+
+
+
+::::
+
+::::{grid-item}
+:columns: 6
+
+
+```{figure} _static/Images//Creación_de_Adán_crop.jpg
+
+[Source](http://www.monjardinenpermaculture.fr/)
+
+```
+
+::::
+
+
+
+:::::
+
+
+
+<br>
+
+
+
+
+
+
+::::::{dropdown} Plus d'info
+
+:::::{tab-set} 
+
+::::{tab-item} Research
+
+- [Background](https://deugz.github.io/jb-background/_build/html/intro.html)
+- [Methods](https://deugz.github.io/jb-method/_build/html/intro.html)
+- [Data/Softwares](https://deugz.github.io/sp-Science_Journey/build/html/content/Sections/Data-Software/Data-Software.html)
+- [Analysis](https://deugz.github.io/jb-analysis/_build/html/intro.html)
+- [Results](https://deugz.github.io/jb-results/_build/html/intro.html)
+- [Publications](https://deugz.github.io/nb-publi/_build/html/intro.html)
+- [hD Thesis](https://deugz.github.io/nb-thesis/_build/html/intro.html)
+
+<br>
+<br>
+
+***
+
+
+- **Version**:  ![flag alt >](_static/Svg_icons/web-svgrepo-com.svg) 0.1
+- **Status**: 💚
+- **Langue**: ![flag alt >](_static/Svg_icons/flag-for-flag-france-svgrepo-com.svg)
+
+
+
+::::
+
+::::{tab-item} Education
+
+
+- [Astronomy](https://deugz.github.io/jb-astronomy/_build/html/intro.html)
+- [Chemistry](https://deugz.github.io/jb-chemistry/_build/html/intro.html)
+- [Open Science](https://deugz.github.io/jb-open-science/_build/html/intro.html)
+- ...
 
 <br>
 <br>
@@ -99,288 +610,110 @@ peut être les partagé vous sur les réseaux sociaux, ou mieux, vous les échan
 
 ***
 
-# Encyclopedia
-
-::::{grid} 2
-
-:::{grid-item}
-:columns: 7
-
-<br>
-
-<p class="emphase">1 seul objet, une plateforme que j' utilise pour potentialiser mes processus de recherche, de partage, et de collaboration dans tout les domaines qui m'interessent et autour duquel je souhaite articuler ma vie.* <br><br> <em>C'est plutot cool non ?</em></p> 
-
-
-
-<br>
-
-
-
-:::
-
-:::{grid-item}
-:columns: 5
-
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://lottie.host/e692a5c6-8949-46c7-ac7c-6afbac11da77/xRhlVa5Z5T.json" background="transparent" speed="0.6" style="width: 100%; height: auto;" direction="1"  autoplay></lottie-player>
-
-:::
-
-::::
-
-::::{grid} 2
-
-:::{grid-item}
-:columns: 8
-
-<br>
-
-> Un **Outil** puissant et multitache Mais qui demande des **efforts** 💪
-
-
-:::
-
-
-:::{grid-item}
-:columns: 4
-
-
-<div id="colour">
-    
-
-<p><img src="_static\Svg_icons\newspaper-svgrepo-com.svg" style="width: 30px;"> &nbsp; <strong>Prise de note</strong></p> 
-<p><img src="_static\Svg_icons\keys-svgrepo-com.svg" style="width: 30px;"> &nbsp; <strong>Idéation</strong></p>
-<p><img src="_static\Svg_icons\handshake-deal-svgrepo-com.svg" style="width: 30px;"> &nbsp; <strong>Archivage</strong></p> 
-<p><img src="_static\Svg_icons\bubble-svgrepo-com.svg" style="width: 30px;"> &nbsp;  <strong>Discussion</strong></p> 
-<p><img src="_static\Svg_icons\planet-earth-svgrepo-com.svg" style="width: 30px;"> &nbsp; <strong>Collaboration</strong></p> 
-<p><img src="_static\Svg_icons\hands-and-leaves-svgrepo-com.svg" style="width: 30px;"> &nbsp; <strong>Partage</strong></p> 
-<p><img src="_static\Svg_icons\hands-and-leaves-svgrepo-com.svg" style="width: 30px;"> &nbsp; <strong>Une pieuvre</strong></p>
-
-</div>    
-
-:::
-
-::::
-
-
-
-::::{grid} 2
-
-:::{grid-item}
-:columns: 8
-
-
-    
-<br>
-
-```{admonition} Unis
-:class: dropdown, note
-
-Dans un seul fichier (en local)
-
-```
-
-```{admonition} Interconnéctés
-:class: dropdown, note
-
-Dans un seul fichier (en local)
-
-```
-
-```{admonition} Symbiose
-:class: dropdown, note
-
-au sein d'un seul écocystem, dont vous avez le control et possédez les droits. 
-
-```
-
-<br>
-
-
-
-:::
-
-:::{grid-item}
-:columns: 4
-
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://assets10.lottiefiles.com/packages/lf20_rbexkvmr.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player>
-
-
-:::
+- **Version**: ![flag alt >](_static/Svg_icons/web-svgrepo-com.svg) 0.1
+- **Status**: 💚
+- **Langue**: ![flag alt >](_static/Svg_icons/flag-for-flag-france-svgrepo-com.svg)
 
 
 ::::
 
-```{figure} _static/SVG_files/Map/Map_Encyclopedia.svg
-:width: 100%
-
-Description
-```
+::::{tab-item} Hiphop
 
 
-<div id="P1">
-    
-<div id="subdiv2">
-
-<h1>Web <strong>3.</strong>0</h1>
-
-Le Web 3.0, ou <strong>Web sémantique</strong>, est une évolution du Web qui vise à donner un sens plus profond aux données en ligne. L'une des technologies fondamentales du Web 3.0 est le langage sémantique, qui vise à définir des significations spécifiques pour les termes (métadonnées) et les relations entre les données (structures), avec pour but de rendre les informations mieux compréhensibles par les machines.   
-    
-</div>
-
-
-<div id="subdiv2">
-    
-<h1>Anarchy</h1>
-
-Je trouve que la bureaucratie est beaucoup trop importante notemment dans le milieu academique (Université). J' éprouve un immense plaisir a m'en affranchir et a potentiellement offrir une alternative a leur système. 
-    
-    
-</div>
-    
-</div>
-
-
-
-
-
-
-<p class="emphase2"><strong>Pourquoi?</strong></p>
-
-
-<p class="emphase"><strong>Utilser tout le potentiel du web dans le processus créatif de narration</strong></p>
-
-
-
-::::{grid} 2
-
-:::{grid-item}
-:columns: 6
-
-
-<video controls src="_static/assets/video/Jupyterbook1rabbithole.mp4" style="width=100%; height=auto;"></video>
-
-
-:::
-
-:::{grid-item}
-:columns: 6
-
-<video controls src="_static/assets/video/Jupyterbook2Livegraph.mp4" style="width=100%; height=auto;"></video>
-
-
-:::
-
-::::
-
-Ci dessus sont deux vidéos extraite du site de [MYST](https://mystmd.org/guide/) mais Myst c'est quoi?
-
-
-<p class="emphase">L'<strong>Intelligence Artificielle</strong> ne doit pas supplanter l'<strong>Intelligence Collective</strong> (sous réserve qu'elle existe)</p>
-
-
-
-<p class="emphase2"><strong>Comment?</strong></p>
-
-<p class="emphase">Je ne suis pas en mesure de vous expliquer toute les étapes de ma démarche</p>
-
-
-```{note}
-
-Insérer balise in progress
-
-```
-
-```{admonition} Créer un tuto youtube:
-:class: dropdown, note
-
-
-- Introduction Me / Le concept /La chaine (2 min)
-
-- Site création (10 min)
-    - Environment (Anaconda - JupyterLab)
-    - Folder structure
-    - Website structure
-    - Page structure
-    - paragraph (Markdown)
-    - Astrochemyst (web search)
-    - Article download (scihub)
-    - citation (Mendeley)
-    - Extrapolation (figures + ...)
-    - Going further (tab opening, link saving)
-    - Links ()
-    - Site building
-    - Github pull
-    - Web visioning
-    - Commenting
-    
-- Conclusion (1 min)
-
-
-```
-
-<h3> Les outils </h3>
-
-```{note}
-
-- grid jb github ...
-
-- dropdown tab below to explain each
-
-```
-
-
-- * gratuit, open source, accessible, écologique et végan).
-
-
-<h3> La méthode </h3> 
-
-```{note}
-
-link to how I use ...
-
-```
-
-
-
-<p class="emphase">Bien plus efficace qu'un papier et un stylo n'est-ce pas (Hopefully)</p>
-
+<br>
 
 ***
 
+- **Version**: ![flag alt >](_static/Svg_icons/web-svgrepo-com.svg) 0.1 
+- **Status**: 🧡
+- **Langue**: ![flag alt >](_static/Svg_icons/flag-for-flag-france-svgrepo-com.svg)
+
+
+::::
+
+::::{tab-item} Parmacie
+
+<br>
+<br>
+
+***
+
+- **Version**: ![flag alt >](_static/Svg_icons/web-svgrepo-com.svg) 0.1
+- **Status**: 💚
+- **Langue**: ![flag alt >](_static/Svg_icons/flag-for-flag-france-svgrepo-com.svg)
+
+
+::::
+
+::::{tab-item} Société
+
+<br>
+<br>
+
+***
+
+- **Version**: ![flag alt >](_static/Svg_icons/web-svgrepo-com.svg) 0.1
+- **Status**: 💚
+- **Langue**: ![flag alt >](_static/Svg_icons/flag-for-flag-france-svgrepo-com.svg)
 
 
 
-<p class="emphase2"><strong>Pour qui?</strong></p>
+::::
+
+:::::
+
+::::::
+
+<br>
+<br>
+
+
+<p class="emphase2"><strong>T'es chaud ? </strong> </p>
+
+<br>
+<br>
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 6
+
+
+
+<p class="emphase"><strong>C'est parti!</strong> </p>
+
 
 
 ```{note}
 
-grid pour présenter les différents champs d'application
+Bouton stylé vers home
 
-```
-
-Bien sur, cette methodde est particulièrement indiqué dans les domaine de la science
-
-
-
-### Audiences
-
-
-```{note}
-
-- Insérer fish diagram
 
 ```
 
 
+:::
+
+:::{grid-item}
+:columns: 6
+
+
+<div id='pancake'></div>
+<!-- partial -->
+<script src='https://labs.nearpod.com/bodymovin/demo/pancakes/bodymovin.js'></script><script  src="_static/assets/script/kittons.js"></script>
+
+- [Source](https://codepen.io/airnan/pen/WJBLpJ)
+
+:::
+
+::::
+
 <br>
 <br>
 
-# Comments
 
-<br>
+# Commentaires
+
 
 <script src="https://utteranc.es/client.js"
         repo="Deugz/Encyclopedia-Home"
@@ -389,4 +722,26 @@ Bien sur, cette methodde est particulièrement indiqué dans les domaine de la s
         crossorigin="anonymous"
         async>
 </script>
+
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 4
+
+:::
+
+:::{grid-item}
+:columns: 4
+
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy me a coffee', '#317315', 'O4O6EZO78');kofiwidget2.draw();</script> 
+
+:::
+
+:::{grid-item}
+:columns: 4
+
+:::
+
+::::
 

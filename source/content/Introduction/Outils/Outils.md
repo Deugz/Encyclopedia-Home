@@ -42,3 +42,16 @@ Introduction des 2 pages qui suivent. Précisions générales sur les differents
 
 ## Un écocystème riche
 
+
+
+::::{grid-item-card}
+:class-header: bg-light
+:link: Internet.html
+**WMy Internet periodic table**
+^^^
+
++++
+
+🎤
+
+::::
