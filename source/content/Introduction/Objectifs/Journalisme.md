@@ -1,4 +1,4 @@
-# 🔧 Méthod de Journalisme Citoyen
+# 🔧 Réseau de Journalistes, Acteurs Citoyens
 
 
 ```{note}

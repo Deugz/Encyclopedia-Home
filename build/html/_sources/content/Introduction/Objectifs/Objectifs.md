@@ -1,4 +1,4 @@
-# Objectifs
+# Propriétés
 
 ```{toctree}
 :hidden:

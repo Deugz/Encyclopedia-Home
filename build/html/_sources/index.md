@@ -24,6 +24,9 @@ content/index
 :width: 100%
 :::
 
+<br>
+
+
 ***
 
 <br>
@@ -34,7 +37,9 @@ content/index
 :::::{grid-item}
 :columns: 6
 
-<h1><strong> Web Journal </strong></h1>
+
+<h1><strong>Web Journal</strong></h1>
+
 
 :::::
 
@@ -48,7 +53,7 @@ content/index
 :::{grid-item}
 :columns: 3
 
-<span class="hovertext" data-hover="En construction"> ![flag alt >>](_static/Svg_icons/Under_construction.svg) </span> 
+<span class="hovertext" data-hover="Ce projet, débuté en 2023 est actuellement en construction."> ![flag alt >>](_static/Svg_icons/Under_construction.svg) </span> 
 
 :::
 
@@ -56,7 +61,7 @@ content/index
 :::{grid-item}
 :columns: 3
 
-<span class="hovertext" data-hover="Une experience"> ![flag alt >>](_static/SVG_files/human-head-silhouette-with-cogwheels-svgrepo-com.svg) </span>
+<span class="hovertext" data-hover="Il s'agit d'une experience visant a mettre en place une pédagogie alternative."> ![flag alt >>](_static/SVG_files/human-head-silhouette-with-cogwheels-svgrepo-com.svg) </span>
 
 
 :::
@@ -64,7 +69,7 @@ content/index
 :::{grid-item}
 :columns: 3
 
- <span class="hovertext" data-hover="Une collection de ressource en libre accès "> ![flag alt >>](_static/Svg_icons/folders-svgrepo-com.svg) </span>
+ <span class="hovertext" data-hover="Une collection de ressource en libre accès, que j'implémente au fil de mon apprentissage"> ![flag alt >>](_static/Svg_icons/folders-svgrepo-com.svg) </span>
 
 :::
 
@@ -72,7 +77,7 @@ content/index
 :columns: 3
 
 
- <span class="hovertext" data-hover="Un lieu de réflexion collective"> ![flag alt >>](_static/SVG_files/work-together-collaborate-co-operate-join-forces-svgrepo-com.svg) </span>
+<span class="hovertext" data-hover="Un lieu de réflexion collective et inclusif, ou tout le monde est le bienvenue"> ![flag alt >>](_static/SVG_files/work-together-collaborate-co-operate-join-forces-svgrepo-com.svg) </span>
 
 :::
 
@@ -83,7 +88,7 @@ content/index
 :::{grid-item}
 :columns: 3
 
-<span class="hovertext" data-hover="Un lieu parfait pour déposer son trésor"> ![flag alt >>](_static/Svg_icons/treasure-map-svgrepo-com.svg) </span>
+<span class="hovertext" data-hover="Il n'existe pas de cheminement prédéfinie et chacun est libre de créer son propre parcours en fonction de sa curiosité "> ![flag alt >>](_static/Svg_icons/treasure-map-svgrepo-com.svg) </span>
 
 
 :::
@@ -91,7 +96,7 @@ content/index
 :::{grid-item}
 :columns: 3
 
-<span class="hovertext" data-hover="Une oeuvre collaborative"> ![flag alt >>](_static/Svg_icons/treasure-svgrepo-com.svg) </span> 
+<span class="hovertext" data-hover="Une oeuvre collaborative, ou chacun peut apporter sa pierre a l'édifice en déposant son trésor de connaissance"> ![flag alt >>](_static/Svg_icons/treasure-svgrepo-com.svg) </span> 
 
 :::
 
@@ -102,36 +107,126 @@ content/index
 :columns: 3
 
 
- <span class="hovertext" data-hover="Participe :)"> ![flag alt >>](_static/Svg_icons/book-svgrepo-com.svg) </span>
+<span class="hovertext" data-hover="Ce(s) sites sont construits comme des livres, et il faudra donc se poser et prendre votre temps pour les lire si vous voulez en tirer toute leur quintescence"> ![flag alt >>](_static/Svg_icons/book-svgrepo-com.svg) </span>
 
 :::
 
 :::{grid-item}
 :columns: 3
 
- <span class="hovertext" data-hover="I am trying to experiment with how research can be made interactive and entertaining for the general public (within which I count all researchers) "> ![flag alt >>](_static/Svg_icons/handshake-deal-svgrepo-com.svg) </span>
+<span class="hovertext" data-hover="Enfin toute contribution (même minime) et la bienvenue, je vous encourage donc a me contacter si vous souhaitez contribuer"> ![flag alt >>](_static/Svg_icons/handshake-deal-svgrepo-com.svg) </span>
 
 :::
-
 
 ::::
 
+:::::
+
+::::::
+
+***
+
+<p class="emphase2"><strong><em>"Réfléchir Ensemble à Demain"</em></strong></p>
+
+<br>
+
+:::::::{dropdown} ⚠ De Manière Créative, Libre, Open-Source, Collaborative, Gratuite et Ouverte a Tous ⚠
+
+::::::{tab-set} 
+
+:::::{tab-item} Créative
+
+La littérature, les arts visuels, la musique sont autants d'arts qui permettent d'éveiller les sens et de mieux ressentir notre environement. Internet permet de combiner ces différentes formes d'art dans un même format et j'aimerai en associer le plus possible pour créer un contenue qui parle et qui est agréable au lecteur. 
+
+J'essaie de faire en sorte qu'il y ai plusieurs niveaux de lecture.
+
+Dans une optique de rendre le lecteur actif vis a vis du contenu ...
+
+
+
+:::::
+
+:::::{tab-item} Libre
+ 
+Ce que j'entend par Libre, c'est que j'écris sur ce qui m'intéresse, sans aucune restriction et il en est de même pour toute les personnes qui souhaiteraient participer ou écrire sur le site. Bien sur je veillerai a ce que tout les échanges soient **bienveillants**
+
+:::::
+
+:::::{tab-item} Open-Source
+
+Construit grace a des technologie Open -Source et disponible également dans ce même format
+- Jupyter Book et Github
+
+
+J'aimerai d'ailleurs et c'est un des objectifs de ce site, de promouvoir ces technologies open-source et a quels point elles peuvent apporter une alternative viable aux GAFAM (Google, Apple, Facebook, Amazon, et Microsoft)
+
+:::::
+
+:::::{tab-item} Collaborative
+
+Construit grace a des technologie Open -Source et disponible également dans ce même format
+
+:::::
+
+:::::{tab-item} Gratuite
+
+Cela limite le champ d'action comme par example:
+- Une URL longue et difficilement partageable
+- Une limitation au niveau de la taille des fichier (2Go)
+
+
+Mais ca préserve une totale indépendance (et c'est pour l'instant le plus important)
+
+:::::
+
+:::::{tab-item} Ouverte a tous
+
+Oui tout le monde peut participer
+
+- **Commenter**
+
+    - [Lien vers explication]()
+
+Vous pouvez commenter en annotant chaque mot
+
+- **Annoter**
 
 
 :::::
 
 ::::::
 
-
-::::::{grid} 2
-
-:::::{grid-item}
-:columns: 6
+:::::::
 
 <br>
 
->  Bievenue au coeur de mon réseau sociale de <strong>Partage de Connaissance</strong>, une oeuvre personnel, experimentale, creative, ouverte, collaborative et libre. 
-> Le pouvoir d'<strong>Internet</strong>, potentialisé par les outils et connaissances nécessaire afin de construire <strong>Nous même</strong> notre profile sociale, en mode <strong>DIY</strong> en fonction de <strong>nos besoins</strong> et suivant nos envies. <strong>Pour héberger ses connaissances et construire sa réflexion </strong> 
+<h2> <strong>Partager Nos Connaissances </strong> </h2>
+
+<br>
+
+::::::{grid} 3
+
+:::::{grid-item}
+:columns: 5
+
+<br>
+
+
+Pour la première fois peut-être de l'histoire de l'humanité, les humains commencent à avoir collectivement conscience de vivre une transition évolutive, comme celles qui ont mené de la soupe primordiale d'où naquit la vie jusqu'à l'apparition de Sapiens.
+
+<p class="emphase">Une chance extraordinaire</p>
+
+<br>
+
+Plus nous serons nombreux à nous emparer des questions que pose cette nouvelle transition, plus nous saurons mobiliser notre **intelligence collective**, celle des humains comme celle des autres êtres vivants et des machines, plus nous aurons de chance d'apporter des réponses satisfaisantes et d'inventer un avenir plus souhaitable que celui que nous annoncent certains prophètes ou que nous construisent certains technologues.
+
+- [François Taddei](https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Taddei), [Apprendre au XXI siècle](https://www.numilog.com/874037/Apprendre-au-XXIe-siecle.ebook).
+
+:::::
+
+:::::{grid-item}
+:columns: 1
+
 :::::
 
 :::::{grid-item}
@@ -148,18 +243,11 @@ content/index
 
 ```
 
-:::{dropdown} En une phrase
-
-J'imagine une nouvelle façon de <strong>documenter, informer et dialoguer</strong> en ligne (en opposition totale avec les réseaux sociaux actuels), dont la méthode (pas toujours optimale) s'appuie sur quelques logiciels open source permettant de:
-
 <br>
 
+:::{dropdown} En une phrase
 
-- Mon jardin numérique
-
-le tout gratuitement et avec plaisir, dans le but de créer un réseau sociale autogéré et indépendant de <strong>partage de connaissances</strong>.  
-
-
+Construire ensemble une vision systémique et durable du monde de demain.
 
 
 :::
@@ -177,24 +265,20 @@ Il s'agit en premier lieu d'un site internet. Il est le fruit de la découverte 
 ```{admonition} Et pourquoi je suis là ?
 :class: tip, dropdown
 
-Probablement parce que t'es un pote ou un proche a ce stade de l'avancement du projet.
+Probablement parce que t'es un pote ou un proche a ce stade de l'avancement du projet. Tu peux finir de lire cette page déja, tu en sauras ainsi plus sur ma démarche et mes projets. Ensuite tu seras libre de voyager ou bon te semble en suivant tes propres interets.
 
 ```
 
 
-```{admonition} OK, et ensuite ?
+```{admonition} Mais attention !
 :class: important, dropdown
 
-Tu peux finir de lire cette page déja, tu en sauras ainsi plus sur ma démarche et mes projets. Ensuite tu seras libre de voyager ou bon te semble en suivant tes propres interets.   
-
-```
-
-```{admonition} Mais attention !  ![flag alt >](_static/Svg_icons/review-svgrepo-com.svg)
-:class: warning, dropdown
-
+   
 Le contenue de ce site n'a pas été révisé, corrigé. Il s'agit d'une version brute de notes que j'écris de manière plus ou moins assidue.
 
+
 ```
+
 
 ```{admonition} Apportez votre contribution
 :class: warning, dropdown
@@ -216,32 +300,297 @@ Le but premier de ce siteweb est de créer une conversation et de féderer autou
 
 <br>
 
-***
+<p class="emphase2"><strong><em>"Un Besoin Vitale"</em></strong></p>
+
+::::::{tab-set} 
+
+:::::{tab-item} Etat des lieux 
+
+
+- **Education**
+
+J'ai un regard très critique sur l'éducation, les médias et plus généralement sur la façon dont sont partagés les connaissances. En effet, notre [système éducatif](lienblog) repose sur des fondements idéologiques du 19<sup>ème</sup> siècle, les [médias](lienblog) sont en grande parties possédés par des milliardaires qui ont bien compris qu'il s'agit d'un outils puissant pour manipuler les masses et enfin, la [publication scientifique](lienblog) est gangréné par des intérets financiers qui pousse a la productivité au détriment de la qualité... Un constat bien déprimant dans une époque qui a pourtant un **besoin vitale d'idée nouvelles** pour faire face aux nombreux défis résultant de l'impacte de l'homme sur la planète. Des idées, personellement je n'en manque pas et celle-ci repose sur un principe fondamentale:  
+
+  
+
+:::::
+
+:::::{tab-item} Un Monde en transition
+
+<p class="emphase">Explorer et comprendre le monde d'aujourd'hui pour imaginer et co-construire le monde de demain en permettant a chacun de créer, implémenter et connecter <br><br><strong>Bases de Connaissances</strong> 🧠 <br><br> (Personelle) <br></p>
+
+:::::
+
+
+:::::{tab-item} Reflexion Collective
+
+Besoin de voire le monde dans toute sa complexité
+
+- Interdisciplinarité
+
+:::::
+
+
+:::::{tab-item} Le besoin d'outil 
+
+<p class="emphase"><strong>Digérer l'information</strong></p>
+
+
+::::{grid}
+
+:::{grid-item}
+:columns: 8
+
+D'aucuns diraient que c'est le role du système éducatif, et pourtant bien souvent ce dernier se contente de faire avaler puis régurgiter les connaisances sans préter grande attention a leur assimilation, dans le but de classer les éleves en vue d'un aiguillage sociale. Pour moi c'est une faute grave, qui a un impact immense sur la société car produisant des êtres facilement manipulables et peu armés face a un monde qui se complexifie. C'est pour y remédier que j'ai créé cette plateforme. 
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets7.lottiefiles.com/packages/lf20_ZAY921.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player>
+
+:::
+
+::::
+
+:::::
+
+
+:::::{tab-item} Force Citoyenne
+
+On a besoin de générer une force citoyenne motrice dont le carburant est l'intelligence Collective
+
+:::::
+
+
+
+::::::
+
 
 <br>
 
+<h2> <strong>Objectifs </strong> </h2>
+
+<br>
+
+<p class="emphase2"><strong><em>"Permettre a Chacun"</em></strong></p>
+
+<p class="emphase"><strong>De Batir et Partager ses Connaissances</strong></p>
+
+<br>
+<br>
 
 
-:::::{grid} 2
+:::::{grid} 4
 
 ::::{grid-item}
 :columns: 3
 
+## Apprendre
 
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://lottie.host/f7bee13a-c23d-47fc-ad32-90cd3c1fb3c4/gVcBBw38jS.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%" loop  autoplay></lottie-player>
+
+
+::::
+
+::::{grid-item}
+:columns: 3
+
+## Documenter
+
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://lottie.host/3cbbfd0d-751c-400d-a7ea-578fa9cc45ac/WzW0wtMBjl.json"  background="transparent"  speed="1"  style="width: 70%; height: 100%"  loop  autoplay></lottie-player>
+
+
+::::
+
+::::{grid-item}
+:columns: 3
+
+## Transmettre
+
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://lottie.host/ce341b75-385a-48a9-ba86-3d4255995069/nG6EOxdfU9.json"  background="transparent"  speed="1"  style="width: 72%; height: 100%"  loop  autoplay></lottie-player>
+
+
+::::
+
+::::{grid-item}
+:columns: 3
+
+## De manière fun et créative
+
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://lottie.host/4ded9e12-ad01-490f-8208-1e14420def3d/Gcsj9rk0CN.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%"  loop  autoplay></lottie-player>
+
+
+::::
+
+:::::
+
+<br>
+
+<br>
+
+
+::::::{dropdown} Plus d'info
+
+:::::{tab-set} 
+
+::::{tab-item} Apprendre
+
+```{note}
+
+- lien vers page david louapre
+
+```
+
+J'aime apprendre mais surtout j'aime **Faire apprendre**. Le monde naturelle qui nous entoure, et avec lequel on interragit quotidiennement (souvent sans le savoir), est d'une beauté incommensurable qui n'a d'égale que sa complexité. J'ai eu la chance de rencontrer trés top une enseignante qui m'a donné le gout de la lecture et c'est je pense la seule fois ou le millieux éducatif a eu un impact positif, en me développant un esprit **curieux**. Le reste de mon cursus peut se résumer a un long et incipide cheminement visant a m'aiguiller vers une case sociale, définit par un travaille, un salaire et donc un statut sociale.   
+
+
+
+::::
+
+::::{tab-item} Documenter
+
+
+
+
+::::
+
+::::{tab-item} Transmettre
+
+
+
+
+::::
+
+::::{tab-item} De manière fun et créative
+
+
+
+::::
+
+:::::
+
+::::::
+
+<br>
+<br>
+<br>
+
+<p class="emphase2"> <strong> <em>"Pour Co-créer"</em></strong></p>
+
+
+<p class="emphase"><strong>Des Bases de Réflexions Collaboratives</strong></p>
+
+:::::{grid}
+
+::::{grid-item}
+:columns: 8
+
+> En effet, ... Explication
+
+<br>
+
+
+::::
+
+::::{grid-item}
+:columns: 4
+
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+<dotlottie-player src="https://lottie.host/6a24c561-2443-48f1-902b-3bb4b3230c66/WRkYFkXGnw.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+
+
+
+::::
+
+:::::
+
+<p class="emphase"><strong>Une Planète Apprenante</strong></p>
+
+:::::{grid}
+
+::::{grid-item}
+:columns: 8
+
+> En effet, ... Explication
+
+<br>
+
+
+::::
+
+::::{grid-item}
+:columns: 4
+
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+<dotlottie-player src="https://lottie.host/84a2604f-6949-4f1b-94b5-2bed45d1d90f/RY3RsVBcFT.json" background="transparent" speed="0.6" style="width: 100%; height: auto;" loop autoplay></dotlottie-player>
+
+::::
+
+:::::
+
+
+<p class="emphase2"> <strong> <em>"Et ainsi Générer" </em></strong> </p>
+
+<p class="emphase"> <strong> Une Intelligence Collective</strong> </p>
+
+
+<p class="emphase"> <strong> Pour un Monde Plus Durable</strong> </p>
+
+
+<h2> <strong>Mon Champ d'Action </strong> </h2>
+
+<br>
+
+
+<p class="emphase2"><strong><em>Qui suis-je?</em></strong></p>
+
+<div id="note">
+
+:::::{grid}
+
+::::{grid-item}
+:columns: 3
+
+<br>
 
 ```{image} _static/Images/profile-pic-round.png
 
 ```
 
 <br>
-<br>
+
+
+::::
+
+::::{grid-item}
+:columns: 6
+
+<p class="emphase"><strong>Vincent Deguin</strong></p>
+
+Un citoyen du monde qui aime apprendre mais surtout faire apprendre, le tout de manière fun et créative. La beauté du monde m'émerveille et j'aimerai faire partager cet émerveillement avec le plus grand nombre. 
+
+
 <br>
 
 
-:::{card}
+::::
+
+    
+::::{grid-item-card}
 :link: https://deugz.github.io/nb-profile/_build/html/intro.html
 :class-header: bg-light
-
+:columns: 3
 **Mon profile**
 
 ^^^
@@ -251,61 +600,23 @@ Le but premier de ce siteweb est de créer une conversation et de féderer autou
 
 ```
 
-:::
-
-
-<br>
-
-<p class="emphase"><strong>Flux RSS</strong></p>
-
-
-```{note} 
-
-A insérer!
-
-
-```
-
-
 ::::
-
-
-::::{grid-item}
-:columns: 1
-
-::::
-
-::::{grid-item}
-:columns: 8
-
-<p class="emphase"><strong>Créé et édité par</strong></p>
-
-<p class="emphase2"><strong>Vincent Deguin</strong></p>
-
-<br>
-<br>
-
-> Some text to présent myself
-
-
-
-::::
-
-
-
 
 :::::
-
+    
+</div>
+  
 
 <br>
-
-
-:::::::{admonition} Mon parcours et la génèse du projet
+    
+:::::::{admonition} Mon parcours personel et la génèse du projet
 :class: note, dropdown
 
 ::::::{tab-set} 
 
 :::::{tab-item} La recherche
+
+
 
 J'ai eu la chance et l'honneur de participer a un projet de recherche dont l'objectif était de mieux comprendre la *formation des planètes* ...
 
@@ -359,14 +670,15 @@ On en est la
 
 :::::::
 
-
 <br>
 <br>
 
-<p class="emphase2"> <strong>Mon Champ d'Action</strong></p>
+<p class="emphase2"> <strong> <em>"Mes Intérets" </em></strong> </p>
+
+<p class="emphase">  Là ou je peux <strong> contribuer à une société plus durable</strong> </p>
 
 <br>
-<br>
+
 
 
 :::::{grid} 5
@@ -452,7 +764,7 @@ On en est la
 
 <br>
 
-```{image} _static/Svg_icons/Under_construction.svg
+```{image} _static/Logo/Caducée_lauriers_Couleur.svg
 :width: 93%
 :align: center
 ```
@@ -585,6 +897,16 @@ On en est la
 <br>
 <br>
 
+<p class="emphase"><strong>Flux RSS</strong></p>
+
+
+```{note} 
+
+A insérer!
+
+
+```
+
 ***
 
 
@@ -667,49 +989,6 @@ On en est la
 <br>
 <br>
 
-
-<p class="emphase2"><strong>T'es chaud ? </strong> </p>
-
-<br>
-<br>
-
-::::{grid} 2
-
-:::{grid-item}
-:columns: 6
-
-
-
-<p class="emphase"><strong>C'est parti!</strong> </p>
-
-
-
-```{note}
-
-Bouton stylé vers home
-
-
-```
-
-
-:::
-
-:::{grid-item}
-:columns: 6
-
-
-<div id='pancake'></div>
-<!-- partial -->
-<script src='https://labs.nearpod.com/bodymovin/demo/pancakes/bodymovin.js'></script><script  src="_static/assets/script/kittons.js"></script>
-
-- [Source](https://codepen.io/airnan/pen/WJBLpJ)
-
-:::
-
-::::
-
-<br>
-<br>
 
 
 # Commentaires

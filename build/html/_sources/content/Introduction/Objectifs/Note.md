@@ -48,9 +48,8 @@
 
 
 
-<p class="emphase"> I have <strong> Limitations </strong> with hand written notebooks ✍ </p>
+<p class="emphase"> Je trouve beaucoup de <strong> limitations </strong> a la prise de note manuelle ✍ </p>
 
-<br>
 <br>
 
 ::::{grid}
@@ -58,7 +57,7 @@
 :::{grid-item}
 :columns: 8
 
-> Paragraph
+> J'ai toujours détesté rester assis dans une salle de classe à recopier religieusement la dictée de mes professeurs. Les briques de connaissances étant accessibles en quelque clics sur internet, cette méthode d'enseignement me semble aujourd'hui complètement obsolète (elle m'a pourtant accompagné tout au long de mon cursus scolaire). 
 
 :::
 
@@ -71,11 +70,6 @@
 :::
 
 ::::
-
-
-<br>
-<br>
-
 
 :::::::{dropdown} Plus d'info
 ::::::{tab-set}
@@ -120,43 +114,60 @@ Hard to maintain and keep consistent over time
 
 :::::::
 
+***
 
-```{note}
+<br>
 
-Insérer in tab, dropdown
+<p class="emphase"> Il existe cependant beaucoup d'alternatives</p>
 
+<br>
+
+Malgré mon aversion pour le système scolaire, j'ai quand meme grimpé (avec plusieurs pirouettes) les barreaux de l'echelle méritocratique pour atterir en Angleterre ou j'ai commencé une thèse de doctorat (dans le domaine de l'[Astrochimie]()). Les débuts de cette aventure se sont avérés incroyablement stimulant, peut-être parce que pour la première fois de ma vie, j'avais la liberté d'explorer tout ce qui titillait ma curiosité et de suivre ma propre voie (et j'étais payé pour cela). Je me suis donc lancé a corps perdu dans mon sujet de recherche, sans préter grande attention a la documentation d'une telle aventure, c'est pourtant un aspect crucial de la méthode scientifique. J'avais bien sur un cahier de labo, électronique puisque je le tapais sur Microsoft Word (un logiciel payant dont l'université avait la licence), mais c'est seulement quand j'ai commencé a analyser les données de ma recherche avec **Python**, qu'une nouvelle porte s'est ouverte. J'étais débutant en code et j'ai due apprendre par moi même (avec l'aide de quelques amis), et d'un cours que proposait ma fac ([lien vers le cours](). Durant ce cours j'ai découvert un IDE qui se nomme Jupyter Notebook. Ca permettait de mixer des bouts de codes avec des notes (écrites en <strong>Markdown</strong>)   
+
+
+```{admonition} Petite parenthèse sur les outils **Open Source**
+:class: tips
+
+Blabla
 
 ```
 
 
-<br>
-
-<p class="emphase"> Even though there is a lot of tools existing on the internet</p>
-
-```{note}
-
-Link with existing tools ...
-
-```
-
-
-
-
-
+- Notion
+- L' écocystème Frama
+- Plus
 
 <br>
 
-<p class="emphase">But I found no <span class="hovertext" data-hover="Students and researchers are not a good customer target">bespoke</span> alternative, so I designed my own</p>
+<p class="emphase">Internet est un lieu de partage</p>
+
+<br>
+
+
+
+
+<p class="emphase">Je vois dans le numérique un outil au potentiel créatif infinit</p>
+
+
+<br>
+
+
+
+
+<br>
+
+<p class="emphase">Mais aucun de ces outils ne me correspondaient parfaitement</p>
 
 
 
 
 ```{note}
 
-Insérer lord of the ring lottie
-
-- one to govern them all, a home sort of
-
+Discuter ici de ce que je recherche
+- Version
+- Site internet
+- Prise de note facile
+- etc ...
 
 ```
 

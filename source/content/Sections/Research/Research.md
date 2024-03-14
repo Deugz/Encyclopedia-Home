@@ -1,16 +1,5 @@
 # Research
 
-```{note}
-
-Explain that I was an Astronomer ...
-
-New way of publishing Science ...
-
-```
-
-
-## La recherche 
-
 <br>
 
 <p class="emphase">Parfois, la recherche, ca fait penser a ca ...</p>
@@ -26,25 +15,44 @@ New way of publishing Science ...
 <br>
 <br>
 
+<p class="emphase">C'est en partie due a son mode de publication</p> 
 
-## La Publication Scientifique 
+## La Publication Scientifique
 
-<p class="emphase2"><strong>L'article</strong> </p>
-
-```{note}
-
-Include pdf
-
-[V. Deguin et al, 2018](https://pubs.acs.org/doi/full/10.1021/acs.jpca.7b09681)
-
-```
+<p class="emphase2"><strong> L'Article </strong> </p>
 
 
-<p class="emphase2"><strong>Les journaux</strong> </p>
+::::{grid} 2
+
+:::{grid-item}
+:columns: 8
+
+
+> Explication du papier: [V. Deguin et al, 2018](https://pubs.acs.org/doi/full/10.1021/acs.jpca.7b09681)
+
+
+:::
+
+:::{grid-item-card}
+:columns: 4
+:link: ../../../_static/assets/pdf/Deguinetal-2018.pdf
+
+**L'Article**
+^^^
 
 
 
-<p class="emphase">Un système <strong>mafieux</strong> qui coute trés chère</p>
++++
+pdf icon
+
+:::
+
+::::
+
+
+<p class="emphase2"><strong> Les journaux </strong> </p>
+
+<p class="emphase"> Un système <strong>mafieux</strong> qui coute trés chère</p>
 
 <br>
 
@@ -75,17 +83,26 @@ Include pdf
 ```
 
 
-## La Science Ouverte
+## Partager La Science
 
 <br>
+
+<p class="emphase2"><strong>La Science Ouverte</strong> </p>
+
+
+
+:::{dropdown} La Science Ouverte
+
 
 ```{figure} Docs/Open_science.png
 
 [Source](https://unesdoc.unesco.org/ark:/48223/pf0000379949/PDF/379949eng.pdf.multi)
 ```
 
+:::
 
-<p class="emphase2"><strong>Mon Idéal de publication </strong> </p>
+
+<p class="emphase2"><strong>Mon Idéal de Publication</strong> </p>
 
 
 
@@ -105,15 +122,59 @@ Le reste de cette page est en construction !
 
 
 
-## Ma Solution
+## Le Projet
+
+<p class="emphase2"><strong>Science For The People</strong> </p>
+
+
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 8
+
+
+> Explication du papier: [V. Deguin et al, 2018](https://pubs.acs.org/doi/full/10.1021/acs.jpca.7b09681)
 
 ```{note}
+
+- Card avec liens + image SFTP
+
 
 Expliquer ici ma méthode de publication:
 - lifelong
 - ...
 
 ```
+
+
+
+:::
+
+:::{grid-item-card}
+:link: https://deugz.github.io/sp-Science_Journey/build/html/index.html
+:columns: 4
+:class-header: bg-light
+
+**Research**
+^^^
+
+<br>
+
+```{image} ../../../_static/Logo/logo_SFTP.png
+
+```
+
+
+
+:::
+
+::::
+
+
+
+
+
 
 
 ### Ideas 

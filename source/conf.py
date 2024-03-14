@@ -62,27 +62,27 @@ html_theme_options = {
     "external_links": [
         {
             "url": "https://deugz.github.io/sp-Science_Journey/build/html/index.html",
-            "name": "&nbsp &nbsp &nbsp &nbsp 💫 Research",
+            "name": "&nbsp &nbsp 💫 Research",
             "attributes": {"target": "_blank"},
         },
         {
             "url": "https://deugz.github.io/sp-Education_Journey/build/html/index.html",
-            "name": "&nbsp &nbsp &nbsp 🧠 Education",
+            "name": "&nbsp &nbsp 🧠 Education",
             "attributes": {"target": "_blank"},
         },
         {
             "url": "https://deugz.github.io/sp-Hiphop_Journey/build/html/index.html",
-            "name": "&nbsp &nbsp &nbsp 🎤 Hiphop ",
+            "name": "&nbsp &nbsp 🎤 Hiphop ",
             "attributes": {"target": "_blank"},
         },
         {
             "url": "https://deugz.github.io/sp-Pharma_Journey/build/html/index.html",
-            "name": "&nbsp &nbsp &nbsp 💊 Pharmacie",
+            "name": "&nbsp &nbsp 💊 Pharmacie",
             "attributes": {"target": "_blank"},
         },
         {
             "url": "https://deugz.github.io/sp-Politique_Journey/build/html/index.html",
-            "name": "&nbsp &nbsp &nbsp ✊ Société",
+            "name": " &nbsp &nbsp ✊ Société",
             "attributes": {"target": "_blank"},
         },
     ],

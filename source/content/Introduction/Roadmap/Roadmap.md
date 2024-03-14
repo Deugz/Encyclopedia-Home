@@ -6,8 +6,19 @@ To clean
 
 ```
 
+- [AIR Master](https://master.learningplanetinstitute.org/en)
+
+
+```{note}
+
+Inclure dans la roadmap et expliquer en quoi mon projet coincide et ce que le master peut y apporter
+
+```
+
+<p class="emphase">Interdisciplinary Approaches in Research and Education</p>
 
 ## Présent
+
 
 
 ### Utilisation
