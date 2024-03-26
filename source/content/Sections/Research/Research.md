@@ -2,6 +2,57 @@
 
 <br>
 
+:::::{grid} 2
+
+::::{grid-item}
+:columns: 8
+
+> I did a PhD on the topic of *Experimenting with the earliest stages of planet formation*. Even before that, I knew there was a problem with accademic publishing, gangrened by it's commercial nature. I thought while performing my research about alternative publication methode and came with the idea to write an online and interactive documentation of my scientific journey. Despite being told that it was to  forward thinking, I started experimenting with the method I had developped and you can have a look at the result by clicking the right card. The rest of the page will give a top level overview and definition. 
+
+::::
+
+::::{grid-item}
+:columns: 4
+
+:::{card}
+:link: https://deugz.github.io/sp-Science_Journey/build/html/index.html
+:class-header: bg-light   
+
+**Research**
+
+^^^   
+   
+```{image} ../../../_static/Logo/logo_SFTP.png
+:width: 98%
+:align: center
+
+```
+    
+:::
+
+<br>
+
+<div id="colour">
+
+- Language: English
+- ![GitHub last commit](https://img.shields.io/github/last-commit/Deugz/Encyclopedia-Home?color=green&style=plastic) 
+- ![GitHub repo size](https://img.shields.io/github/repo-size/Deugz/Encyclopedia-Home?color=yellow&style=plastic) 
+- ![GitHub contributors](https://img.shields.io/github/contributors/Deugz/Encyclopedia-Home?color=red&style=plastic) 
+- ![watchers](https://img.shields.io/github/watchers/Deugz/nb-profile?style=social) 
+- ![stars](https://img.shields.io/github/stars/Deugz/nb-profile?style=social)
+
+ 
+</div>
+
+
+::::
+
+:::::
+
+***
+
+<br>
+
 <p class="emphase">Parfois, la recherche, ca fait penser a ca ...</p>
 
 <br>

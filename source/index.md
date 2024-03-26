@@ -539,6 +539,19 @@ J'aime apprendre mais surtout j'aime **Faire apprendre**. Le monde naturelle qui
 
 :::::
 
+<br>
+
+:::::{dropdown} Petite vidéo explicative
+
+<div class="embedresize">
+<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/n4kOa4ASMDU?si=KNhK8pnLSDWUfIso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+
+
+
+:::::
+
 
 <p class="emphase2"> <strong> <em>"Et ainsi Générer" </em></strong> </p>
 

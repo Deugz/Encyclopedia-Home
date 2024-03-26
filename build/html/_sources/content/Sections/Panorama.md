@@ -1,11 +1,97 @@
 # Panorama
 
-Ce site est divisé en plusieurs sections (cf top menue):
-- Science
-- Education
-- Music
-- Pharmacie
-- Société
+<p class="emphase">J'ai tenté d'appliquer ma méthode avec plusieurs projets</p>
+
+::::{grid} 4
+:gutter: 2
+
+:::{grid-item-card}
+:link: https://deugz.github.io/sp-Education_Journey/build/html/index.html
+:columns: 3
+:class-header: bg-light   
+
+**Research**
+
+^^^   
+   
+```{image} Docs/Logo-note/Evernote.svg
+:width: 98%
+:align: center
+
+```
+    
+:::
+
+:::{grid-item-card}
+:link: https://deugz.github.io/sp-Education_Journey/build/html/index.html
+:columns: 3
+:class-header: bg-light   
+
+**Education**
+
+^^^
+
+```{image} Docs/Logo-note/Microsoft_Office_OneNote_(2019–present).svg
+:width: 100%
+:align: center
+
+```
+:::
+
+:::{grid-item-card}
+:link: https://deugz.github.io/sp-Education_Journey/build/html/index.html
+:columns: 3
+:class-header: bg-light 
+
+**HipHop**
+
+^^^
+
+```{image} Docs/Logo-note/Notion_app_logo.png
+:width: 100%
+:align: center
+
+```
+    
+:::
+    
+:::{grid-item-card}
+:link: https://deugz.github.io/sp-Education_Journey/build/html/index.html
+:columns: 3
+:class-header: bg-light     
+
+**Pharmacie**
+
+^^^
+
+```{image} Docs/Logo-note/2023_Obsidian_logo.svg
+:width: 90%
+:align: center
+
+```
+    
+:::
+
+:::{grid-item-card}
+:link: https://deugz.github.io/sp-Education_Journey/build/html/index.html
+:columns: 3
+:class-header: bg-light     
+
+**Société**
+
+^^^
+
+```{image} Docs/Logo-note/Joplin-icon.svg
+:width: 90%
+:align: center
+
+```
+    
+:::
+
+::::
+
+## Points Communs
 
 Chacun de ces liens correspond a un **site web** dont la fonction est la prise et le partage de notes relative au topic mentionné. 
 
@@ -20,6 +106,13 @@ Ainsi tout les fichiers sont hébérgés localement et périodiquement (1 fois p
 Link toward Tools to explain the differences and the structure of each site
 
 ```    
+
+### Objectifs
+
+<p class="emphase2"><strong>Construire et Partager mes (nos) Connaissances</strong></p>
+
+<p class="emphase2"><strong>Entraide et Interdisciplinarité</strong></p>
+
 
 ## Arborescence des fichiers:
 

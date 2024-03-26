@@ -16,62 +16,84 @@ Reflexion sur les noms de différents sites, en fonction de l'architecture.
 ```
 
 
-## Le papier
+## Introduction
+
+<br>
+<br>
+
+Le projet que j'aimerai vous présenter est incroyablement vaste et complexe. Il est le fruit de mes experiences de vie personnels, comme la recherche, mais également le fruit de rencontres, de discussion de débat et j'en passe. J'ai pris conscience, au fil de ma vie, qu'il était important pour moi de donner du sens a mes actions, ce qui n'a pas toujours été le cas. Prenons un exemple avec ma recherche (c'est l'exemple le plus parlant et celui qui m'a emmené a commencer ce projet). 
 
 
-::::{grid} 2
+```{note} Exemple **La Recherche**
 
-:::{grid-item}
-:columns: 8
+admonition pour 
 
-
-```{admonition} Le papier, le stylo, les cahiers ...
-:class: important, dropdown
-
-Je ne sais pas vous, mais moi, j'ai passé le plus clair de mon enfance a copier religieusement la sainte parole de mes professeurs sur des cahiers (dans le but de les apprendre bêtement et de les régurgiter ensuite pour pouvoir être jugé et ainsi prétendre a une place dans la société). Aujourd'hui cette masse conséquente de papier qui, a mes yeux, ne représente guère plus que de vague souvenirs a disparu.
-
-*Incroyable perte de temps et de ressource*
 
 ```
 
-```{admonition} La révolution Internet
-:class: note, dropdown
+<p class="emphase"><strong>Quelle est ma raison d'être</strong> ?</p>
 
-La méthode d'enseignement enseigné ci-dessus tue la créativité, annihile le questionement et donc déssert la science. Digitalisation ...
+
+<p class="emphase2"><strong>IKIGAI</strong></p>
+
+<br>
+<br>
+
+L'IKIGAI est un concept japonais qui signifie "raison d'être". Mon frère me l'a introduit par le biais d'un livre (citer), et c'est un concept que j'ai ensuite retrouvé dans le livre de Francois Taddei (citer).
+
+Il s'agit de ...
+
+```{note}
+
+Insérer diagramme IKIGAI + lien vers profile page dédié
+
 
 ```
 
-```{admonition} L'art numérique
-:class: tip, dropdown
 
-L'image que vous observez ci dessus est l'oeuvre d'un web developeur! En plus des sentiments générés par le travail de l'artiste, je trouve que cette oeuvre intérroge également sur la place de l'art numérique dans la société. 
+<p class="emphase">Ce que je veux créer</p>
 
-- [Wikipedia](https://fr.wikipedia.org/wiki/Art_num%C3%A9rique)
+
+
+## Encyclopedia 3.A
+
+Le terme encyclopédie devrait être connue de tous et Wikipedia, la plus connue aujourd'hui, nous la définit de la manière suivante:
+
+<p class="emphase">Une encyclopédie est un ouvrage de référence (livre, ensemble de livres ou document numérique) visant à synthétiser toutes les connaissances pour édifier le savoir et à en montrer l'organisation de façon à les rendre accessibles au public, dans un but d'éducation, d'information ou de soutien à la mémoire culturelle.</p>
+
+<br>
+
+```{admonition} Wikipedia
+
+Trés bien ... Mais pourquoi ne pas explorer d'autres méthodes? Peut être un peu plus créatives 
 
 ```
 
-:::
+<p class="emphase">3.A ?</p>
 
-:::{grid-item}
-:columns: 4
+<div id="P1">
+    
+<div id="subdiv2">
+
+<h1>Web <strong>3.</strong>0</h1>
+
+Le Web 3.0, ou <strong>Web sémantique</strong>, est une évolution du Web qui vise à donner un sens plus profond aux données en ligne. L'une des technologies fondamentales du Web 3.0 est le langage sémantique, qui vise à définir des significations spécifiques pour les termes (métadonnées) et les relations entre les données (structures), avec pour but de rendre les informations mieux compréhensibles par les machines.   
+    
+</div>
 
 
+<div id="subdiv2">
+    
+<h1>Anarchy</h1>
 
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://lottie.host/dbf85d89-b9c8-401e-93e4-9e892e74dc07/0dRaAgh35b.json" background="#fff" speed="1" style="width: 100%; height: auto" direction="1" mode=“normal” loop autoplay></lottie-player>
+Je trouve que la bureaucratie est beaucoup trop importante notemment dans le milieu academique (Université). J' éprouve un immense plaisir a m'en affranchir et a potentiellement offrir une alternative a leur système. 
+    
+    
+</div>
+    
+</div>
 
 
-:::
-
-::::
-
-<br>
-<br>
-
-<p class="emphase">Personelement je vous propose une <strong>méthode</strong> un peu ... <strong>Différente</strong></p>
-
-<br>
-<br>
 
 
 # Commentaires

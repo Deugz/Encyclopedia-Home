@@ -1,17 +1,100 @@
 # Education
 
-## **Teaching**
+<br>
 
-:::::::{div} full-width
+:::::{grid} 2
+
+::::{grid-item}
+:columns: 8
+
+> Je suis entré dans le monde de la recherche par une porte dérobé, avec seulement une licence de Chimie, obtenue sans honneurs. J'ai eu la chance de rencontrer des personnes extraordinaires qui m'ont donnés ma chance et m'ont permis de prouver ma valeur différemment de ce que l'école ou l'université demandent. Tout ca pour dire qu'en arrivant e doctorat, j'avais beaucoup de lacunes, ce qui en soit n'est pas trés grave puisqu'il existe beaucoup de ressources en lignes. Ce qui n'est pas aisé en revanche c'est de prendre la mesure du cheminement a parcourir pour efficacement comprendre un concept. Cela prend du temps et en général plusieurs itérations. C'est pour cela que j'ai créé ce site. Comme un endroit ou je pouvais construire mes connaissances et les partager avec d'autres. Le but ultime etant de pouvoir partager la ressource remplis de questions et de la transférer a des experts pour qu'ils puissent y répondre.     
+
+::::
+
+::::{grid-item}
+:columns: 4
+
+:::{card}
+:link: https://deugz.github.io/sp-Education_Journey/build/html/index.html
+:class-header: bg-light   
+
+**Education**
+
+^^^   
+   
+```{image} ../../../_static/Logo/logo_SFTP.png
+:width: 98%
+:align: center
+
+```
+    
+:::
 
 <br>
 
-<p class="emphase2"> <strong>Cutting Edge Science </strong></p>
+<div id="colour">
+
+- Language: Francais
+- ![GitHub last commit](https://img.shields.io/github/last-commit/Deugz/sp-Science_Journey?color=green&style=plastic) 
+- ![GitHub repo size](https://img.shields.io/github/repo-size/Deugz/sp-Science_Journey?color=yellow&style=plastic) 
+- ![GitHub contributors](https://img.shields.io/github/contributors/Deugz/sp-Science_Journey?color=red&style=plastic)  
+- ![watchers](https://img.shields.io/github/watchers/Deugz/sp-Science_Journey?style=social) 
+- ![stars](https://img.shields.io/github/stars/Deugz/sp-Science_Journey?style=social)
+
+ 
+</div>
 
 
-<p class="emphase"> From multiple disciplines </p>
+::::
+
+:::::
+
+***
 
 <br>
+
+<p class="emphase">Apprendre ...</p>
+
+
+<div class="book"></div>
+
+<br>
+
+
+<p class="emphase2"> <strong>La Science </strong></p>
+
+
+<p class="emphase"> Par des Artistes de l'Enseignement</p>
+
+<br>
+
+Il existe aujourd'hui de nombreuses ressources produites et mise en ligne gratuitement a la disposition de tous. Encore faut-il savoir qu'elles existent et les mettre en lien les unes avec les autres. 
+
+```{note}
+
+Insérer differents projets sympas en dropdown tab
+
+```
+
+<p class="emphase"> Une ressource commune pour tous, et un aiguillage personnalisé</p>
+
+Il me semble important de rassembler tout les niveaux dans un meme endroit dans un souci d'inclusivité. L e travail ensuite de l'enseignant doit être de comprendre ou d'aider l'étudiant a prendre conscience de son niveau ou de ces intérets et de l'aiguiller vers la ressource adapté. J'imagine pouvoir construire a partir de page individuelles (potentiellement hébéergés sur des sites différents)
+
+
+```{note}
+
+Insérer ici un example de mise en récit personnalisé en fonction du niveau
+- Extraire bulle format pour mettre en format une question
+- répondre par un exemple de réponse personnalisé
+
+```
+
+question: Dis mon Vince, tu m'as raconté hier soir que pendant ta thèse, tu produisais des particules de glaces dans l'optique de les faire s'agglomérer et ainsi comprendre la formation des planètes ... C'etait trés interessant mais j'ai pas bien compris comment tu fais ca, ca t'embête de m'en dire un peu plus ? 
+
+
+## Sujets
+
+
 
 ::::{grid} 1 1 2 5
 :class-container: text-center
@@ -102,13 +185,6 @@
 Insérer tout les topics
 
 ```
-
-<p class="emphase">Just pick what you are interested in</p>
-
-
-<div class="book"></div>
-
-<br>
 
 <p class="emphase">It is all Organised by <span class="hovertext" data-hover="And not within a rigid curriculum">Topics</span> </p>
 

@@ -3,12 +3,19 @@
 ```{toctree}
 :hidden:
 Note
-Archivage
+Construction
+Publication
 Partage
-Journalisme
-Reseau
+Education
 Business
 ```
+
+## Introduction
+
+Malgré mon aversion pour le système scolaire, j'ai quand meme grimpé (avec plusieurs pirouettes) les barreaux de l'echelle méritocratique pour atterir en Angleterre ou j'ai commencé une thèse de doctorat (dans le domaine de l'[Astrochimie]()). Les débuts de cette aventure se sont avérés incroyablement stimulant, peut-être parce que pour la première fois de ma vie, j'avais la liberté d'explorer tout ce qui titillait ma curiosité et de suivre ma propre voie (et j'étais payé pour cela). Je me suis donc lancé a corps perdu dans mon sujet de recherche, sans préter grande attention a la documentation d'une telle aventure, c'est pourtant un aspect crucial de la méthode scientifique. J'avais bien sur un cahier de labo, électronique puisque je le tapais sur Microsoft Word (un logiciel payant dont l'université avait la licence), mais c'est seulement quand j'ai commencé a analyser les données de ma recherche avec **Python**, qu'une nouvelle porte s'est ouverte. J'étais débutant en code et j'ai due apprendre par moi même (avec l'aide de quelques amis), et d'un cours que proposait ma fac ([lien vers le cours](). Durant ce cours j'ai découvert un IDE qui se nomme Jupyter Notebook. Ca permettait de mixer des bouts de codes avec des notes (écrites en <strong>Markdown</strong>) 
+
+
+
 
 Les Objectifs sont multiples: 
 
