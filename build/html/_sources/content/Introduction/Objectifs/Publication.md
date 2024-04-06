@@ -1,8 +1,58 @@
 # 🔧 Publication, Dialogue & Collaboration 
 
-<p class="emphase2">   
-<strong>Embélir </strong> 🎨
-</p> 
+***
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 4
+
+<div id="colour">
+    
+<strong>Page Infos:</strong>    
+   
+    
+- ✍️ [Vincent Deguin](https://deugz.github.io/nb-profile/_build/html/intro.html )
+- 🕑: 20 min <br>
+- 🛠️ 05/04/2024 <br> 
+<br>
+      
+- Finished: ❌    <br>   
+- **Reviewed**: ❌<br>
+
+
+</div>
+
+<br>
+
+:::
+
+:::{grid-item}
+:columns: 8
+
+<br>
+
+> **Introduction**: Je ne sais pas vous, mais moi j'éprouve un besoin viscérale de m'exprimer pour pouvoir naviguer sainement dans un monde en perdition.
+:::
+
+::::
+
+```{admonition} To do
+:class: note, dropdown
+
+- checker semantic tag implementation
+
+
+```
+
+
+
+## Le Besoin
+
+
+
+
+
 
 <p class="emphase">Son espace digitale avec sa <span "aussi complex soit elle">personalité</span>, ses gouts et en utilisant tout son potentiel <strong>créatif </strong></p>
 
@@ -225,17 +275,17 @@ Process the data using my online tools ...
 
 ::::
 
-<br>
-
-<p class="emphase">All we need to create and sustain an ... </p>
-
-<br>
 
 <p class="emphase2"><strong>Open Dialogue</strong> 😁 </p>
 
 <br>
 
+```{note}
 
+Explorer ce site: [constructivedialogue](https://constructivedialogue.org/)
+
+
+```
 
 
 
@@ -273,7 +323,9 @@ Bien sur, cette methodde est particulièrement indiqué dans les domaine de la s
 <br>
 <br>
 
-## Intéractivité
+## Résultat
+
+### Intéractivité
 
 
 

@@ -23,23 +23,24 @@ Reflexion sur les noms de différents sites, en fonction de l'architecture.
 
 Le projet que j'aimerai vous présenter est incroyablement vaste et complexe. Il est le fruit de mes experiences de vie personnels, comme la recherche, mais également le fruit de rencontres, de discussion de débat et j'en passe. J'ai pris conscience, au fil de ma vie, qu'il était important pour moi de donner du sens a mes actions, ce qui n'a pas toujours été le cas. Prenons un exemple avec ma recherche (c'est l'exemple le plus parlant et celui qui m'a emmené a commencer ce projet). 
 
+<p class="emphase2"><strong>Les Racines</strong></p>
 
-```{note} Exemple **La Recherche**
+Dans la mesure ou j'ai débuté cette aventure avec mon projet de recherche, j'avais besoin d'un outil pour **prendre des notes et les publier sur internet**. Pour moi c'était la meilleur façon d'embrasser les principes de la [science ouverte](lien). Je passais beaucoup de temps a l'époque a travailler pour analyser les données spectroscopiques de mes glaces interstellaires. Grace au conseils avisé de mes amis j'utilisais pour cela un language informatique qui s'appelle Python ainsi qu'un "logiciel de développement" qui s'appelle *Jupyter Notebook*. Le grand avantage de cet outil c'est le fait qu'on puisse intercaler des notes entre les différents bouts de codes! 
 
-admonition pour 
+<p class="emphase">Tout d'un coup, les données devenaient récit !</p>
+
+Un récit auquel je pouvais donner la direction que je voulais. En effet a partir de mes notebooks un peu ... Je pouvais
 
 
-```
 
-<p class="emphase"><strong>Quelle est ma raison d'être</strong> ?</p>
-
+## Mon Projet
 
 <p class="emphase2"><strong>IKIGAI</strong></p>
 
 <br>
 <br>
 
-L'IKIGAI est un concept japonais qui signifie "raison d'être". Mon frère me l'a introduit par le biais d'un livre (citer), et c'est un concept que j'ai ensuite retrouvé dans le livre de Francois Taddei (citer).
+Pour comprendre quelles sont mes motivations et ce qui me pousse a créer ce projet, je vous invite a discuter de mon IKIGAI. L'IKIGAI est un concept japonais qui signifie "raison d'être". Mon frère me l'a introduit par le biais d'un livre (citer), et c'est un concept que j'ai ensuite retrouvé dans le livre de Francois Taddei (citer).
 
 Il s'agit de ...
 
@@ -93,6 +94,30 @@ Je trouve que la bureaucratie est beaucoup trop importante notemment dans le mil
     
 </div>
 
+
+
+
+<p class="emphase">Je vois dans le numérique un outil au potentiel créatif infinit</p>
+
+La raison principale pour laquelle j'ai souhaiter créer ma propre plateforme plutot que d'utiliser un outil préconcue réside dans le caractère créatif qu'offre le web 
+
+
+<br>
+
+
+
+## Connécté
+
+### Outils Open Source
+
+- [Streamlit](https://streamlit.io/)
+
+```{note}
+
+Créer un logiciel pour gérer les stocks et les finances de la brasserie en utilisant streamlit
+
+
+```
 
 
 

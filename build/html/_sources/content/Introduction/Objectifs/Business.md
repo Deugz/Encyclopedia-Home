@@ -1,7 +1,65 @@
 # ❌ Business ?
 
+***
 
-## Entrepreneur Sociale
+::::{grid} 2
+
+:::{grid-item}
+:columns: 4
+
+<div id="colour">
+    
+<strong>Page Infos:</strong>    
+   
+    
+- ✍️ [Vincent Deguin](https://deugz.github.io/nb-profile/_build/html/intro.html )
+- 🕑: 20 min <br>
+- 🛠️ 05/04/2024 <br> 
+<br>
+      
+- Finished: ❌    <br>   
+- **Reviewed**: ❌<br>
+
+
+</div>
+
+
+<br>
+
+
+
+:::
+
+:::{grid-item}
+:columns: 8
+
+<br>
+
+> **Introduction**: Certainement pas, cependant il ne faut pas enlever au coté business sa redoutable efficacité. Je pense que certains outils pour créer un business peuvent s'avérer utile pour un projet de l'envergure de la miène. C'est en réalisant un busines splan que j'ai par exemple découvert le concept d'entrepreneur sociale.
+    
+
+
+:::
+
+::::
+
+```{admonition} To do
+:class: note, dropdown
+
+- checker semantic tag implementation
+
+
+```
+
+## Le Besoin
+
+<p class="emphase2"><strong> Sécurité Financière</strong></p>
+
+
+## Solution
+
+
+### Entrepreneur Sociale
 
 
 ## Sécurité financière

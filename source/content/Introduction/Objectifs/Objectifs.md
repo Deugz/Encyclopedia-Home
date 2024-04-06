@@ -1,4 +1,4 @@
-# Propriétés
+# Objectifs
 
 ```{toctree}
 :hidden:
@@ -26,6 +26,18 @@ Les Objectifs sont multiples:
 présenter ici les différents projets sur lesquels je bosse et comments ils sont liés les uns les autres
 
 ```
+
+## Outils
+
+```{note}
+
+Liens vers jb-tools
+
+
+```
+
+
+
 
 ## Lifelong Online Notebook
 

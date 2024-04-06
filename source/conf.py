@@ -72,12 +72,12 @@ html_theme_options = {
         },
         {
             "url": "https://deugz.github.io/sp-Hiphop_Journey/build/html/index.html",
-            "name": "&nbsp &nbsp 🎤 Hiphop ",
+            "name": "&nbsp &nbsp 🎤 Culture ",
             "attributes": {"target": "_blank"},
         },
         {
             "url": "https://deugz.github.io/sp-Pharma_Journey/build/html/index.html",
-            "name": "&nbsp &nbsp 💊 Pharmacie",
+            "name": "&nbsp &nbsp 💊 Santé",
             "attributes": {"target": "_blank"},
         },
         {

@@ -53,7 +53,7 @@ content/index
 :::{grid-item}
 :columns: 3
 
-<span class="hovertext" data-hover="Ce projet, débuté en 2023 est actuellement en construction."> ![flag alt >>](_static/Svg_icons/Under_construction.svg) </span> 
+<span class="hovertext" data-hover="Ce projet, débuté en 2022 (au cours de mes recherches) est actuellement en construction."> ![flag alt >>](_static/Svg_icons/Under_construction.svg) </span> 
 
 :::
 
@@ -61,7 +61,7 @@ content/index
 :::{grid-item}
 :columns: 3
 
-<span class="hovertext" data-hover="Il s'agit d'une experience visant a mettre en place une pédagogie alternative."> ![flag alt >>](_static/SVG_files/human-head-silhouette-with-cogwheels-svgrepo-com.svg) </span>
+<span class="hovertext" data-hover="Il s'agit d'une experience visant a mettre en place une méthode de pédagogie alternative."> ![flag alt >>](_static/SVG_files/human-head-silhouette-with-cogwheels-svgrepo-com.svg) </span>
 
 
 :::
@@ -69,7 +69,7 @@ content/index
 :::{grid-item}
 :columns: 3
 
- <span class="hovertext" data-hover="Une collection de ressource en libre accès, que j'implémente au fil de mon apprentissage"> ![flag alt >>](_static/Svg_icons/folders-svgrepo-com.svg) </span>
+<span class="hovertext" data-hover="Une collection de ressource en libre accès (licence CC), que j'implémente au fil de mon apprentissage"> ![flag alt >>](_static/Svg_icons/folders-svgrepo-com.svg) </span>
 
 :::
 
@@ -130,17 +130,24 @@ content/index
 
 <br>
 
-:::::::{dropdown} ⚠ De Manière Créative, Libre, Open-Source, Collaborative, Gratuite et Ouverte a Tous ⚠
+:::::::{dropdown} ⚠ De Manière Utile, Créative, Libre, Evolutive, Open-Source, Collaborative, Gratuite et Ouverte ⚠
 
 ::::::{tab-set} 
 
+:::::{tab-item} Utile
+
+```{note}
+
+Parler des différents objectifs
+
+
+```
+
+:::::
+
 :::::{tab-item} Créative
 
-La littérature, les arts visuels, la musique sont autants d'arts qui permettent d'éveiller les sens et de mieux ressentir notre environement. Internet permet de combiner ces différentes formes d'art dans un même format et j'aimerai en associer le plus possible pour créer un contenue qui parle et qui est agréable au lecteur. 
-
-J'essaie de faire en sorte qu'il y ai plusieurs niveaux de lecture.
-
-Dans une optique de rendre le lecteur actif vis a vis du contenu ...
+La littérature, les arts visuels, la musique sont autants d'arts qui permettent d'éveiller les sens et de mieux ressentir notre environement. Internet permet de combiner ces différentes formes d'art dans un même format et j'aimerai en associer le plus possible pour créer un contenue qui parle et qui soit agréable au lecteur. En utilsant les outils de mise en page que m'offre le 'language css', J'essaie de mettre en place plusieurs niveaux de lecture. Vous verrez également que certains contenue sont cachés, ou tout de moins le lecteur est obligé de cliquer pour accéder au contenue. J'ai fait cela pour rendre le lecteur actif vis a vis du contenu et ca me permet également de rentrer dans la détail d'un concept et d'en explorer les différentes ramifications sans surcharger la page. Le tou me permettant une immense créativité vis a vis de la **mise en récit** de l'histoire que je souhaite raconter.
 
 
 
@@ -148,27 +155,53 @@ Dans une optique de rendre le lecteur actif vis a vis du contenu ...
 
 :::::{tab-item} Libre
  
-Ce que j'entend par Libre, c'est que j'écris sur ce qui m'intéresse, sans aucune restriction et il en est de même pour toute les personnes qui souhaiteraient participer ou écrire sur le site. Bien sur je veillerai a ce que tout les échanges soient **bienveillants**
+Ce que j'entend par Libre, c'est que j'écris sur ce qui m'intéresse, sans aucune restriction et de manière totalement subjective. Il en est de même pour toute les personnes qui souhaiteraient participer ou écrire sur le site. La seule chose a laquel je refuse de déroger est la **bienveillance** dans les propos qui sont tenus.
+
+- Coté artistique, création libre
+
+:::::
+
+:::::{tab-item} Evolutive
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 6
+
+
+
+:::
+
+:::{grid-item}
+:columns: 6
+
+<div class="embedresize">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KJiTSsron0Q?si=Tg63R61xMfEvU4fm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+:::
+
+::::
+
+
 
 :::::
 
 :::::{tab-item} Open-Source
 
-Construit grace a des technologie Open -Source et disponible également dans ce même format
-- Jupyter Book et Github
-
-
-J'aimerai d'ailleurs et c'est un des objectifs de ce site, de promouvoir ces technologies open-source et a quels point elles peuvent apporter une alternative viable aux GAFAM (Google, Apple, Facebook, Amazon, et Microsoft)
+J'ai construit ce site (et tout les autres), grace a des technologie **Open-Source**. Les deux principales sont [Jupyter Book](https://jupyterbook.org/en/stable/intro.html) et [Github](https://github.com/). J'aimerai d'ailleurs et c'est un des objectifs de ce site, de promouvoir ces technologies open-source et a quels point elles peuvent apporter une alternative viable aux GAFAM (Google, Apple, Facebook, Amazon, et Microsoft)
 
 :::::
 
 :::::{tab-item} Collaborative
 
-Construit grace a des technologie Open -Source et disponible également dans ce même format
+J'aimerai beaucoup apporter une dimension collaborative a mon projet et Github m'en donne la possibilité. En revanche, Github est un logiciel technique qui demande un apprentissage approfondie avant de pouvoir l'utiliser de manière routinière (moi même qui l'utilise depuis 2 ans n'en suis qu'a mes débuts). En revanche avant de co-écrire, il vous est tout de même possible de commenter et d'annoter le contenue de chaque page alors faites vous plaisir!
 
 :::::
 
 :::::{tab-item} Gratuite
+
+Oui je n'ai rien payé (en dehors de mon temps et d'un peu de sueur) pour créer ce site. Ce qui rend la méthode quasi universelle (pour qui possède un ordinateur et les connaissances nécessaires a l'utilisation des technologies mentionnés plus haut)
 
 Cela limite le champ d'action comme par example:
 - Une URL longue et difficilement partageable
@@ -179,17 +212,10 @@ Mais ca préserve une totale indépendance (et c'est pour l'instant le plus impo
 
 :::::
 
-:::::{tab-item} Ouverte a tous
+:::::{tab-item} Ouverte
 
-Oui tout le monde peut participer
+Oui tout le monde et le bienvenue et peut participer. Je ne récolte aucun cookies (enfin je crois), et ne m'intéresse absolument pas a votre vie privée. Du moment que vous êtes motivés pour naviguer sur les chemins de la connaissances, je veux de vous dans mon équipage. 
 
-- **Commenter**
-
-    - [Lien vers explication]()
-
-Vous pouvez commenter en annotant chaque mot
-
-- **Annoter**
 
 
 :::::
@@ -239,15 +265,15 @@ Plus nous serons nombreux à nous emparer des questions que pose cette nouvelle 
 
 - Il se construit de manière organique comme un journal et de nouvelles version sont mise en ligne de manière hebdomadaires. 
 
-<p class="emphase">Prenez le temps de lire </p>
+- Prenez le temps de lire et explorer.
 
 ```
 
 <br>
 
-:::{dropdown} En une phrase
+:::{dropdown} Le Projet en une phrase
 
-Construire ensemble une vision systémique et durable du monde de demain.
+Permettre a chacun de construire sa base de connaissance personel pour batir ensemble une vision systémique et durable du monde de demain.
 
 
 :::
@@ -257,7 +283,7 @@ Construire ensemble une vision systémique et durable du monde de demain.
 ```{admonition} C'est quoi ce truc ?
 :class: note, dropdown
 
-Il s'agit en premier lieu d'un site internet. Il est le fruit de la découverte d'une nouvelle methode pour contruire des sites web qui s'appelle [JupyterBook](https://jupyterbook.org/en/stable/intro.html), que j'utilise pour mon usage personel depuis 1 ans (09/2022)
+Il s'agit en premier lieu d'un site internet. Il est le fruit de la découverte d'une nouvelle methode pour contruire des sites web qui s'appelle [JupyterBook](https://jupyterbook.org/en/stable/intro.html), que j'utilise pour mon usage personel depuis septembre 2022 (en gros). J'ai commencé petit avec un seul site pour discuter de ma recherche de ma nière ouverte et interactive et puis de fil en aiguille, j'ai construit ma propre encyclopédie. 
 
 ```
 
@@ -265,17 +291,15 @@ Il s'agit en premier lieu d'un site internet. Il est le fruit de la découverte 
 ```{admonition} Et pourquoi je suis là ?
 :class: tip, dropdown
 
-Probablement parce que t'es un pote ou un proche a ce stade de l'avancement du projet. Tu peux finir de lire cette page déja, tu en sauras ainsi plus sur ma démarche et mes projets. Ensuite tu seras libre de voyager ou bon te semble en suivant tes propres interets.
+Probablement parce que t'es un pote ou un proche a ce stade de l'avancement du projet. Je te conseil de finir la lecture de cette page, ainsi tu en auras une meilleure idée ma démarche et des projets qui s'y attache. 
 
 ```
 
 
 ```{admonition} Mais attention !
 :class: important, dropdown
-
    
-Le contenue de ce site n'a pas été révisé, corrigé. Il s'agit d'une version brute de notes que j'écris de manière plus ou moins assidue.
-
+Le contenue de ce site n'a pas été révisé, corrigé. Il s'agit d'une version brute de notes que j'écris de manière plus ou moins assidue (et de manière plus ou moins riguoureuses). 
 
 ```
 
@@ -283,14 +307,11 @@ Le contenue de ce site n'a pas été révisé, corrigé. Il s'agit d'une version
 ```{admonition} Apportez votre contribution
 :class: warning, dropdown
 
-Le but premier de ce siteweb est de créer une conversation et de féderer autour de cette nouvel methode qui se situe en marge des "réseaux sociaux classiques"... J'offre un site aux dix premières personnes qui commenteront cette page ;)
+Le but premier de ce site web est de créer une conversation et de féderer autour de cette nouvel methode qui se situe en marge des "réseaux sociaux classiques".
 
 ```
 
 <br>
-
-
-
 
 
 :::::
@@ -298,26 +319,65 @@ Le but premier de ce siteweb est de créer une conversation et de féderer autou
 ::::::
 
 
-<br>
+***
 
 <p class="emphase2"><strong><em>"Un Besoin Vitale"</em></strong></p>
+
+<br>
 
 ::::::{tab-set} 
 
 :::::{tab-item} Etat des lieux 
 
+::::{tab-set} 
 
-- **Education**
+:::{tab-item} L'Education
 
-J'ai un regard très critique sur l'éducation, les médias et plus généralement sur la façon dont sont partagés les connaissances. En effet, notre [système éducatif](lienblog) repose sur des fondements idéologiques du 19<sup>ème</sup> siècle, les [médias](lienblog) sont en grande parties possédés par des milliardaires qui ont bien compris qu'il s'agit d'un outils puissant pour manipuler les masses et enfin, la [publication scientifique](lienblog) est gangréné par des intérets financiers qui pousse a la productivité au détriment de la qualité... Un constat bien déprimant dans une époque qui a pourtant un **besoin vitale d'idée nouvelles** pour faire face aux nombreux défis résultant de l'impacte de l'homme sur la planète. Des idées, personellement je n'en manque pas et celle-ci repose sur un principe fondamentale:  
+J'ai un regard très critique sur l'éducation, les médias et plus généralement sur la façon dont sont partagés les connaissances. En effet, notre [système éducatif](lienblog) repose sur des fondements idéologiques du 19<sup>ème</sup> siècle, les [médias](lienblog) sont en grande parties possédés par des milliardaires qui ont bien compris qu'il s'agit d'un outils puissant pour manipuler les masses et enfin, la [publication scientifique](lienblog) est gangréné par des intérets financiers qui pousse a la productivité au détriment de la qualité... Un constat bien déprimant dans une époque qui a pourtant un **besoin vitale d'idée nouvelles** pour faire face aux nombreux défis résultant de l'impacte de l'homme sur la planète. Le système éducatif se contente de faire avaler puis régurgiter les connaisances sans préter grande attention a leur assimilation, dans le but de classer les éleves en vue d'un aiguillage sociale. Pour moi c'est une faute grave, qui a un impact immense sur la société car produisant des êtres facilement manipulables et peu armés face a un monde qui se complexifie. C'est pour y remédier que j'ai créé cette plateforme. 
 
+
+:::
+
+
+:::{tab-item} Les Médias
+
+```{figure} _static/Images/Wheel-media-2.png
+---
+width: 100%
+name: media-wheel
+alt: figure showing the different owners of the most common french medias
+---
+Cette figure, produite par le monde diplomatique [Source](https://www.monde-diplomatique.fr/cartes/PPA) - [Github repo](https://github.com/mdiplo/Medias_francais?tab=readme-ov-file), nous présente a qui appartiennent les différents médias.
+```
+
+:::
+
+
+:::{tab-item} Les Sciences
+
+- Publication scientifique
+
+<div class="embedresize">
+<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/rcgxY__YXEc?start=19" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+:::
+
+:::{tab-item} La Politique
+
+Lol
+
+
+:::
+
+
+::::
   
-
 :::::
 
 :::::{tab-item} Un Monde en transition
 
-<p class="emphase">Explorer et comprendre le monde d'aujourd'hui pour imaginer et co-construire le monde de demain en permettant a chacun de créer, implémenter et connecter <br><br><strong>Bases de Connaissances</strong> 🧠 <br><br> (Personelle) <br></p>
+Paragraphe explicatif
 
 :::::
 
@@ -333,28 +393,7 @@ Besoin de voire le monde dans toute sa complexité
 
 :::::{tab-item} Le besoin d'outil 
 
-<p class="emphase"><strong>Digérer l'information</strong></p>
-
-
-::::{grid}
-
-:::{grid-item}
-:columns: 8
-
-D'aucuns diraient que c'est le role du système éducatif, et pourtant bien souvent ce dernier se contente de faire avaler puis régurgiter les connaisances sans préter grande attention a leur assimilation, dans le but de classer les éleves en vue d'un aiguillage sociale. Pour moi c'est une faute grave, qui a un impact immense sur la société car produisant des êtres facilement manipulables et peu armés face a un monde qui se complexifie. C'est pour y remédier que j'ai créé cette plateforme. 
-
-:::
-
-
-:::{grid-item}
-:columns: 4
-
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://assets7.lottiefiles.com/packages/lf20_ZAY921.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player>
-
-:::
-
-::::
+paragraphe explicatif
 
 :::::
 
@@ -364,8 +403,6 @@ D'aucuns diraient que c'est le role du système éducatif, et pourtant bien souv
 On a besoin de générer une force citoyenne motrice dont le carburant est l'intelligence Collective
 
 :::::
-
-
 
 ::::::
 
@@ -377,6 +414,69 @@ On a besoin de générer une force citoyenne motrice dont le carburant est l'int
 <br>
 
 <p class="emphase2"><strong><em>"Permettre a Chacun"</em></strong></p>
+
+<p class="emphase"><strong>De Digérer l'information</strong></p>
+
+
+::::{grid}
+
+:::{grid-item}
+:columns: 8
+
+<br>
+
+Nous vivons dans un monde ou l'information est omniprésente. Présente sous des formes multiples, elle est accessible d'un simple clique et par le biais du téléphone portable est presque devenue une extension de notre corps. La connaissance en revanche, fruit de l'analyse, l'interprétation et la synthèse approfondie d'une source d'information est beaucoup moins répandue. La raison tient dans le fait qu'elle implique la capacité à questionner, utiliser ces informations et a les relier à d'autres concepts, ce qui n'est pas chose aisé. C'est dans l'optique de faire fructifier mon esprit d'analyse, de synthèse et plus généralement mon esprit critique que j'ai commencé cette oeuvre qui m'apportait beaucoup d'avantages par rapport aux méthodes traditionneles.      
+
+:::
+
+:::{grid-item}
+:columns: 4
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets7.lottiefiles.com/packages/lf20_ZAY921.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player>
+
+:::
+
+::::
+
+::::::{dropdown} Plus d'infos sur l'information
+
+:::::{tab-set} 
+
+::::{tab-item} Les Sources
+
+
+{numref}`media-wheel`
+
+::::
+
+::::{tab-item} 
+
+
+
+
+::::
+
+::::{tab-item} 
+
+
+
+
+::::
+
+::::{tab-item} 
+
+
+
+::::
+
+:::::
+
+::::::
+
+
+
+
 
 <p class="emphase"><strong>De Batir et Partager ses Connaissances</strong></p>
 
@@ -566,7 +666,7 @@ J'aime apprendre mais surtout j'aime **Faire apprendre**. Le monde naturelle qui
 <br>
 
 
-<p class="emphase2"><strong><em>Qui suis-je?</em></strong></p>
+<p class="emphase2"><strong><em>"Qui suis-je?"</em></strong></p>
 
 <div id="note">
 
@@ -1000,9 +1100,153 @@ A insérer!
 ::::::
 
 <br>
+
+<h2> Et Maintenant? </h2>
+
+<br>
+
+<p class="emphase2"> <strong> <em>"Explore,"</em></strong> </p>
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 5
+
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://lottie.host/2da1ae07-1150-49ef-9f50-c33bc4c49d58/CkDXKlbPlx.json" background="#fff" speed="1" style="width: 300px; height: 300px" direction="1" mode="normal" loop autoplay></lottie-player>
+
+:::
+
+:::{grid-item}
+:columns: 7
+
+En fonction de ta curiosité, voyage de planète en planète, de manière fluide en te laissant guider par tes centres d'intérets.
+
+:::
+
+::::
+
+<br>
+
+::::::{dropdown} Quelques conseils de lecture
+
+:::::{tab-set} 
+
+::::{tab-item} Utilise un ordinateur
+
+Alors je sais qu'aujourd'hui une bonne partie du contenue est consommé a partir des téléphones portables.
+
+::::
+
+::::{tab-item} Prends le temps de lire
+
+Oui c'est important de prendre le temps de regarder et lire le contenue.
+- Plusieurs niveaux de lecture
+
+::::
+
+::::{tab-item} Par ou commencer?
+
+Créer une liste de lecture avec les pages les plus abouties
+
+::::
+
+
+:::::
+
+::::::
+
+
+<br>
+
+<p class="emphase2"> <strong> <em>"Apprends ..."</em></strong> </p>
+
 <br>
 
 
+::::{grid} 2
+
+:::{grid-item}
+:columns: 5
+
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+<dotlottie-player src="https://lottie.host/14436da2-b5e7-4163-bddc-bd4974308afd/szPlhrweqe.json" background="transparent" speed="1" style="width: 100%; height: auto;" loop autoplay></dotlottie-player>
+
+:::
+
+:::{grid-item}
+:columns: 7
+
+> Reprendre ce qui a été dit avant (semi conclusion)
+
+:::
+
+::::
+
+<br>
+
+
+
+
+<p class="emphase2"> <strong> <em>"Et Contribue !"</em></strong> </p>
+
+<br>
+
+:::::{tab-set} 
+
+::::{tab-item} Commentaires
+
+Il y a en bas de chaque page une section *Commentaires*. Cette section te permet de donner un avis générale sur le contenue de la page, axes d'amélioration ...
+
+
+```{note}
+
+Insérer capture d'écran
+
+
+```
+
+- Charte des commentaires ?
+
+::::
+
+::::{tab-item} Annotations
+
+Intéragit directement avec le contenue pour demander des précisions, poser une question ou bien montrer qu'il ya une erreur ...
+
+::::
+
+::::{tab-item} Modifie directement la page
+
+Pas encore disponible. Utiliser la fonction Github Branches pour permettre a chacun de télécharger la doc complète et d'effectuer directement des modifications sur la page.
+
+```{note}
+- Compétence avancées de Github a obtenir
+- Workflow spécifique a mettre en place
+
+```
+
+::::
+
+::::{tab-item} Contribution Financières
+
+- Kofi
+- Patreon
+
+::::
+
+::::{tab-item} Contact
+
+Tu peux aussi me contacter directement si tu as des questions ou si tu veux contribuer de manière plus importante. J'ai un nombre infinit d'idées, certaines assés farfelues comme le fait d'ajouter des planches de bandes déssinés pour complémenter le contenue et créer des personnages auquel le lecteur puisse s'identifier. Je n'ai aucune compétence dans le dessin (à mon grand regret), mais peut être que toi tu en as :), si c'est le cas et que tu as le temps d'apprter ta contribution n'hésite pas a me contacter.
+
+- mail: ()
+
+::::
+
+:::::
+
+<br>
 
 # Commentaires
 

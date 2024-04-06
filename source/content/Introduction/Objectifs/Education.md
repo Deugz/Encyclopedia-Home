@@ -1,6 +1,51 @@
 #  🔎 Toile Educative Sociale & Sémantique 
 
 
+***
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 4
+
+<div id="colour">
+    
+<strong>Page Infos:</strong>    
+   
+    
+- ✍️ [Vincent Deguin](https://deugz.github.io/nb-profile/_build/html/intro.html )
+- 🕑: 20 min <br>
+- 🛠️ 05/04/2024 <br> 
+<br>
+      
+- Finished: ❌    <br>   
+- **Reviewed**: ❌<br>
+
+
+</div>
+
+<br>
+
+:::
+
+:::{grid-item}
+:columns: 8
+
+<br>
+
+> **Introduction**: A partir de mes experiences individuelles et réalisés en collaboration avec mon microcosme sociale, produire des ressources qui permettent de connecter et de faire sens en tant que société.
+:::
+
+::::
+
+```{admonition} To do
+:class: note, dropdown
+
+- checker semantic tag implementation
+
+
+```
+
 <br>
 
 <p class="emphase">   

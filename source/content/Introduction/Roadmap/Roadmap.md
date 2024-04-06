@@ -6,19 +6,343 @@ To clean
 
 ```
 
-- [AIR Master](https://master.learningplanetinstitute.org/en)
+## Overview
+
+<p class="emphase">Etapes pour la construction collective de projets innovants</p>
+
+```{figure} Docs/Roadmap-innovant-1.png
+:width: 100%
+
+[Source](https://www.lica-europe.org/fabrique-de-projet)
+```
+
+
+Bien, comme nous l'avons vue dans les pages précédentes (lien), il existe plusieurs ramifications et différents objectifs au sein de mon projet. Cependant la figure ci-dessus est un bon outils d'évaluation auquel je vais me préter dans les sections suivantes 
+
+***
+
+<p class="emphase2"> <strong>Recherche & Développement </strong></p>
 
 
 ```{note}
 
-Inclure dans la roadmap et expliquer en quoi mon projet coincide et ce que le master peut y apporter
+Description globale du projet dans son ensemble, création des différents outils etc ...
+
 
 ```
 
-<p class="emphase">Interdisciplinary Approaches in Research and Education</p>
+***
 
-## Présent
+<p class="emphase2"> <strong>Idéation & Rédaction </strong></p>
 
+```{note}
+
+Splitter en fonction des différents Objectifs
+
+```
+
+:::::::{dropdown} Bloc-Note, Organiseur, Archives en ligne
+
+::::::{tab-set} 
+
+:::::{tab-item} R & D
+
+```{note}
+
+Brève introduction a l'objectif mentionné
+
+
+```
+
+:::::
+
+:::::{tab-item} Ecocysteme
+
+<p class="emphase">Repérage de partenaires, Mise en synergie d'acteurs innovants</p>
+
+
+:::::
+
+:::::{tab-item} Rédaction
+
+<p class="emphase">Co-rédaction d'appel a projets, d'appel d'offres et assistance à maitrise d'ouvrage</p>
+
+
+:::::
+
+:::::{tab-item} Co-Design
+
+<p class="emphase">Co-design de projets, de dispositifs, de programmes et de services numériques</p>
+
+
+:::::
+
+:::::{tab-item} Gouvernance
+
+<p class="emphase">design de gouvernances coopérative</p>
+
+
+:::::
+
+:::::{tab-item} Budget
+
+<p class="emphase">Ingénierie financière et budgétaire</p>
+
+:::::
+
+::::::
+
+:::::::
+
+<br>
+
+:::::::{dropdown} Outil de Construction de Connaissance
+
+::::::{tab-set} 
+
+:::::{tab-item} R & D
+
+La construction des connaissances est un domaine qui m'interesse beaucoup. C'est d'ailleurs pour cette raison que j'aimerai rejoindre l'école doctorale [FIRE](https://phd.learningplanetinstitute.org/en)
+
+:::::
+
+:::::{tab-item} Ecocysteme
+
+<p class="emphase">Repérage de partenaires, Mise en synergie d'acteurs innovants</p>
+
+
+:::::
+
+:::::{tab-item} Rédaction
+
+<p class="emphase">Co-rédaction d'appel a projets, d'appel d'offres et assistance à maitrise d'ouvrage</p>
+
+
+:::::
+
+:::::{tab-item} Co-Design
+
+<p class="emphase">Co-design de projets, de dispositifs, de programmes et de services numériques</p>
+
+
+:::::
+
+:::::{tab-item} Gouvernance
+
+<p class="emphase">design de gouvernances coopérative</p>
+
+
+:::::
+
+:::::{tab-item} Budget
+
+<p class="emphase">Ingénierie financière et budgétaire</p>
+
+:::::
+
+::::::
+
+:::::::
+
+<br>
+
+:::::::{dropdown} Publication, Dialogue & Collaboration
+
+::::::{tab-set} 
+
+:::::{tab-item} R & D
+
+:::::
+
+:::::{tab-item} Ecocysteme
+
+<p class="emphase">Repérage de partenaires, Mise en synergie d'acteurs innovants</p>
+
+
+:::::
+
+:::::{tab-item} Rédaction
+
+<p class="emphase">Co-rédaction d'appel a projets, d'appel d'offres et assistance à maitrise d'ouvrage</p>
+
+
+:::::
+
+:::::{tab-item} Co-Design
+
+<p class="emphase">Co-design de projets, de dispositifs, de programmes et de services numériques</p>
+
+
+:::::
+
+:::::{tab-item} Gouvernance
+
+<p class="emphase">design de gouvernances coopérative</p>
+
+
+:::::
+
+:::::{tab-item} Budget
+
+<p class="emphase">Ingénierie financière et budgétaire</p>
+
+:::::
+
+::::::
+
+:::::::
+
+<br>
+
+:::::::{dropdown} Réseau de Journalistes, Acteurs Citoyens
+
+::::::{tab-set} 
+
+:::::{tab-item} R & D
+
+:::::
+
+:::::{tab-item} Ecocysteme
+
+<p class="emphase">Repérage de partenaires, Mise en synergie d'acteurs innovants</p>
+
+
+:::::
+
+:::::{tab-item} Rédaction
+
+<p class="emphase">Co-rédaction d'appel a projets, d'appel d'offres et assistance à maitrise d'ouvrage</p>
+
+
+:::::
+
+:::::{tab-item} Co-Design
+
+<p class="emphase">Co-design de projets, de dispositifs, de programmes et de services numériques</p>
+
+
+:::::
+
+:::::{tab-item} Gouvernance
+
+<p class="emphase">design de gouvernances coopérative</p>
+
+
+:::::
+
+:::::{tab-item} Budget
+
+<p class="emphase">Ingénierie financière et budgétaire</p>
+
+:::::
+
+::::::
+
+:::::::
+
+<br>
+
+:::::::{dropdown} Toile Educative Sociale et Sémantique
+
+::::::{tab-set} 
+
+:::::{tab-item} R & D
+
+:::::
+
+:::::{tab-item} Ecocysteme
+
+<p class="emphase">Repérage de partenaires, Mise en synergie d'acteurs innovants</p>
+
+
+:::::
+
+:::::{tab-item} Rédaction
+
+<p class="emphase">Co-rédaction d'appel a projets, d'appel d'offres et assistance à maitrise d'ouvrage</p>
+
+
+:::::
+
+:::::{tab-item} Co-Design
+
+<p class="emphase">Co-design de projets, de dispositifs, de programmes et de services numériques</p>
+
+
+:::::
+
+:::::{tab-item} Gouvernance
+
+<p class="emphase">design de gouvernances coopérative</p>
+
+
+:::::
+
+:::::{tab-item} Budget
+
+<p class="emphase">Ingénierie financière et budgétaire</p>
+
+:::::
+
+::::::
+
+:::::::
+
+***
+
+<p class="emphase2"> <strong>Mise en Oeuvre et Pilotage </strong></p>
+
+
+
+```{note}
+
+Splitter en fonction des différents Projets
+
+
+```
+
+***
+
+<p class="emphase2"> <strong> Vie et Développement </strong></p>
+
+
+
+
+
+
+
+
+## L'Instant Présent
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 8
+
+Pour l'instant, je profite et perfectionne la méthode avec mes propres connaissances au sein des différents projets auquel je prends part.
+
+:::
+
+:::{grid-item}
+:columns: 4
+
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+<dotlottie-player src="https://lottie.host/e55ec050-32bd-472c-a8e9-48acdc21c847/I3jpvfvrd7.json" background="transparent" speed="1" style="width: 100%; height: auto;" loop autoplay></dotlottie-player>
+
+:::
+
+::::
+
+### Les Projets en Cours
+
+
+#### Les Projets en Dormance
+
+```{note}
+
+Ils ne sont pas mort attention! Voyez cela comme une spore, prête a rééclore quand les conditions seront propices.
+
+```
 
 
 ### Utilisation
@@ -44,7 +368,12 @@ Créer card avec les differents sites
 
 
 ### Community building
-  
+
+
+
+
+
+
 #### Hiphop    
   
 
@@ -71,6 +400,22 @@ Create a discussion tab within Github repo !!
 
 
 ## Next Steps
+
+### Learn
+
+#### Master AIRE
+
+
+<p class="emphase">Interdisciplinary Approaches in Research and Education</p>
+
+- [AIR Master](https://master.learningplanetinstitute.org/en)
+
+
+```{note}
+
+Expliquer en quoi mon projet coincide et ce que le master peut y apporter
+
+```
 
 ### Validate the method by securing funding
 

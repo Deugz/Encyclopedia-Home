@@ -362,6 +362,8 @@ Only early access for now (applied for early access)
 - [Coda](https://coda.io/)
 - [Confluence](https://www.atlassian.com/fr/software/confluence)
 
+- [Loomio](https://www.loomio.com/)
+
 
 ## Knowledge Base
 

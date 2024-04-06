@@ -149,6 +149,11 @@ J'ai été frappé (et aussi un peu émue) par le nombre "d'objet" en open sourc
 
 ***
 
+
+<p class="emphase">Explorer et comprendre le monde d'aujourd'hui pour imaginer et co-construire le monde de demain en permettant a chacun de créer, implémenter et connecter <br><br><strong>Bases de Connaissances</strong> 🧠 <br><br> (Personelle) <br></p>
+
+
+
 ::::{grid} 2
 
 :::{grid-item}

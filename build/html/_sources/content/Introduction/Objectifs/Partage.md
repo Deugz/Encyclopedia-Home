@@ -1,6 +1,64 @@
 # 🔧 Réseau de Journalistes, Acteurs Citoyens
 
-## Profile Sociale (Réseau)
+***
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 4
+
+<div id="colour">
+    
+<strong>Page Infos:</strong>    
+   
+    
+- ✍️ [Vincent Deguin](https://deugz.github.io/nb-profile/_build/html/intro.html )
+- 🕑: 20 min <br>
+- 🛠️ 05/04/2024 <br> 
+<br>
+      
+- Finished: ❌    <br>   
+- **Reviewed**: ❌<br>
+
+
+</div>
+
+<br>
+
+:::
+
+:::{grid-item}
+:columns: 8
+
+<br>
+
+> **Introduction**: Je ne sais pas vous, mais moi j'éprouve un besoin viscérale de m'exprimer pour pouvoir naviguer sainement dans un monde en perdition.
+:::
+
+::::
+
+```{admonition} To do
+:class: note, dropdown
+
+- checker semantic tag implementation
+
+
+```
+
+## Le Besoin
+
+<p class="emphase2"><strong>S'unir</strong></p>
+
+
+
+
+
+<p class="emphase2"><strong>Raconter Notre Histoire</strong></p>
+
+
+## La Solution
+
+### Profile Sociale (Réseau)
 
 ***
 
@@ -378,6 +436,96 @@ Experts from different fields can collaborate towards solving the questions from
 </div>
 
 <script src="../../../_static/assets/script/slideshow.js"> </script>
+
+
+## Réseaux Existants
+
+Au cours de mes pérégrination sur internet, il m'arrive de tomber sur des petites pépites: des gens animés par les mêmes ambitions d'un monde meilleur qui passe par la collaboration. En voici quelques-unes que j'ai décidé d'archiver ici.
+
+### Lica
+
+- [Site web](https://www.lica-europe.org/)
+
+### EDHU2050
+
+- [Website](https://edhu2050.com/)
+
+
+```{note}
+
+Méthodologie MOON
+
+```
+
+
+### Les Chemins de la transition
+
+
+::::{grid} 5
+
+:::{grid-item}
+:columns: 9
+
+> Une université ouverte, nomade et pair à pair autour des enjeux et des métiers de la transition. Pour apprendre en voyageant et partager des connaissances, expériences et savoir-faire liés aux enjeux écologiques, énergétiques, culturels, sociaux, économiques, technologiques et sociétaux de notre temps.
+
+
+:::
+
+:::{grid-item-card}
+:link: https://lescheminsdelatransition.org/
+:columns: 3
+:class-header: bg-light
+**Site Web**
+^^^
+
+```{image} Docs/Logo-partage/logo-chemin-de-la-transition.png
+
+```
+
+:::
+
+::::
+
+Possède également un [forum](https://forums.lescheminsdelatransition.org/)
+
+
+### Virtual Assembly
+
+::::{grid} 5
+
+:::{grid-item}
+:columns: 9
+
+> L’Assemblée Virtuelle rassemble un collectif d’individus et d’organisations, une communauté, un réseau, un écosystème, un archipel composé d’acteurs autonomes et reliés, passionnés par les enjeux de la décentralisation de l’internet et du web ainsi que les transitions technologiques, culturelles, écologiques, sociales, politiques, économiques etc.
+
+
+:::
+
+:::{grid-item-card}
+:link: https://lescheminsdelatransition.org/
+:columns: 3
+:class-header: bg-light
+**Site Web**
+^^^
+
+```{image} Docs/Logo-partage/logo-va.png
+:width: 100%
+
+```
+
+:::
+
+::::
+
+```{note}
+
+Ils ont créé tout un tas d'outils trés utile que l'on peut potentiellement utiliser. Ils possèdent également une chaine [Youtube](https://www.youtube.com/@assembleevirtuelle4655)
+
+
+```
+
+
+
 
 
 

@@ -2,19 +2,18 @@
 
 <p class="emphase">J'ai tenté d'appliquer ma méthode avec plusieurs projets</p>
 
-::::{grid} 4
+::::{grid} 5
 :gutter: 2
 
 :::{grid-item-card}
 :link: https://deugz.github.io/sp-Education_Journey/build/html/index.html
-:columns: 3
 :class-header: bg-light   
 
 **Research**
 
 ^^^   
    
-```{image} Docs/Logo-note/Evernote.svg
+```{image} ../../_static/Logo/logo_SFTP.png
 :width: 98%
 :align: center
 
@@ -24,15 +23,14 @@
 
 :::{grid-item-card}
 :link: https://deugz.github.io/sp-Education_Journey/build/html/index.html
-:columns: 3
 :class-header: bg-light   
 
 **Education**
 
 ^^^
 
-```{image} Docs/Logo-note/Microsoft_Office_OneNote_(2019–present).svg
-:width: 100%
+```{image} ../../_static/Logo/logo_SFTP.png
+:width: 98%
 :align: center
 
 ```
@@ -40,15 +38,14 @@
 
 :::{grid-item-card}
 :link: https://deugz.github.io/sp-Education_Journey/build/html/index.html
-:columns: 3
 :class-header: bg-light 
 
-**HipHop**
+**Culture**
 
 ^^^
 
-```{image} Docs/Logo-note/Notion_app_logo.png
-:width: 100%
+```{image} ../../_static/Logo/HLA-Logo.png
+:width: 98%
 :align: center
 
 ```
@@ -57,15 +54,14 @@
     
 :::{grid-item-card}
 :link: https://deugz.github.io/sp-Education_Journey/build/html/index.html
-:columns: 3
 :class-header: bg-light     
 
-**Pharmacie**
+**Santé**
 
 ^^^
 
-```{image} Docs/Logo-note/2023_Obsidian_logo.svg
-:width: 90%
+```{image} ../../_static/Logo/Caducée_lauriers_Couleur.svg
+:width: 98%
 :align: center
 
 ```
@@ -74,22 +70,54 @@
 
 :::{grid-item-card}
 :link: https://deugz.github.io/sp-Education_Journey/build/html/index.html
-:columns: 3
 :class-header: bg-light     
 
 **Société**
 
 ^^^
 
-```{image} Docs/Logo-note/Joplin-icon.svg
-:width: 90%
-:align: center
-
-```
     
 :::
 
 ::::
+
+<br>
+
+```{admonition} Language
+:class: warning
+
+Certains de ces sites sont en anglais car je les ai réamisé en collaboration avec des personnes anglophones. 
+
+```
+
+
+
+> Ces différents projets représentent les différents milieux que j'ai eu la chance de fréquenter. Dans chacun d'entre eux, j'ai pu sentir une envie profonde, a l'échelle de l'individue, de **Collaborer**. Trés perceptible était également m'incapacité des autorités dirigeantes de promouvoir un environement ou la collaboration est possible. C'est pour cela que j'ai créer ces différents sites.
+
+
+## La MAP 
+
+
+```{image} ../../_static/Map/Map_Encyclopedia.svg
+:width: 100%
+:align: center
+
+```
+
+
+
+```{note}
+
+Créer tab item pour illustrer l'interconnexion
+
+- Mettre a jour
+
+
+
+```
+
+
+
 
 ## Points Communs
 

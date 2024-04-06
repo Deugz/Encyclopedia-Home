@@ -8,18 +8,35 @@
 :columns: 4
 
 <div id="colour">
-
-- ✍️ Vincent Deguin
-- 🕑: 10 min <br>
-- 🛠️ 16/11/2023 <br>    
-<br>
     
-- **Reviewd**: ❌<br>
+<strong>Page Infos:</strong>    
+   
+    
+- ✍️ [Vincent Deguin](https://deugz.github.io/nb-profile/_build/html/intro.html )
+- 🕑: 20 min <br>
+- 🛠️ 05/04/2024 <br> 
+<br>
+      
+- Finished: ❌    <br>   
+- **Reviewed**: ❌<br>
 
- 
+
 </div>
 
 <br>
+
+:::
+
+:::{grid-item}
+:columns: 8
+
+<br>
+
+> **Introduction**: Un bon ouvrier doit avoir des bons outils, et si vous souhaitez devenir un artisan de la connaissance, un batisseur de savoir, il vaudra mieux bien vous équiper. Dans cette section nous allons voir, le premier objectif (atteint) du projet, a savoir un bloc note qui utilisela technologie Markdown et me permettant de générer un site internet auquel je peux attacher tout un écocystème de logiciels gratuits et open source pour m'aider dans ma démarche de digger d'information.
+
+:::
+
+::::
 
 ```{admonition} To do
 :class: note, dropdown
@@ -29,26 +46,10 @@
 
 ```
 
-:::
-
-:::{grid-item}
-:columns: 8
-
-<br>
-
-> **Introduction**: Un bon ouvrier doit avoir des bons outils, et si vous souhaitez devenir un artisan de la connaissance, un batisseur de savoir, il vaudra mieux bien vous équiper. Dans cette section nous allons voir ...
-
-:::
-
-::::
-
-
 
 ## Le Besoin
 
-
-
-<p class="emphase"> Je trouve beaucoup de <strong> limitations </strong> a la prise de note manuelle ✍ </p>
+<p class="emphase2"> <strong> Notes Manuscrites </strong>  ✍ </p>
 
 <br>
 
@@ -57,50 +58,10 @@
 :::{grid-item}
 :columns: 8
 
-```{admonition} Les salles de Classes
-:class: warning, dropdown
-
-J'ai toujours détesté rester assis dans une salle de classe à recopier religieusement la dictée de mes professeurs. Les briques de connaissances étant accessibles en quelque clics sur internet, cette méthode d'enseignement me semble aujourd'hui complètement obsolète (elle m'a pourtant accompagné tout au long de mon cursus scolaire). 
-
-```
-
-```{admonition} Le papier, le stylo, les cahiers ...
-:class: important, dropdown
-
-Je ne sais pas vous, mais moi, j'ai passé le plus clair de mon enfance a copier religieusement la sainte parole de mes professeurs sur des cahiers (dans le but de les apprendre bêtement et de les régurgiter ensuite pour pouvoir être jugé et ainsi prétendre a une place dans la société). Aujourd'hui cette masse conséquente de papier qui, a mes yeux, ne représente guère plus que de vague souvenirs a disparu.
+> 
 
 *Incroyable perte de temps et de ressource*
 
-```
-
-```{admonition} Les livres
-:class: tips, dropdown
-
-L'une des plus grandes réussites du milieu scolaire a mon égard aura été de me donner gout a la lecture. Je m'en rappel trés bien, c'est l'oeuvre d'une professeure de CM1 de l'école George Brassens de Bon-Encontre (peut être qu'elle se reconnaitra). J'adore le livre et je ne souhaite en aucun cas le rendre obsolète mais je pense qu'il est important a l'ère du numérique de lui trouver des compagnons pour permettre aux auteurs d'explorer de nouvelles façons de créer un récit.
-
-```
-
-
-
-```{admonition} La révolution Internet
-:class: note, dropdown
-
-La méthode d'enseignement enseigné ci-dessus tue la créativité, annihile le questionement et donc déssert la science. Digitalisation ... Aujourd'hui beaucoup de connaissances sont accessibles sur Internet dans de multiples formats.
-```
-
-```{admonition} Les réseaux sociaux
-:class: note, dropdown
-
-Critique des réseaux sociaux. Futiles ...
-
-```
-
-```{admonition} Les créateurs de contenues
-:class: note, dropdown
-
-Nouvelle profession qui prospère sur les réseaux sociaux
-
-```
 
 :::
 
@@ -112,24 +73,31 @@ Nouvelle profession qui prospère sur les réseaux sociaux
 
 <br>
 
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://lottie.host/287d934c-3686-4e29-899b-26d09f430145/Am3czRvNmZ.json" background="#fff" speed="1" style="width: 100%; height: auto" direction="1" mode="normal" loop autoplay></lottie-player>  
-
-
 :::
 
 ::::
 
 :::::::{dropdown} Plus d'info
 ::::::{tab-set}
-:::::{tab-item} Example
 
+:::::{tab-item} Papier, Stylos ...
+
+Je me permet de vous partager un petit example personel, le notebook de mes années ou je fesais de la recherche, un bijoux de clareté :
 
 ```{image} Docs/Notebook_example.jpg 
 :width: 100%
 
 ```
 
+:::::
+
+:::::{tab-item} Utile mais Obsolète
+
+La prise de note manuscrite est outil que j'ai utilisé (cf example précédent) et que j'utilise encore aujourd'hui, mais je dois reconnaitre qu'il est un peu dépassé.
+
+En effet, il m'arrive de consommer du contenue tout au long de ma journée, dans des circonstances aussi diverses que variés et il ne m'est pas toujours possible de sortir mon carnet et de prendre des notes.
+
+- A refaire
 
 :::::
 
@@ -159,6 +127,17 @@ Hard to maintain and keep consistent over time
 
 :::::
 
+
+:::::{tab-item} Les Cours
+
+Passage obligé quand on parle des notes manuscrites, les cours! Je ne sais pas vous, mais moi, j'ai passé le plus clair de mon parcours scolaire a copier religieusement la sainte parole de mes professeurs sur des cahiers dans le but de les apprendre bêtement et de les régurgiter ensuite pour pouvoir être jugé et ainsi prétendre a une place dans la société. Les briques de connaissances étant accessibles en quelque clics sur internet, cette méthode d'enseignement me semble aujourd'hui complètement obsolète.  
+
+* Aujourd'hui cette masse conséquente de papier a disparu (ou encombre les placard de la maison familiale).
+
+
+:::::
+
+
 ::::::
 
 :::::::
@@ -167,7 +146,7 @@ Hard to maintain and keep consistent over time
 
 <br>
 
-<p class="emphase"> Il existe cependant beaucoup d'alternatives</p>
+<p class="emphase"> <strong>Il existe des alternatives</strong></p>
 
 <br>  
 
@@ -314,121 +293,355 @@ Hard to maintain and keep consistent over time
 <br>
 
 
-```{admonition} Et bien plus encore
-:class: tips
+```{admonition} 
+:class: tips, dropdown
+
+
+
+```
+
+<br>
+<br>
+
+:::::::{dropdown} Plus d'info
+::::::{tab-set}
+
+:::::{tab-item} Et bien plus encore
+
 
 Bien, voici quelques logiciels qui permettent de prendre des notes de manière informatique. Il en existe beaucoup et la liste fournit n'est pas exhaustive. De plus, je ne donne ici que des liens vers les sites vitrines de ces logiciels donc si vous souhaitez plus d'explication sur chacun d'entre eux, leurs forces et leur faiblesses les uns par rapport aux autres, je vous invite a visiter cette page (lien vers jb-tools page dédié) 
 
-```
+:::::
 
-Bon, problème réglé me direz-vous, il ne reste plus qu'a choisir l'un de ces logiciels et partir a l'aventure sur les chemins de la connaissance. Et bien non, quand j'ai commencé a explorer les solutions qui s'offraient a moi, j'avais un cahier des charges bien précis:
+:::::{tab-item} Business
 
 ```{note}
 
-Lister ici les différents fonctions que je souhaitais
+Mentionner Elliot Busines
+
 
 ```
+
+:::::
+
+:::::{tab-item} Bullet Journal
+
+```{note}
+
+Pourquoi pas
+
+
+```
+
+:::::
+
+:::::{tab-item} Les Livres
+
+
+L'une des plus grandes réussites du milieu scolaire a mon égard aura été de me donner gout a la lecture. Je m'en rappel trés bien, c'est l'oeuvre d'une professeure de CM1 de l'école George Brassens de Bon-Encontre (peut être qu'elle se reconnaitra). J'adore le livre et je ne souhaite en aucun cas le rendre obsolète mais je pense qu'il est important a l'ère du numérique de lui trouver des compagnons pour permettre aux auteurs d'explorer de nouvelles façons de créer un récit.
+
+
+:::::
+
+::::::
+
+:::::::
+
+***
 
 <br>
 <br>
 
-<p class="emphase">Mais aucun de ces outils ne me correspondaient parfaitement</p>
+<p class="emphase2"> <strong> La Révolution Internet </strong>  </p>
 
-<h3> Mon cahier des charges </h3>
+<br>
 
-```{note}
-
-- grid jb github ...
-
-- dropdown tab below to explain each
-
-```
-
-
-- * gratuit, open source, accessible, écologique et végan).
-
-
-
-::::{grid} 2
+::::{grid}
 
 :::{grid-item}
 :columns: 8
 
-<br>
+> Paragraphe d'introduction
 
-> Un **Outil** puissant et multitache Mais qui demande des **efforts** 💪
-
-
-```{note}
-
-Discuter ici de ce que je recherche
-- Version
-- Site internet
-- Prise de note facile
-- etc ...
-
-```
 
 :::
-
 
 :::{grid-item}
 :columns: 4
 
 
-<div id="colour">
-    
-
-<p><img src="..\..\..\_static\Svg_icons\newspaper-svgrepo-com.svg" style="width: 30px;"> &nbsp; <strong>Prise de note</strong></p> 
-<p><img src="..\..\..\_static\Svg_icons\keys-svgrepo-com.svg" style="width: 30px;"> &nbsp; <strong>Idéation</strong></p>
-<p><img src="..\..\..\_static\Svg_icons\handshake-deal-svgrepo-com.svg" style="width: 30px;"> &nbsp; <strong>Archivage</strong></p> 
-<p><img src="..\..\..\_static\Svg_icons\bubble-svgrepo-com.svg" style="width: 30px;"> &nbsp;  <strong>Discussion</strong></p> 
-<p><img src="..\..\..\_static\Svg_icons\planet-earth-svgrepo-com.svg" style="width: 30px;"> &nbsp; <strong>Collaboration</strong></p> 
-<p><img src="..\..\..\_static\Svg_icons\hands-and-leaves-svgrepo-com.svg" style="width: 30px;"> &nbsp; <strong>Partage</strong></p> 
-<p><img src="..\..\..\_static\Svg_icons\hands-and-leaves-svgrepo-com.svg" style="width: 30px;"> &nbsp; <strong>Une pieuvre</strong></p>
-
-</div>    
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+<dotlottie-player src="https://lottie.host/2c352088-7d37-41d8-a6a5-0084b61f3ca5/6OVnpK9Zqe.json" background="transparent" speed="1" style="width: 100%; height: auto;" loop autoplay></dotlottie-player>
 
 :::
 
 ::::
 
 
+:::::::{dropdown} Plus d'info
+::::::{tab-set}
+
+:::::{tab-item} Et bien plus encore
+
+
+La méthode d'enseignement enseigné ci-dessus tue la créativité, annihile le questionement et donc déssert la science. Digitalisation ... Aujourd'hui beaucoup de connaissances sont accessibles sur Internet dans de multiples formats. 
+
+:::::
+
+:::::{tab-item} Les créateurs de contenues
+
+```{note}
+
+Nouvelle profession qui prospère sur les réseaux sociaux
+
+
+```
+
+:::::
+
+::::::
+
+:::::::
 
 <br>
 <br>
+
+<p class="emphase"> <strong> Les Réseaux Sociaux </strong>  ✍ </p>
+
+<br>
+
+```{note}
+
+Paragraphe écrit, comparaison
+
+```
+
+::::::{grid} 2
+
+:::::{grid-item}
+:columns: 6
+
+::::{tab-set}
+
+:::{tab-item} Champis
+
+```{figure} Docs/Psilocybe_pelliculosa_122504.jpg
+
+[Source](https://commons.wikimedia.org/wiki/File:Psilocybe_pelliculosa_122504.jpg)
+
+```
+
+:::
+
+:::{tab-item} Hommes
+
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+<dotlottie-player src="https://lottie.host/e2193ed5-65c6-49d4-bdc0-48d90a1e10b7/rSvKd5fXSN.json" background="transparent" speed="1" style="width: 100%; height: auto;" loop autoplay></dotlottie-player>
+
+:::
+
+::::
+
+:::::
+
+:::::{grid-item}
+:columns: 6
+
+::::{tab-set}
+
+:::{tab-item} Champis
+
+```{figure} Docs/mycelium-1.jpg
+
+[Source](http://www.monjardinenpermaculture.fr/)
+
+```
+
+:::
+
+:::{tab-item} Hommes
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://lottie.host/287d934c-3686-4e29-899b-26d09f430145/Am3czRvNmZ.json" background="#fff" speed="1" style="width: 100%; height: auto" direction="1" mode="normal" loop autoplay></lottie-player> 
+
+
+
+:::
+
+::::
+
+
+Personelement, à la manière d'un champignon qui se nourrit de la matière organique en décomposition pour grandir, je me sustante des nombreuses ressources d'internet pour construire mes r 
+
+
+
+:::::
+
+::::::
+
+<br>
+
+
+*** 
+ 
+
+
+
+## Une Solution ?
+
+<p class="emphase2"> <strong> Cahier des charges </strong> </p>
+
+<p class="emphase"> <strong> Catchy phrase </strong> </p>
+
+
+:::::{div} full-width
+::::{grid} 1 1 2 3
+:gutter: 2
+
+:::{grid-item-card}
+:class-header: bg-light
+
+<img src="..\..\..\_static\Svg_icons\newspaper-svgrepo-com.svg" style="width: 30px;"> &nbsp; Bloc-note 
+^^^
+
+- simple
+- complète
+- modulable
+
+:::
+
+:::{grid-item-card}
+:link: ../Appendix/How_do/How_do_I.html#content-references-title2
+:class-header: bg-light
+
+&nbsp; Toile d'Idéation
+^^^
+
+- maléable
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+
+<img src="..\..\..\_static\Svg_icons\planet-earth-svgrepo-com.svg" style="width: 30px;"> &nbsp; Interropérable 
+^^^
+
+- Connected
+- Git compatible
+- Python friendly
+
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+
+<img src="..\..\..\_static\Svg_icons\newspaper-svgrepo-com.svg" style="width: 30px;"> &nbsp; Publiable  
+^^^
+
+- multiformat
+- En ligne
+- Open Source
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+
+<img src="..\..\..\_static\Svg_icons\handshake-deal-svgrepo-com.svg" style="width: 30px;"> Collaboration 
+^^^
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+
+<img src="..\..\..\_static\Svg_icons\bubble-svgrepo-com.svg" style="width: 30px;"> Dialogue 
+^^^
+
+- bienveillant
+ 
+:::
+
+
+:::{grid-item-card}
+:class-header: bg-light
+
+<img src="..\..\..\_static\Svg_icons\hands-and-leaves-svgrepo-com.svg" style="width: 30px;"> Management 
+^^^
+
+- Agile
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+
+Archives
+^^^
+
+- versionées
+
+:::
+
+
+
+:::{grid-item-card}
+:link: ../Appendix/How_do/How_do_I.html#content-references-title4
+:class-header: bg-light
+
+Un Livre 3.0
+^^^
+
+- question mark symbol et lien vers page secrete
+
+:::
+
+
+
+
+
+
+
+::::
+
+<br>
+
+<p class="emphase2">🥵</p>
+
 
 <p class="emphase">Hereusement, Internet est un lieu de <strong>Partage</strong></p>
 
 <br>
 
+<p class="emphase2"><strong>Nos Outils</strong></p>
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 8
+
 Le cahier des charges semble beaucoup trop fournit pour un seul homme qui plus est avec trés peu de skill dans ce domaine. C'est vrai, mais il se trouve qu'internet regorge de connaissances et d'êtres humains avides de les partager.
 
+:::
 
-```{admonition} Petite parenthèse sur les outils **Open Source**
-:class: tips
+:::{grid-item-card}
+:link: https://deugz.github.io/nb-tools/_build/html/intro.html
+:class-header: bg-light
+:columns: 4
 
-Blabla
+**Boite a Outil**
+^^^
 
-```
+Insérer symbole
 
+:::
 
-<p class="emphase">Je vois dans le numérique un outil au potentiel créatif infinit</p>
-
-La raison principale pour laquelle j'ai souhaiter créer ma propre plateforme plutot que d'utiliser un outil préconcue réside dans le caractère créatif qu'offre le web 
-
-
-<br>
-
-
+::::
 
 
-
-## La Solution
-
-### Des Outils
-
-<p class="emphase"><strong>Nos Instruments</strong></p>
+<p class="emphase"><strong>Catchy Phrase</strong></p>
 
 ::::{grid} 4
 :gutter: 2
@@ -512,11 +725,7 @@ Text
 
 
 
-
-
-
-### Une méthode
-
+<p class="emphase2"><strong>La méthode</strong></p>
 
 <p class="emphase">  Markdown <img src="..\..\..\_static\Svg_icons\file-markdown-svgrepo-com.svg" style="width: 20px; margin: 5px;"> + Jupyter Lab <img src="..\..\..\_static\Svg_icons\jupyter-svgrepo-com.svg" style="width: 20px; margin: 5px;"> = <strong>Jupyter Book</strong> <img src="..\..\..\_static\Images\logo_JB.png" style="width: 20px; margin: 5px;"></p>
 
@@ -527,24 +736,36 @@ Text
 <br>
 <br>
 
-::::::{div} full-width
-:::::{grid}
-::::{grid-item}
-:columns: 5 
+```{image} Docs/Working_env.png 
+:width: 100%
 
-:::{dropdown} All kind of inputs 
-Only text notes are available (sorry for stating the obvious), however a whole diversity of content is now generated: videos, podcasts, websites ... It is impossible to refer to the wide variety of content available within a written notebook.
+```
+
+<br>
+<br>
+<br>
+
+
+
+
+:::::{dropdown} Avantages
+
+::::{tab-set}
+
+
+:::{tab-item} All kind of inputs 
+
 :::
 
-:::{dropdown} Multiple outputs
+:::{tab-item} Multiple outputs
 pdf and html
 :::
 
-:::{dropdown} All in one software
+:::{tab-item} All in one software
 **Python** notebook and **Markdown** notebook using the **same software**
 :::
 
-:::{dropdown} Fitted for scientific writing 
+:::{tab-item} Fitted for scientific writing 
 - Bibliography 
 - References
     - Figures
@@ -553,33 +774,33 @@ pdf and html
 - Links and hyperlink ... 
 :::
 
-:::{dropdown} 2 Dimension 
+:::{tab-item} 2 Dimension 
 Implement diagram  
 :::
 
-:::{dropdown} Compartiment knowledge
+:::{tab-item} Compartiment knowledge
 blabla
 :::
 
-:::{dropdown} Iterative implementation
+:::{tab-item} Iterative implementation
 Write as you go along they said ... It will be fun they said ...
 :::
 
 
-:::{dropdown} Allow Feedback
+:::{tab-item} Allow Feedback
 Work is publishable as you go along (or not), and you can get **feedback** at every steps during your scientific journey.
 
 :::
 
-:::{dropdown} Consistant formatting
+:::{tab-item} Consistant formatting
 Hard to maintain and keep consistent over time
 :::
 
-:::{dropdown} infinite lifetime
+:::{tab-item} infinite lifetime
 blabla
 :::
 
-:::{dropdown} Transferable / Recyclable
+:::{tab-item} Transferable / Recyclable
 
 - Recycle your talks ! 
 Put them online and give them a quick twist to fit a wider audience.
@@ -587,153 +808,50 @@ Put them online and give them a quick twist to fit a wider audience.
 
 :::
 
-:::{dropdown} Semantic Web compatible
+:::{tab-item} Semantic Web compatible
 blabla
 :::
 
 
+    
+:::: 
 
-::::
-
-::::{grid-item}
-:columns: 7
-
-```{image} Docs/Working_env.png 
-:width: 100%
-
-```
-
-<br>
-
-
-::::
 :::::
 
-::::::
-
-
-```{note}
-
-Créer un dropdown **tab** Avantage et un dropdown inconvenients
-
-
-```
-
-
-## Le Résultat
-
-
-<p class="emphase2"> Un artiste du Savoir et de la Connaissance</p>
-
-
-::::{grid} 2
-
-:::{grid-item}
-:columns: 6
-
-
-<video controls src="../../../_static/assets/video/Jupyterbook1rabbithole.mp4" style="width=100%; height=auto;"></video>
-
-
-:::
-
-:::{grid-item}
-:columns: 6
-
-<video controls src="../../../_static/assets/video/Jupyterbook2Livegraph.mp4" style="width=100%; height=auto;"></video>
-
-
-:::
-
-::::
-
-Ci dessus sont deux vidéos extraite du site de [MYST](https://mystmd.org/guide/) mais Myst c'est quoi?
-
-
-```{note}
-
-Insérer dans dropdown tab
-
-
-```
-
-<p class="emphase2"> <strong> Result  </strong> </p>
-
 <br>
 <br>
 
-<p class="emphase">  Multiple research compendiums organised in a <strong> Knowledge Base</strong> <br> <img src="..\..\..\_static\Svg_icons\brain-svgrepo-com.svg" style="width: 20px; margin: 5px;"> </p>
+:::::{dropdown} Inconvénients
 
-<p class="emphase"> <strong>Iterative workflow </strong><br><img src="..\..\..\_static\Svg_icons\iteration-filled-svgrepo-com.svg" style="width: 20px; margin: 5px;"> </p>
-
-<p class="emphase" ><strong>Infinite lifetime</strong> <br><img src="..\..\..\_static\Svg_icons\infinity-svgrepo-com.svg" style="width: 20px; margin: 5px;"> </p>
+::::{tab-set}
 
 
+:::{tab-item} Compliqué ...
 
-<p class="emphase"><strong>Markdown</strong> vs Latex or Word ?</p>
+Technologies qui sont difficilement accessible au novice
+
+- Dur au démarrage
+
+- link to tuto
+
+:::
 
 
-
-
-
-::::{grid} 2
-
-:::{grid-item}
-:columns: 8
 
 
     
-<br>
+:::: 
 
-```{admonition} Unis
-:class: dropdown, note
-
-Dans un seul fichier (en local)
-
-```
-
-```{admonition} Interconnéctés
-:class: dropdown, note
-
-Dans un seul fichier (en local)
-
-```
-
-```{admonition} Symbiose
-:class: dropdown, note
-
-au sein d'un seul écocystem, dont vous avez le control et possédez les droits. 
-
-```
-
-<br>
+:::::
 
 
 
-:::
+## Résultats
 
-:::{grid-item}
-:columns: 4
-
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://assets10.lottiefiles.com/packages/lf20_rbexkvmr.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player>
+### Bloc-Note
 
 
-:::
-
-
-::::
-
-
-<p class="emphase" style="color: green;">A <strong>method</strong> <img src="..\..\_static\Svg_icons\cogs-svgrepo-com.svg" style="width: 20px; margin: 5px;"> that <span class="hovertext" data-hover="It makes me go slow, but hopefully very far">works for me</span>, and that I am <strong>happy</strong> 😁 to use !!</p>
-
-
-
-
-<br>
-
-
-<p class="emphase">Un <strong>Journal de bord </strong> en ligne (blog), customizable, versatile et <strong>utile</strong></p>
+<p class="emphase">Un <strong>Journal de bord </strong> en ligne customizable</p>
 
 <br>
 
@@ -774,7 +892,7 @@ Insert card to page How do I use online book (in grid) (a coté de paragraphe ex
 :columns: 3
 
 
-```{image} _static/Images/petit_poucet.jpg
+```{image} ../../../_static/Images/petit_poucet.jpg
 :width: 100%
 :align: center
 
@@ -794,65 +912,115 @@ Insert card to page How do I use online book (in grid) (a coté de paragraphe ex
 
 :::::
 
-
-
-## More
-
-
-
-
-**Et local**
-
-
-
-## Organiseur
-
-link
-
-
-
-:::{margin}
-
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://assets10.lottiefiles.com/packages/lf20_0nssneim.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player>
-
-:::
-
-
-(content:references:How_do_I_Title3)=  
-##  Storage  
+<p class="emphase">   
+<strong>Son Contenue </strong>  
+</p>
 
 <br>
 
-:::{div} full-width
+:::::{grid} 2
 
-<p class="emphase2"> <strong> All in 1  </strong> </p>
+::::{grid-item}
+:columns: 7
 
-<p class="emphase"> I am the owner of my work, and hence don't have to scatter it around</p>
+<div class="embedresize">
+<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/XKaY_N8puZc?si=BHozLtwa4vF-7LbG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+::::
+
+::::{grid-item}
+:columns: 5
+
+<br>
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/354284516&color=%232e6a45&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/deugz" title="Deugz" target="_blank" style="color: #cccccc; text-decoration: none;">Deugz</a> · <a href="https://soundcloud.com/deugz/beatape-for-my-people" title="Beatape for my people" target="_blank" style="color: #cccccc; text-decoration: none;">Beatape for my people</a></div>
+
+::::
+
+:::::
+
+
+```{note}
+
+- Créer un dropdown avec le reste des objets que l'on peut insérer
+    - pdf
+    - excell
+    - pages web ...
+    - code interactif
+
+Créer éventail défilant avec les pages crées qui sont finis ou bien avancé, pages importantes
+
+
+```
 
 
 
-:::
 
 
+### Toile d'idéation
 
 
-:::{div} full-width
+```{note}
 
-<p class="emphase2"> <strong> Evolving Architecture  </strong> </p>
+Insérer svg tree
 
-<p class="emphase"> I often spoke with my supervisor about how a PhD is an <strong>eveloving creature</strong></p>
+```
 
 
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_4eipbkty.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
 
 
+
+### Interropérable
+
+- Possibility
+- Tutorials
+
+
+### Publiable
+
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 6
+
+
+<video controls src="../../../_static/assets/video/Jupyterbook1rabbithole.mp4" style="width=100%; height=auto;"></video>
+
+
 :::
 
+:::{grid-item}
+:columns: 6
+
+<video controls src="../../../_static/assets/video/Jupyterbook2Livegraph.mp4" style="width=100%; height=auto;"></video>
 
 
-:::::{div} full-width
+:::
+
+::::
+
+Ci dessus sont deux vidéos extraite du site de [MYST](https://mystmd.org/guide/) mais Myst c'est quoi?
+
+
+### Collaborative
+
+
+
+### Dialogue
+
+
+### Management
+
+Le bénéfice de cette méthode (en plus des avantages d'avoir ce controle de ton profile sociale), c'est que Tu dispose d'un outils, qui marche en **symbiose** avec ton rythme de vie, puisque tu l'as créée en fonction (et ca va être un processus en évolution perpetuelle et donc iteratif).
+
+
+### Archives
+
+
 
 <p class="emphase2"> <strong>4 Options</strong></p>
 
@@ -916,16 +1084,11 @@ Sharing is caring
 ::::
 
 
-<br>
-<br>
-
-<p class="emphase"> good and consistent <strong>archiving</strong> method</p>
-
-:::::
-
 
 <br>
 
+
+## Produit
 
 
 <p class="emphase2"><strong>Pourquoi?</strong></p>
@@ -987,52 +1150,6 @@ Détourner les gens dess réseaux sociaux et leur proposer un type de contenue d
 ***
 
 <br>
-
-<p class="emphase">   
-<strong>Son Contenue </strong>  
-</p>
-
-<br>
-
-:::::{grid} 2
-
-::::{grid-item}
-:columns: 7
-
-Sensation de puissance de pouvoir disposer du contenue que l'on produit afin de pouvoir l'utiliser (le valoriser) a notre guise.
-
-::::
-
-::::{grid-item}
-:columns: 5
-
-
-
-<div class="embedresize">
-<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/XKaY_N8puZc?si=BHozLtwa4vF-7LbG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-<br>
-
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/354284516&color=%232e6a45&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/deugz" title="Deugz" target="_blank" style="color: #cccccc; text-decoration: none;">Deugz</a> · <a href="https://soundcloud.com/deugz/beatape-for-my-people" title="Beatape for my people" target="_blank" style="color: #cccccc; text-decoration: none;">Beatape for my people</a></div>
-
-::::
-
-:::::
-
-
-```{note}
-
-- Créer un dropdown avec le reste des objets que l'on peut insérer
-    - pdf
-    - excell
-    - pages web ...
-    - code interactif
-
-Créer éventail défilant avec les pages crées qui sont finis ou bien avancé, pages importantes
-
-
-```
 
 
 <p class="emphase"><strong>Utilser tout le potentiel du web dans le processus créatif de narration</strong></p>
@@ -1215,138 +1332,53 @@ Allow for user interaction with the page content
 
 
 
-<h3><strong>&#187;  <u>Open Research Toolbox</u></strong></h3> 
 
-:::::{div} full-width
-::::{grid} 1 1 2 4
-:gutter: 2
+## Conclusion
 
-:::{grid-item-card}
-:link: ../Appendix/How_do/How_do_I.html#content-references-title1
-:class-header: bg-light
+```{note}
 
-Notebook ✏️
-^^^
-
-:::
-
-:::{grid-item-card}
-:link: ../Appendix/How_do/How_do_I.html#content-references-title2
-:class-header: bg-light
-
-Edition ✨
-^^^
-
-
-:::
-
-:::{grid-item-card}
-:link: ../Appendix/How_do/How_do_I.html#content-references-title3
-:class-header: bg-light
-
-Storage 🔁
-^^^
-
-
-:::
-
-:::{grid-item-card}
-:link: ../Appendix/How_do/How_do_I.html#content-references-title4
-:class-header: bg-light
-
-Open Science 🚀
-^^^
-
-:::
-
-:::{grid-item-card}
-:link: ../Appendix/How_do/How_do_I.html#content-references-title5
-:class-header: bg-light
-
-Communication  🎁
-^^^
- 
- 
-:::
-
-:::{grid-item-card}
-:link: ../Appendix/How_do/How_do_I.html#content-references-title6
-:class-header: bg-light
-
-Collaboration ⚡
-^^^
-
-:::
-
-:::{grid-item-card}
-:link: ../Appendix/How_do/How_do_I.html#content-references-title7
-:class-header: bg-light
-
-Management ⚡
-^^^
-
-
-:::
-
-:::{grid-item-card}
-:link: ../Appendix/How_do/How_do_I.html#content-references-title8
-:class-header: bg-light
-
-Publications ⚡
-^^^
-
-
-:::
-
-:::{grid-item-card}
-:link: ../Appendix/How_do/How_do_I.html#content-references-title9
-:class-header: bg-light
-
-Engagement &#128489;
-^^^
-
-
-
-:::
-
-:::{grid-item-card}
-:link: ../Appendix/How_do/How_do_I.html#content-references-title10
-:class-header: bg-light
-
-Social media &#128489;
-^^^
-
-
-
-:::
-
-
-::::
-
-<br>
-
-```{tip}
-
-Clicking on each card will bring you to the specific section of the [How do I](https://deugz.github.io/nb-master/_build/html/Appendix/How_do/How_do_I.html) page where you will get more explanation on how this work for me.
+Reprendre ce qu'on a dit pour faire un paragraphe succint
 
 ```
 
-<br>
-<br>
 
 
 
+### Autres Méthodes
 
-## Ressources
+#### Atomic
+
+- [Page de présentation](https://atomicthinking.fr/notes)
+
+- [Atomic thinking](https://fr.atomicthinking.fr/iat)
+
+- [Le Jardin numérique d'Elliot Meunier](https://notes.eliottmeunier.com/3+GARDEN/Commencez+ici)
 
 
 ```{note}
- 
-- link
 
-(cards)
+Inclure vidéo + petit paragraphe qui explique la différence avec ma méthode a moi
+
 
 ```
+
+
+### Axes d'amélioration
+
+
+- Serveur perso, pour monitorer et controler notre consommation energétique. Permet également de diminuer les frais et de gagner une indépendance totale
+
+```{note}
+
+Green energy serveur are listed [here](https://www.top500.org/lists/green500/)
+
+
+```
+
+
+<p class="emphase">Bien, maintenat q'on a notre petit lopin de terre sur internet, voyons ce qu'on peut y planter</p>
+
+
 
 
 ## Comments

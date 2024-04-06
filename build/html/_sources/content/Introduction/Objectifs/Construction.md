@@ -1,10 +1,65 @@
 # 🔧 Outil de Construction de Conaissance 
 
+***
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 4
+
+<div id="colour">
+    
+<strong>Page Infos:</strong>    
+   
+    
+- ✍️ [Vincent Deguin](https://deugz.github.io/nb-profile/_build/html/intro.html )
+- 🕑: 20 min <br>
+- 🛠️ 05/04/2024 <br> 
+<br>
+      
+- Finished: ❌    <br>   
+- **Reviewed**: ❌<br>
+
+
+</div>
+
+
+<br>
+
+
+
+:::
+
+:::{grid-item}
+:columns: 8
+
+<br>
+
+> **Introduction**: J'aimerais créer un outils de prise de note et d'idéation qui s'appuie sur des technologies open source pour donner aux gens l'opportunité de créer leur propre base de donnée de connaissances.
+    
+
+
+:::
+
+::::
+
+```{admonition} To do
+:class: note, dropdown
+
+- checker semantic tag implementation
+
+
+```
+
+
+## Le Besoin
+
+
+
 
 ```{note}
 
 Insérer vidéo David Louapre et disséquer
-
 
 ```
 
@@ -107,6 +162,46 @@ Une <strong>base de donnée</strong> personelle, <strong>en ligne et interactive
 <p class="emphase">L'<strong>Intelligence Artificielle</strong> ne doit pas supplanter l'<strong>Intelligence Collective</strong> (sous réserve qu'elle existe)</p>
 
 
+
+<p class="emphase2">   
+<strong>Embélir </strong> 🎨
+</p> 
+
+
+
+
+## Solution
+
+::::{grid} 2 
+    
+:::{grid-item}
+:columns: 6
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets10.lottiefiles.com/packages/lf20_rbexkvmr.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player>
+
+
+
+:::
+    
+:::{grid-item}
+:columns: 6
+    
+<div id="coulour">
+
+
+    
+- [Planet Formation](https://deugz.github.io/jb-background/_build/html/intro.html)
+- Scientific Publication
+- Semantic Web
+
+</div>
+
+:::
+
+::::
+
+
 ## Archiver
 
 ```{figure} ../../../_static/SVG_files/Map/Map_Encyclopedia.svg
@@ -189,98 +284,7 @@ Au sein duquel je navigue librement<br>
 
 
 
-<p class="emphase2">   
-<strong>Enrichir </strong> ✍  
-</p>
 
-<p class="emphase">De tes experiences de vie, ainsi que des <strong>connaissances aquises</strong></p>
-
-<div id="P1">
-    
-<div id="subdiv2">
-
-
-J'aimerais créer un outils de prise de note et d'idéation qui s'appuie sur des technologies open source pour donner aux gens l'opportunité de créer leur propre base de donnée de connaissances.
-    
-- Many benefits (lien vers How do I use ...)
-    - Add 1 Dimension (plan) vs hand written notebook (linear constrained by t)
-    
-Prouver qu'il est possible de prendre des notes sur internet en faisant en sorte que ca favorise les processus collaboratifs.
-
-- Je pense que ca peut être un outils pour permettre aux personnes atteintes de TDAH de s'épanouir d'avantage dans leur workflow academic
-
-
-
-
-Personelement, à la manière d'un champignon qui se nourrit de la matière organique en décomposition pour grandir, je me sustante des nombreuses ressources d'internet pour construire mes r 
-
-
-
-
-Je navigue dans ce terreau vertile qu'est internet et ...   
-
-tool. Your own social network cretaed consiusly.
-- Promote collaboration
-
-Suis mes interets ...
-
-Parcours étéroclite
-    
-
-
-Le bénéfice de cette méthode (en plus des avantages d'avoir ce controle de ton profile sociale), c'est que Tu dispose d'un outils, qui marche en **symbiose** avec ton rythme de vie, puisque tu l'as créée en fonction (et ca va être un processus en évolution perpetuelle et donc iteratif).
-
-</div>
-    
-<div id="subdiv2">
-
-
-
-```{figure} Docs/mycelium-1.jpg
-
-[Source](http://www.monjardinenpermaculture.fr/)
-
-```
-
-<br>
-
-::::{grid} 2 
-    
-:::{grid-item}
-:columns: 6
-
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://assets10.lottiefiles.com/packages/lf20_rbexkvmr.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player>
-
-
-
-:::
-    
-:::{grid-item}
-:columns: 6
-    
-<div id="coulour">
-
-
-    
-- [Planet Formation](https://deugz.github.io/jb-background/_build/html/intro.html)
-- Scientific Publication
-- Semantic Web
-
-</div>
-
-:::
-
-::::
-
-</div>
-    
-    
-</div>
- 
- 
-*** 
- 
 
 
 
