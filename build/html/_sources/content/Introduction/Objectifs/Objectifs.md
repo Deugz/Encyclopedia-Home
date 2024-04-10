@@ -5,10 +5,45 @@
 Note
 Construction
 Publication
-Partage
 Education
-Business
+Business/Business
 ```
+
+***
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 4
+
+<div id="colour">
+    
+- ✍️ [Vincent Deguin](https://deugz.github.io/nb-profile/_build/html/intro.html )
+- 🕑: 10 min <br>
+- 🛠️108/04/2024 <br>       
+- Finished: ❌    <br>   
+- **Reviewed**: ❌<br>
+
+</div>
+
+<br>
+
+:::
+
+:::{grid-item}
+:columns: 8
+
+<br>
+
+> **Introcuction**: Dans cette section je vais vous présenter les différents Objectifs résultants de la création et l'utilisation de votre propre Encyclopédie.
+
+:::
+
+::::
+
+
+
+<br>
 
 ## Introduction
 

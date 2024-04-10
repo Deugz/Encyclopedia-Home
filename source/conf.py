@@ -122,7 +122,7 @@ html_theme_options = {
 
     "logo": {
         "text": " &nbsp V. Deguin &nbsp ",
-        "image_dark": "_static/Logo/logo_SFTP.png",
+        "image_dark": "_static/Logo/Encyclopedia-logo.png",
         "alt_text": " &nbsp V. Deguin &nbsp &nbsp",
     },
     

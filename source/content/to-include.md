@@ -1,5 +1,47 @@
 # To include
 
+## Learning planet 
+
+### Thesis
+
+- [Interesting](https://projects.learningplanetinstitute.org/projects/students-learning-development-and-path-planni/summary)
+
+```{note}
+
+Créer un site dans SP-Education
+
+```
+
+
+## Podcast 
+
+- [Pedago](https://shows.acast.com/pedago-universite-paris-cite)
+
+
+```{note}
+
+Insérer dans sp-Education
+
+```
+
+## Outil formulaire
+
+- [Jotforme](https://www.jotform.com/)
+
+
+## Foldit
+
+- [Foldit jeu](https://fold.it/)
+
+```{note}
+
+Insérer dans jb-biology 
+
+- Créer une page science participative dans chacun des sites
+
+```
+
+
 ## Facebook business model
 
 [Business model Facebook](https://businessmodelanalyst.com/facebook-business-model/#Facebook%E2%80%99s_SWOT_Analysis)

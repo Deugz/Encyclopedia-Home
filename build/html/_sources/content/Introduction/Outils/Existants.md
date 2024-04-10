@@ -71,6 +71,17 @@ list (ce que j'aime bien et moins)
 :::::
 
 
+## Static Site Generator
+
+### Popularity
+
+Application produced by ...
+
+<iframe src="https://ssg-dataset.streamlit.app/?embed=true" height="600" width="100%" style={{ width: "100%", border: "none" }}
+></iframe>
+
+
+
 ## Wiki
 
 ```{note}

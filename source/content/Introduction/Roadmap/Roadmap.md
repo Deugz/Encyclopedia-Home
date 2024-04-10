@@ -1,8 +1,45 @@
 # Roadmap
 
-```{note}
+***
 
-To clean
+::::{grid} 2
+
+:::{grid-item}
+:columns: 4
+
+<div id="colour">
+    
+- ✍️ [Vincent Deguin](https://deugz.github.io/nb-profile/_build/html/intro.html )
+- 🕑: 10 min <br>
+- 🛠️ 08/04/2024 <br>       
+- Finished: ❌    <br>   
+- **Reviewed**: ❌<br>
+
+</div>
+
+<br>
+
+:::
+
+:::{grid-item}
+:columns: 8
+
+<br>
+
+> Dans **Mon Encyclopédie** ! C'est une collection de site internet que je créé et implémente au fil de mes experiences de vie. Cette page est un petit syllabus de ce site qui est une description générale du projet dans son ensemble.   
+
+
+:::
+
+::::
+
+
+
+```{admonition} To do
+:class: note, dropdown
+
+- To clean
+- Check Streamlit production of the roadmap
 
 ```
 

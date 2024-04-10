@@ -1,20 +1,58 @@
 # Definition
 
-```{note}
+***
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 4
+
+<div id="colour">
+    
+<strong>Page Infos:</strong>    
+   
+    
+- ✍️ [Vincent Deguin](https://deugz.github.io/nb-profile/_build/html/intro.html )
+- 🕑: 20 min <br>
+- 🛠️ 08/04/2024 <br>     
+- Finished: ❌    <br>   
+- **Reviewed**: ❌<br>
+
+
+</div>
+
+
+<br>
+
+
+
+:::
+
+:::{grid-item}
+:columns: 8
+
+<br>
+
+> Bon, la définition du projet ...
+    
+
+
+:::
+
+::::
+
+```{admonition} To do
+:class: note, dropdown
 
 Créer une difenition du projet, 
-
-```
-
-```{note}
 
 Reflexion sur les noms de différents sites, en fonction de l'architecture.
 
 - Créer un peu comme un système solaire ?
 
 
-```
 
+```
 
 ## Introduction
 
@@ -116,8 +154,20 @@ La raison principale pour laquelle j'ai souhaiter créer ma propre plateforme pl
 
 Créer un logiciel pour gérer les stocks et les finances de la brasserie en utilisant streamlit
 
+- possibilité d'embeb l'app - [link](https://docs.streamlit.io/deploy/streamlit-community-cloud/share-your-app/embed-your-app)
 
+- Trés bon examples et possibilité de fork les apps:
+    - [Roadmap](https://roadmap.streamlit.app/)
+    - [Molecule icon generator](https://molecule-icon-generator.streamlit.app/)
+    - [Webb/Hubble comparator](https://webb-compare.streamlit.app/)
+    - [Emoji shortcodes](https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app/)
+    - [Portfolio](https://mehulgupta2016154-resume-builder-streamlit-app-ajmqjx.streamlit.app/) - good timeline example
+    - [Folium](https://folium.streamlit.app/) - map
+    - [MathGPT](https://mathgpt.streamlit.app/)
+    - [Pandas df ](https://chat-pandas-df.streamlit.app/)
 ```
+
+
 
 
 

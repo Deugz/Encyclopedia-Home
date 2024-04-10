@@ -1,5 +1,75 @@
 # Contribue
 
+***
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 4
+
+<div id="colour">
+    
+- ✍️ [Vincent Deguin](https://deugz.github.io/nb-profile/_build/html/intro.html )
+- 🕑: 10 min <br>
+- 🛠️ 10/04/2024 <br>       
+- Finished: ❌    <br>   
+- **Reviewed**: ❌<br>
+
+</div>
+
+<br>
+
+:::
+
+:::{grid-item}
+:columns: 8
+
+<br>
+
+> **Introduction**: Il existe plusieurs façons qui peuvent te permettre de contribuer ...  
+
+
+:::
+
+::::
+
+
+
+```{admonition} To do
+:class: note, dropdown
+
+- Ecrire et nettoyer
+
+```
+
+## Participe
+
+<p class="emphase2"> <strong> a la vie du site </strong> </p>
+
+
+### Annoter
+
+
+### Commenter
+
+
+### Suivre
+
+
+
+## Soutiens 
+
+### Financiers
+
+#### Coffee
+
+
+#### Patreon
+
+
+### Ecris des Articles
+
+
 
 
 ## Créé ton propre site
@@ -11,7 +81,7 @@
 
 <br>
 
-<p class="emphase2"> <strong> Contact nous! </strong> </p>
+<p class="emphase2"> <strong> On peut t'aider </strong> </p>
 
 
 ```{note}

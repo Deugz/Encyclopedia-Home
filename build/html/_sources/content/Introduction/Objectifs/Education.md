@@ -8,16 +8,11 @@
 :::{grid-item}
 :columns: 4
 
-<div id="colour">
-    
-<strong>Page Infos:</strong>    
-   
+<div id="colour">  
     
 - ✍️ [Vincent Deguin](https://deugz.github.io/nb-profile/_build/html/intro.html )
 - 🕑: 20 min <br>
-- 🛠️ 05/04/2024 <br> 
-<br>
-      
+- 🛠️ 05/04/2024 <br>     
 - Finished: ❌    <br>   
 - **Reviewed**: ❌<br>
 
@@ -48,13 +43,11 @@
 
 <br>
 
-<p class="emphase">   
-Incorporés dans ma <strong> Constelation de Sites Internet </strong>  
-</p>
-
-
+## Ma Toile
 
 <br>
+
+
 
 ```{figure} Docs/Map_Encyclopedia.svg
 
@@ -126,8 +119,46 @@ From different disciplines
 <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_fjv8qxqn.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player>
 
 
+<p class="emphase2"><strong>Gamification</strong></p>
 
-## Learning Managment System
+- **Theories**
+    - [Octalys Framework](https://yukaichou.com/gamification-examples/octalysis-complete-gamification-framework/) - [Tool](https://www.yukaichou.com/octalysis-tool/)
+    - [ARCS Model](https://www.tamus.edu/academic/wp-content/uploads/sites/24/2017/07/ARCS-Handout-v1.0.pdf)
+
+
+
+
+## Ingénieurie Pédagogique
+
+### E-Learning
+
+```{note}
+
+Peut etre bouger cette section dans SP_School
+
+```
+
+
+```{admonition} EdTech
+
+- [Les 10 start-up de la EdTech à connaître en 2024](https://www.itpublic.fr/innovation/les-10-start-up-de-la-edtech-a-connaitre-en-2024/?gad_source=1&gclid=Cj0KCQjwztOwBhD7ARIsAPDKnkBXvYc2aEoYJHvK4RnJEfQrRrhq-7oK-6URcj7vKuhnB4gikMnApoQaAiFyEALw_wcB)
+
+```
+
+
+#### Modèles de développement
+
+- [Article](https://elearningindustry.com/addie-vs-sam-model-best-for-next-elearning-project)
+
+##### ADDIE
+
+<p class="emphase">Analyze, Design, Develop, Implement, Evaluate</p> 
+
+##### SAM
+
+<p class="emphase">Successive Approximation Model</p> 
+
+### Learning Managment System
 
 <strong>plateformes de gestion de l'apprentissage</strong>
 

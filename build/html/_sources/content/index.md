@@ -7,7 +7,6 @@
 
 Introduction/Definition/Definition
 Introduction/Objectifs/Objectifs
-Introduction/Outils/Outils
 Introduction/Roadmap/Roadmap
 Introduction/Contribute/Contribute
 ```
@@ -38,10 +37,192 @@ to-include
 
 ```
 
-<p class="emphase">Si vous êtes arrivé sur cette page, c'est que vous êtes curieux et que vous souhaitez en apprendre d'avantage. Mais avant de commencer, un aventurier se doit de comprendre ou il met les pieds. </p>
+
+***
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 4
+
+<div id="colour">
+    
+- ✍️ [Vincent Deguin](https://deugz.github.io/nb-profile/_build/html/intro.html )
+- 🕑: 10 min <br>
+- 🛠️ 08/04/2024 <br>       
+- Finished: ❌    <br>   
+- **Reviewed**: ❌<br>
+
+</div>
+
+<br>
+
+:::
+
+:::{grid-item}
+:columns: 8
+
+<br>
+
+> Dans **Mon Encyclopédie** ! C'est une collection de site internet que je créé et implémente au fil de mes experiences de vie. Cette page est un petit syllabus de ce site qui est une description générale du projet dans son ensemble.   
 
 
-<h2>Introduction</h2>
+:::
+
+::::
+
+
+
+<br>
+
+<canvas id="canvas-fading-face"></canvas>
+<!-- partial -->
+<script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MotionPathPlugin.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/EasePack3.min.js'></script><script  src="../_static/assets/script/script-fading-face.js"></script>
+
+
+<br>
+<br>
+
+<p class="emphase2"><strong>Mon Encyclopédie </strong></p>
+
+
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 8
+
+
+<p class="emphase">Un espace digitale personel, qui me sert de lieu de stockage, d'aggregation, d'analyse et de partage des informations que je rencontre. </p>
+
+
+
+
+:::
+
+:::{grid-item}
+:columns: 4
+
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+<dotlottie-player src="https://lottie.host/e55ec050-32bd-472c-a8e9-48acdc21c847/I3jpvfvrd7.json" background="transparent" speed="1" style="width: 100%; height: auto;" loop autoplay></dotlottie-player>
+
+:::
+
+::::
+
+
+C'est le fruit d'une méthode de prise de note que j'ai développé quand je fesais de la recherche. Ce qui m'a le plus régalé quand j'ai découvert ça, c'est le fait de pouvoir **créer un site internet** à partir de mes notes brutes. A partir de ce moment, je n'ai eu de cesse d'experimenter cette méthodologie dans tout les domaines que j'ai traversé, avec plus ou moins de réussite. En attendant je prend plaisir a utiliser cette plateforme, a y ajouter du contenue et a la décorer comme l'intérieur d'une maison. Pour en savoir plus je vous invite a consulter la page définitions, au sein duquel je définis le projet dans sa globalité. Ci dessous je vous présente les 4 objectifs qui expliquent plus en détail chacun des avantages que me confèrent l'utilisation d'une telle plateforme. 
+
+
+
+
+<br>
+
+
+<p class="emphase"><strong>Objectifs </strong></p>
+
+<br>
+
+:::::{grid} 2
+
+::::{grid-item}
+
+:::{card}
+:link: https://deugz.github.io/sp-Education_Journey/build/html/index.html
+:class-header: bg-light
+
+✅ Bloc-Note, Journal, Archives en ligne
+^^^
+
+<center>
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+<dotlottie-player src="https://lottie.host/1844fc07-d3ff-4e25-9bc9-685cacb64504/tKOmG2kiUy.json" background="transparent" speed="1" style="width: 60%; height: auto;" loop autoplay></dotlottie-player>
+
+</center>
+    
+
+:::
+
+
+
+::::
+
+::::{grid-item}
+
+:::{card}
+:link: https://deugz.github.io/sp-Hiphop_Journey/build/html/index.html
+:class-header: bg-light
+
+🔧 Une Fabrique Personel de Savoirs
+^^^
+
+
+<center>
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+<dotlottie-player src="https://lottie.host/ab9f7693-37e8-4479-ab8f-75296eaabbb0/NYOeMfuIXs.json" background="transparent" speed="1" style="width: 60%; height: auto; text-align: center; margin-top: 5px;" loop autoplay></dotlottie-player>
+</center>
+ 
+
+:::
+
+::::
+
+::::{grid-item}
+
+:::{card}
+:link: https://deugz.github.io/sp-Pharma_Journey/build/html/index.html
+:class-header: bg-light
+
+Plateforme de Publication & Dialogue 
+^^^
+
+<br>
+
+```{image} _static/Logo/Caducée_lauriers_Couleur.svg
+:width: 93%
+:align: center
+```
+
++++
+🔧
+
+:::
+
+::::
+
+::::{grid-item}
+
+:::{card}
+:link: https://deugz.github.io/sp-Politique_Journey/build/html/index.html
+:class-header: bg-light
+
+Toile Educative Sociale & Sémantique 
+^^^
+
+<br>
+
+```{image} _static/Svg_icons/Under_construction.svg
+:width: 93%
+:align: center
+```
+
++++
+🔎 
+
+:::
+
+::::
+
+:::::
+
+
+
+
+
+
+<h2>Comment ça marche ?</h2>
 
 <br>
 
@@ -50,7 +231,7 @@ to-include
 :::{grid-item}
 :columns: 9
 
-> Bien, visiblement on se trouve ici sur un site internet. Il est difficile d'en deviner la profondeur mais on peut cependant en appercevoir les contours. Prenez le temps d'observer et de vous familiriariser avec les différents éléments de la page. Il vous sont expliqués dans la section ci-dessous
+<p class="emphase"><em> Bonne Question ! </em> <br> <br> Dans un premier temps je te conseil d'ouvrir grand les yeux et d'observer la page. </p>
 
 :::
 
@@ -69,6 +250,16 @@ to-include
 :::::::{dropdown} Les différentes sections de la page
 
 ::::::{tab-set} 
+
+:::::{tab-item} Architecture Générale
+
+> Bien, visiblement on se trouve ici sur un site internet. Il est difficile d'en deviner la profondeur mais on peut cependant en appercevoir les contours. Prenez le temps d'observer et de vous familiriariser avec les différents éléments de la page. Il vous sont expliqués dans la section ci-dessous
+
+
+:::::
+
+
+
 
 :::::{tab-item} Menue Gauche
 
@@ -106,39 +297,24 @@ insérer des images
 
 :::::::
 
-<br>
-<br>
+::::{grid} 2
 
-<p class="emphase2"><strong><em>"Mon Encyclopédie!"</em></strong></p>
+:::{grid-item}
+:columns: 6
 
-<br>
-
-
-```{admonition} Une oeuvre personelle ... 
+```{admonition} Une oeuvre personelle 
 :class: warning, dropdown
 
 L'emploi du terme oeuvre n'est pas anodin
 
 
 ```
+:::
 
-<br>
+:::{grid-item}
+:columns: 6
 
-<canvas id="canvas-fading-face"></canvas>
-<!-- partial -->
-<script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
-<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MotionPathPlugin.min.js'></script>
-<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/EasePack3.min.js'></script><script  src="../_static/assets/script/script-fading-face.js"></script>
-
-- Copyright (c) 2023 Chris Gannon [Source](https://codepen.io/chrisgannon/pen/KKGYxxR)
-
-
-
-
-
-
-
-```{admonition} Et aussi celle de tous le monde
+```{admonition} Et collaborative
 :class: tips, dropdown
 
 J'ai été frappé (et aussi un peu émue) par le nombre "d'objet" en open source (donc gratuit et libre d'être utilisé par tous) que l'on peut trouver sur internet. Cette image (qui est en fait un bout de code html/css/javascript) en est d'ailleurs un exemple parfait. Elle représente bien, je trouve les processus en jeu dans mon esprit, ou de nombreuses idées émergent et naviguent pour finalement être aspirés dans mon inconscient. Le but de cette plateforme et de mettre en lumière cette partie inconsciente de mon intellect, et de pouvoir utiliser les idées qui s'y aggrègent.  
@@ -146,13 +322,21 @@ J'ai été frappé (et aussi un peu émue) par le nombre "d'objet" en open sourc
 
 ```
 
+:::
+
+::::
+
+
+
+<br>
+
+
 
 ***
 
 
-<p class="emphase">Explorer et comprendre le monde d'aujourd'hui pour imaginer et co-construire le monde de demain en permettant a chacun de créer, implémenter et connecter <br><br><strong>Bases de Connaissances</strong> 🧠 <br><br> (Personelle) <br></p>
 
-
+<p class="emphase2"><strong><em>"Mais Pourquoi ?"</em></strong></p>
 
 ::::{grid} 2
 
@@ -160,13 +344,10 @@ J'ai été frappé (et aussi un peu émue) par le nombre "d'objet" en open sourc
 :columns: 7
 
 <br>
-
-> 1 seul objet, une plateforme que j' utilise pour potentialiser mes processus de recherche, d'apprentissage, de partage, et de collaboration dans tout les domaines qui m'interessent et autour duquel je souhaite articuler ma vie. 
+    
+<p class="emphase">1 seul outil que j' utilise pour potentialiser mes processus de recherche, d'apprentissage, de partage, et de collaboration </p>    
 
 <p class="emphase"><em>Plutot cool non?</em></p>
-
-
-<br>
 
 :::
 
@@ -181,16 +362,16 @@ J'ai été frappé (et aussi un peu émue) par le nombre "d'objet" en open sourc
 ::::
 
 
-***
+> Explorer et comprendre le monde d'aujourd'hui requirt des outils a la hauteur de la tache. Imaginer et co-construire le monde de demain en permettant a chacun de contribuer va demander la création de nouveaux outils. C'est une tache a laquelle j'ai envie de m'ateller ^^.  
 
 
+<br>
 
-<h3>Mais Pourquoi?</h3>
-
+:::::::{dropdown} De Nombreux Avantages
 
 ::::::{tab-set} 
 
-:::::{tab-item} Alternative aux réseaux sociaux
+:::::{tab-item} Bases de Connaissances
 
 <br>
 <p class="emphase"> Que faites vous de vos pensées, vos réflexions, lorsque vous naviguez sur les chemins de la connaissance? </p>
@@ -198,32 +379,70 @@ J'ai été frappé (et aussi un peu émue) par le nombre "d'objet" en open sourc
 
 peut être les partagé vous sur les réseaux sociaux, ou mieux, vous les échangez avec vos amis dans une discussion. Les réseaux sociaux sont efficaces dans le partage rapide d'une information, qui puisse fédérer un nombre important de personnes dans le but d'une action rapide. On l'a vue a l'oeuvre dans les révolutoins du monde arabe, mais également dans les émeutes du capitole. En revanche ces mêmes réseaux (qui occupent une part importante de notre "temps de cerveau"), ne permettent pas un processus de construction, ni même une discussion efficace des sujets traités. La construction d'un savoir a partir d'une source exponentielle de connaissance requiert du temps, en plus d'être un processus itératif qui demande une prise de note consciencieuse. Il existe peu de méthodes, autre que la feuille de papier et un stylo pour réaliser cela.   
 
+
+**Alternatives**:
+- Réseaux sociaux
+
 :::::
 
-:::::{tab-item} Un Outil d'apprentissage
+:::::{tab-item} Outil d'apprentissage
+
+
+:::::
+
+:::::{tab-item} Platforme de Publication
 
 insérer diagramme cerveau
 
 :::::
 
-:::::{tab-item} Et + encore ...
+:::::{tab-item} Collaboration
 
-En effet, le potentiel d'une telle ressource est potentiellement infinit
+insérer diagramme cerveau
 
 :::::
 
 ::::::
 
+:::::::
 
+<br>
+<br>
 
-Pour en savoir plus je vous invite a consulter les pages définitions, au sein duquel je définis le projet dans sa globalité et les pages Propriétés qui expliquent plus en détail chacun des avantages que me confèrent l'utilisation d'une telle plateforme.
+<p class="emphase2"><strong><em>"Et Comment ?"</em></strong></p> 
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+<br>
     
+<p class="emphase">C'est un peu complexe donc j'ai crée un site dédié pour tout t'expliquer</p>    
+
+:::
+
+:::{grid-item-card}
+:link: https://deugz.github.io/nb-tools/_build/html/intro.html
+:class-header: bg-light
+:columns: 3
+**Boite a Out's**
+^^^
+
+- image
+
+:::
+
+::::
 
 
+<br>
 
+:::::::{dropdown} Et Comment est-ce que je produis tout ça ?
 
-<p class="emphase"><strong>Et Comment ?</strong></p> 
+::::::{tab-set} 
 
+:::::{tab-item} Les Outils
 
 ```{note}
 
@@ -232,16 +451,39 @@ Extraire les explications de jb-brasserie
 
 ```
 
+:::::
 
-<p class="emphase"><strong>Qu'est-ce que cela implique?</strong></p>
+:::::{tab-item} La Méthode
 
-Expliquer 
+Explication
+
+:::::
+
+:::::{tab-item} Au Quotidien
+
+Explication
+
+:::::
+
+
+::::::
+
+:::::::
+
+
+
+<p class="emphase2"><strong><em>Pour Qui?</em></strong></p>
+
 
 ```{note}
 
-Liens vers definition, propriétés, etc
+Extraire la comparaison avec l'océan
+
 
 ```
+
+
+Exporter
 
 <p class="emphase2"><strong>Architecture</strong></p>
 

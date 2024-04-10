@@ -1,4 +1,9 @@
-# ❌ Business ?
+# ❌ Business, Asso ou Oeuvre Créative ?
+
+```{toctree}
+:hidden:
+Business_model
+```
 
 ***
 
