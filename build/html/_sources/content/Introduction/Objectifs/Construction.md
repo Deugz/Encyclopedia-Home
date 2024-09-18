@@ -53,6 +53,19 @@
 
 ## Introduction
 
+<p class="emphase">Bien! Nous savons désormais aggréger l'information, voyons comment la traiter pour générer des <strong>Connaissances</strong> et <strong>Batir des Savoirs</strong></p>
+
+<br>
+
+<div id="cell-container"></div>  
+
+<canvas id="cell-aggregation"></canvas>
+    
+  
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js'></script><script  src="../../../_static/assets/script/cell-aggregation.js"></script>
+
+
 <br>
 
 <p class="emphase2"><strong>Définitions</strong></p>

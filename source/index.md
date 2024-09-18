@@ -15,8 +15,6 @@ html_theme.sidebar_secondary.remove: true
 content/index
 ```
 
-
-
 <br>
 <br>
 
@@ -29,16 +27,16 @@ content/index
 
 ***
 
-<br>
-<br>
-
 ::::::{grid}
 
 :::::{grid-item}
 :columns: 6
 
+<br>
+<br>
+<br>
 
-<h1><strong>Web Journal</strong></h1>
+<h1> <strong>Web <br> Journal  </strong> </h1>
 
 
 :::::
@@ -46,6 +44,7 @@ content/index
 :::::{grid-item}
 :columns: 6
 
+<br>
 <br>
 
 ::::{grid}
@@ -82,6 +81,8 @@ content/index
 :::
 
 ::::
+
+<br>
 
 ::::{grid}
 
@@ -124,60 +125,55 @@ content/index
 
 ::::::
 
-***
+<br>
 
-<p class="emphase2"><strong><em>"Réfléchir Ensemble à Demain"</em></strong></p>
+<p class="emphase"><strong>Pour documenter mes expériences d'apprentissage et les partager en ligne</strong></p>
+
+***
 
 <br>
 
-:::::::{dropdown} ⚠ De Manière Utile, Créative, Libre, Evolutive, Open-Source, Collaborative, Gratuite et Ouverte ⚠
-
-::::::{tab-set} 
-
-:::::{tab-item} Utile
-
-```{note}
-
-Parler des différents objectifs
-
-
-```
-
-:::::
-
-:::::{tab-item} Créative
-
-La littérature, les arts visuels, la musique sont autants d'arts qui permettent d'éveiller les sens et de mieux ressentir notre environement. Internet permet de combiner ces différentes formes d'art dans un même format et j'aimerai en associer le plus possible pour créer un contenue qui parle et qui soit agréable au lecteur. En utilsant les outils de mise en page que m'offre le 'language css', J'essaie de mettre en place plusieurs niveaux de lecture. Vous verrez également que certains contenue sont cachés, ou tout de moins le lecteur est obligé de cliquer pour accéder au contenue. J'ai fait cela pour rendre le lecteur actif vis a vis du contenu et ca me permet également de rentrer dans la détail d'un concept et d'en explorer les différentes ramifications sans surcharger la page. Le tou me permettant une immense créativité vis a vis de la **mise en récit** de l'histoire que je souhaite raconter.
-
-
-
-:::::
-
-:::::{tab-item} Libre
- 
-Ce que j'entend par Libre, c'est que j'écris sur ce qui m'intéresse, sans aucune restriction et de manière totalement subjective. Il en est de même pour toute les personnes qui souhaiteraient participer ou écrire sur le site. La seule chose a laquel je refuse de déroger est la **bienveillance** dans les propos qui sont tenus.
-
-- Coté artistique, création libre
-
-:::::
-
-:::::{tab-item} Evolutive
-
-::::{grid} 2
+::::{grid} 3
 
 :::{grid-item}
-:columns: 6
-
-
+:columns: 2
 
 :::
 
 :::{grid-item}
-:columns: 6
+:columns: 8
 
-<div class="embedresize">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KJiTSsron0Q?si=Tg63R61xMfEvU4fm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<div id="sky">
+  <div class="bird">
+    <div class="wind"></div>
+    <div class="wind"></div>
+    <div class="wind"></div>
+    <div class="wind"></div>
+    <div class="wind"></div>
+    <div class="wind"></div>
+    <div class="wind"></div>
+    <div class="wind"></div>
+    <div class="wind"></div>
+    <div class="wind"></div>
+    <div class="bird_body">
+      <div class="bird_head"></div>
+      <div class="bird_wing_left">
+        <div class="bird_wing_left_top"></div>
+      </div>
+      <div class="bird_wing_right">
+        <div class="bird_wing_right_top"></div>
+      </div>
+      <div class="bird_tail_left"></div>
+      <div class="bird_tail_right"></div>
+    </div>
+  </div>
 </div>
+
+:::
+
+:::{grid-item}
+:columns: 2
 
 :::
 
@@ -185,38 +181,227 @@ Ce que j'entend par Libre, c'est que j'écris sur ce qui m'intéresse, sans aucu
 
 
 
+<div class="dialogue-container">
+<div class="dialogue">
+<input type="radio" id="show-question" name="joke">
+<input type="radio" id="show-answer" name="joke">
+<label for="show-question" title="Vincent Deguin">
+<img src="_static/Images/profile-pic-round.png" alt="" class="avatar ">
+</label>
+<div class="speech ">
+<p id="question"><br>C'est un projet personnel que j'ai commencé à développer en 2022 pendant ma thèse d'astrochimie à l'Open University. L'objectif initial de la plateforme était d'investiguer et d'expérimenter de nouveaux moyens de communication scientifique grâce aux outils numériques. Il a depuis évolué et est aujourd'hui principalement <strong>une base de construction, de réflexion et de partage de mes connaissances.</strong></p>
+<p id="answer">La science est gangréné par un système de publication commercial qui asservit les chercheurs en les forçant a adopter une démarche productivistes et concurentiels vis a vis de leur résultats. J'ai voulue échapper a ce système en développant mon propre moyen de communication scientifique tout en espérant que cela plaise a mes supérieurs. Malhereusement ce ne fut pas le cas, et je ne suis pas devenue chercheur, mais j'ai continué mes experimentations sur la <strong> publication alternative</strong>.  </p>
+</div>
+<label for="show-question" id="btn-question">C'est quoi ce site?</label>
+<label for="show-answer" id="btn-answer">Je t'explique</label>
+</div>
+</div>
+
+<br>
+
+***
+
+<p class="emphase"> <strong> Explorer collectivement des pistes pour un monde plus durable </strong></p> 
+
+<br>
+
+::::::::{grid} 2
+
+:::::::{grid-item}
+:columns: 8
+
+
+
+<p class="emphase"><em>"Trouver des outils et mettre en place des méthodes pour digérer l'information et construire collectivement des savoirs communs. Créer un espace d'expression libre pour partager nos expériences, nos enseignements, et bâtir ensemble le monde de demain."</em></p>
+
+:::::::
+
+
+:::::::{grid-item}
+:columns: 4
+
+
+
+::::::{grid} 3
+
+:::::{grid-item}
+:columns: 4
+
+```{image} _static/SVG_files/Development_goals/Sustainable_Development_Goal_03GoodHealth.svg
+:width: 100%
+
+```
+
 :::::
 
-:::::{tab-item} Open-Source
+:::::{grid-item}
+:columns: 4
 
-J'ai construit ce site (et tout les autres), grace a des technologie **Open-Source**. Les deux principales sont [Jupyter Book](https://jupyterbook.org/en/stable/intro.html) et [Github](https://github.com/). J'aimerai d'ailleurs et c'est un des objectifs de ce site, de promouvoir ces technologies open-source et a quels point elles peuvent apporter une alternative viable aux GAFAM (Google, Apple, Facebook, Amazon, et Microsoft)
+```{image} _static/SVG_files/Development_goals/Sustainable_Development_Goal_04QualityEducation.svg
+:width: 100%
 
-:::::
-
-:::::{tab-item} Collaborative
-
-J'aimerai beaucoup apporter une dimension collaborative a mon projet et Github m'en donne la possibilité. En revanche, Github est un logiciel technique qui demande un apprentissage approfondie avant de pouvoir l'utiliser de manière routinière (moi même qui l'utilise depuis 2 ans n'en suis qu'a mes débuts). En revanche avant de co-écrire, il vous est tout de même possible de commenter et d'annoter le contenue de chaque page alors faites vous plaisir!
+```
 
 :::::
 
-:::::{tab-item} Gratuite
+:::::{grid-item}
+:columns: 4
 
-Oui je n'ai rien payé (en dehors de mon temps et d'un peu de sueur) pour créer ce site. Ce qui rend la méthode quasi universelle (pour qui possède un ordinateur et les connaissances nécessaires a l'utilisation des technologies mentionnés plus haut)
+```{image} _static/SVG_files/Development_goals/Sustainable_Development_Goal_08DecentWork.svg
+:width: 100%
 
-Cela limite le champ d'action comme par example:
-- Une URL longue et difficilement partageable
-- Une limitation au niveau de la taille des fichier (2Go)
-
-
-Mais ca préserve une totale indépendance (et c'est pour l'instant le plus important)
+```
 
 :::::
 
-:::::{tab-item} Ouverte
+::::::
 
-Oui tout le monde et le bienvenue et peut participer. Je ne récolte aucun cookies (enfin je crois), et ne m'intéresse absolument pas a votre vie privée. Du moment que vous êtes motivés pour naviguer sur les chemins de la connaissances, je veux de vous dans mon équipage. 
+::::::{grid} 3
 
 
+:::::{grid-item}
+:columns: 4
+
+```{image} _static/SVG_files/Development_goals/Sustainable_Development_Goal_09Industry.svg
+:width: 100%
+
+```
+
+:::::
+
+:::::{grid-item}
+:columns: 4
+
+```{image} _static/SVG_files/Development_goals/Sustainable_Development_Goal_10ReducedInequalities.svg
+:width: 100%
+
+```
+
+:::::
+
+:::::{grid-item}
+:columns: 4
+
+```{image} _static/SVG_files/Development_goals/Sustainable_Development_Goal_12ResponsibleConsumption.svg
+:width: 100%
+
+```
+
+:::::
+
+::::::
+
+
+::::::{grid} 3
+
+
+:::::{grid-item}
+:columns: 4
+
+```{image} _static/SVG_files/Development_goals/Sustainable_Development_Goal_13Climate.svg
+:width: 100%
+
+```
+
+:::::
+
+:::::{grid-item}
+:columns: 4
+
+```{image} _static/SVG_files/Development_goals/Sustainable_Development_Goal_16PeaceJusticeInstitutions.svg
+:width: 100%
+
+```
+
+:::::
+
+:::::{grid-item}
+:columns: 4
+
+```{image} _static/SVG_files/Development_goals/Sustainable_Development_Goal_17Partnerships.svg
+:width: 100%
+
+```
+
+:::::
+
+
+::::::
+
+:::::::
+
+::::::::
+
+<br>
+
+
+```{admonition} Pour se lancer en douceur ...
+
+<em>Je vous propose de commencer par une plongée dans les ressources produite par le [Learning Planet Institute](https://www.learningplanetinstitute.org/). Ils ont créé une série de vidéo youtube qui explore ...</em>
+
+
+
+```
+
+<br>
+
+:::::::::{grid} 2
+
+::::::::{grid-item}
+:columns: 6
+
+<p class="emphase2"> <strong> Problèmes </strong></p> 
+
+
+:::::::{dropdown} Introduction (Youtube playlist)
+
+::::::{tab-set}
+
+:::::{tab-item} Ep 1
+
+<div class="embedresize">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/GTP25MoU870?si=Gz1OIExM81cYhETJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<br>
+
+Ce premier épisode introduit la notion d’anthropocène. Il présente les principales caractéristiques démographiques, économiques, sociales et environnementales du développement humain. Puis il aborde le rôle central de l’énergie dans ces processus de transformation et se poursuit avec les principes de fonctionnement de la biosphère.
+
+:::::
+
+:::::{tab-item} Ep 2
+
+<div class="embedresize">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/BcOAtULNV3U?si=xPAELvB8YFeRxvai" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<br>
+
+Cet épisode présente la théorie scientifique des limites planétaires et ses différentes composantes. L’exploration des différents ordres de grandeur du métabolisme de l’humanité commence par l’énergie.
+
+:::::
+    
+:::::{tab-item} Ep 3
+
+<div class="embedresize">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/3F-r26hL8UM?si=R-nUgLwYVNqtODMN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<br>
+
+A la suite de l’épisode 2, cet épisode introduit les autres ressources et contraintes physiques du métabolisme humain : les ressources minières, les gaz à effet de serre, le changement climatique et les autres types de pollution.
+
+:::::
+
+:::::{tab-item} Ep 4
+
+<div class="embedresize">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/WYpWltRwuAI?si=JC-B8D9rPzTRv9qH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<br>
+
+Ce dernier épisode présente les impacts sur la biosphère et les limites de l’exploitation des ressources issues du vivant. Il porte un regard prospectif sur les besoins à venir de l’humanité et passe en revue certains modèles théoriques et cadres institutionnels qui peuvent aider à concevoir des pistes de solutions à ces défis globaux qui seront détaillées dans la deuxième grande partie.
 
 :::::
 
@@ -224,199 +409,316 @@ Oui tout le monde et le bienvenue et peut participer. Je ne récolte aucun cooki
 
 :::::::
 
-<br>
+::::::::
 
-<h2> <strong>Partager Nos Connaissances </strong> </h2>
-
-<br>
-
-::::::{grid} 3
-
-:::::{grid-item}
-:columns: 5
-
-<br>
-
-
-Pour la première fois peut-être de l'histoire de l'humanité, les humains commencent à avoir collectivement conscience de vivre une transition évolutive, comme celles qui ont mené de la soupe primordiale d'où naquit la vie jusqu'à l'apparition de Sapiens.
-
-<p class="emphase">Une chance extraordinaire</p>
-
-<br>
-
-Plus nous serons nombreux à nous emparer des questions que pose cette nouvelle transition, plus nous saurons mobiliser notre **intelligence collective**, celle des humains comme celle des autres êtres vivants et des machines, plus nous aurons de chance d'apporter des réponses satisfaisantes et d'inventer un avenir plus souhaitable que celui que nous annoncent certains prophètes ou que nous construisent certains technologues.
-
-- [François Taddei](https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Taddei), [Apprendre au XXI siècle](https://www.numilog.com/874037/Apprendre-au-XXIe-siecle.ebook).
-
-:::::
-
-:::::{grid-item}
-:columns: 1
-
-:::::
-
-:::::{grid-item}
+::::::::{grid-item}
 :columns: 6
 
-```{admonition} Avant de commencer
-:class: warning, dropdown
 
-- Ce site est accessible sur ordinateur et mobile via un navigateur web, en revanche il est designé pour se lire uniquement sur un écran d'ordinateur.
-
-- Il se construit de manière organique comme un journal et de nouvelles version sont mise en ligne de manière hebdomadaires. 
-
-- Prenez le temps de lire et explorer.
-
-```
-
-<br>
-
-:::{dropdown} Le Projet en une phrase
-
-Permettre a chacun de construire sa base de connaissance personel pour batir ensemble une vision systémique et durable du monde de demain.
+<p class="emphase2"> <strong> Solutions </strong></p> 
 
 
-:::
+:::::::{dropdown} Introduction (Youtube playlist)
 
-<p class="emphase2"> 🤔 </p>
+::::::{tab-set}
 
-```{admonition} C'est quoi ce truc ?
-:class: note, dropdown
+:::::{tab-item}  1
 
-Il s'agit en premier lieu d'un site internet. Il est le fruit de la découverte d'une nouvelle methode pour contruire des sites web qui s'appelle [JupyterBook](https://jupyterbook.org/en/stable/intro.html), que j'utilise pour mon usage personel depuis septembre 2022 (en gros). J'ai commencé petit avec un seul site pour discuter de ma recherche de ma nière ouverte et interactive et puis de fil en aiguille, j'ai construit ma propre encyclopédie. 
-
-```
-
-
-```{admonition} Et pourquoi je suis là ?
-:class: tip, dropdown
-
-Probablement parce que t'es un pote ou un proche a ce stade de l'avancement du projet. Je te conseil de finir la lecture de cette page, ainsi tu en auras une meilleure idée ma démarche et des projets qui s'y attache. 
-
-```
-
-
-```{admonition} Mais attention !
-:class: important, dropdown
-   
-Le contenue de ce site n'a pas été révisé, corrigé. Il s'agit d'une version brute de notes que j'écris de manière plus ou moins assidue (et de manière plus ou moins riguoureuses). 
-
-```
-
-
-```{admonition} Apportez votre contribution
-:class: warning, dropdown
-
-Le but premier de ce site web est de créer une conversation et de féderer autour de cette nouvel methode qui se situe en marge des "réseaux sociaux classiques".
-
-```
+<div class="embedresize">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/ptpE3cModh8?si=BlOUIux3gQ9fgVRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 <br>
 
+Cet épisode d’introduction reprend des éléments clés de la première partie et explique la méthodologie de construction des épisodes suivants.
+
+:::::
+
+:::::{tab-item}  2
+
+<div class="embedresize">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/O0jpae5jnbg?si=m1wdXrj0r4-adrdU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<br>
+
+Cet épisode s’interroge sur ce qu’il est réellement pertinent d’évaluer. Il présente des travaux sur  les différentes composantes de “la qualité de vie” et sur les manières de mesurer la prospérité de l’humanité.
+L’épisode se termine par des exemples d’indicateurs, alternatifs au PIB, qui ont été proposés pour mesurer “la richesse” de la vie humaine.
+
+:::::
+    
+:::::{tab-item}  3
+
+<div class="embedresize">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/YpZ7K23zYyQ?si=i19ajOdhApcPrdXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<br>
+
+Cet épisode aborde les différentes pistes d’action complémentaires envisagées en fonction des secteurs d’activité afin de diminuer les émissions des gaz à effets de serre jusqu’au point “Net zero”, susceptible de stopper le changement climatique.
+
+:::::
+
+:::::{tab-item} 4
+
+<div class="embedresize">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/W4JYWOYHJr8?si=KstNEz8pE7aXRon6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<br>
+
+Dans la continuité de l’épisode sur la stabilisation du climat, cet épisode présente les grands leviers identifiés pour décarboner les systèmes de production énergétique et limiter leurs impacts environnementaux.
+
+:::::
+
+:::::{tab-item} 5
+
+<div class="embedresize">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/w0wbLWVvgNM?si=DAXO0xCHnfvNEpwc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<br>
+
+Dans la continuité de l’épisode sur le système énergétique, cet épisode  aborde la manière dont l’humanité extrait et utilise des ressources pour son fonctionnement. Il présente et illustre d’exemples,  les grands principes permettant de limiter la quantité de matière qui entre dans le cycle de production et de consommation de biens matériels.
+
+:::::
+
+:::::{tab-item} 6
+
+<div class="embedresize">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/SHARs58TGEI?si=6rbORZKHx0sZoWUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<br>
+
+Cet épisode  présente différentes approches possibles pour protéger et régénérer la biosphère, ainsi que pour enrayer l’effondrement de la biodiversité. Là encore, les grands principes sont illustrés par des exemples d’initiatives ayant donné de bons résultats.
+
+:::::
+
+:::::{tab-item} 7
+
+<div class="embedresize">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/EseSUpmUwZo?si=ukmVqSDVHrGbVp73" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<br>
+
+Cet épisode explore les enjeux de transformation des systèmes agroalimentaires et propose des pistes pour produire et consommer autrement, afin de réduire les pressions environnementales, tout en permettant à l’ensemble de l’humanité de se nourrir sainement.
+
+:::::
+
+:::::{tab-item} 8
+
+<div class="embedresize">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/HoqoUQh55bg?si=s8wU5Xv0lEXICFhj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<br>
+
+Cet épisode explore les besoins de transformation des modèles éducatifs. Il offre un aperçu des modèles pédagogiques innovants qui émergent afin de répondre aux défis de l’éducation contemporaine. À travers des exemples concrets, il incite à la réflexion sur les nouvelles approches éducatives nécessaires pour préparer les générations d’aujourd’hui et de demain à relever nos défis communs.
 
 :::::
 
 ::::::
 
+:::::::
 
-***
 
-<p class="emphase2"><strong><em>"Un Besoin Vitale"</em></strong></p>
+
+::::::::
+
+:::::::::
 
 <br>
+
+
+
+:::{dropdown} Analyse approfondie
+
+```{note}
+
+Créer une analyse approfondie à partir des vidéos ci-dessus. link avec le projet et mettre des liens vers les différentes pages associées
+
+
+```
+
+
+
+```{note}
+
+- [Source](https://www.learningplanetinstitute.org/quelles-pistes-de-solutions-pour-un-monde-soutenable/)
+
+Penser a checker les sources et a les implémenter dans les différents sites concernés
+
+- [Lien vers les sources](https://www.learningplanetinstitute.org/wp-content/uploads/2023/01/WEBSITE2023_fiches_quelles_solutions.pdf)
+
+```
+
+
+:::
+
+
+
+
+
+<br>
+
+<h2> Qui suis-je ? </h2>
+
+<br>
+<br>
+
+:::::::{grid}
+
+::::::{grid-item}
+:columns: 6
+
+<p class="emphase2"><strong>Vincent Deguin</strong></p>
+
+J' aime apprendre mais surtout faire apprendre, le tout de manière fun et créative. La beauté du monde m'émerveille et j'aimerai faire partager cet émerveillement avec le plus grand nombre. 
+
+
+<br>
+
+
+::::::
+
+::::::{grid-item}
+:columns: 6
+
+
+```{image} _static/Images/Vincent-Deguin-OpenUniversity50_crop.jpg
+
+```
+
+<br>
+
+```{tip}
+
+Cette photo, prise dans mon laboratoire d'astrocimie, au coté de la première version de mon experience dédié a la production de minuscules particules de glaces amorphes, a été prise en 2022 par [Cris Floyd](https://www.chrisfloyd.com/), a l'occasion des 50 ans de l'Open University [Source](https://ounews.co/student-stories/shooting-for-the-stars-and-beyond/). 
+
+
+```
+
+<br>
+<br>
+    
+:::::{grid} 2    
+    
+    
+::::{grid-item-card}
+:link: https://deugz.github.io/nb-profile/_build/html/intro.html
+:class-header: bg-light
+:columns: 8
+**Mon profile**
+
+^^^
+
+
+```{image} _static/Images/Title-profile-Viny-5.png
+
+```
+
+::::
+
+::::{grid-item}
+:columns: 4
+
+**Réseaux**
+
+![flag alt >](_static/Svg_icons/researchgate-svgrepo-com.svg) [V. Deguin](https://www.researchgate.net/profile/Vincent-Deguin)
+
+![flag alt >](_static/Svg_icons/orcid-svgrepo-com.svg) [ORCID](https://orcid.org/0000-0003-2280-8273)
+
+![flag alt >](_static/Svg_icons/github-svgrepo-com.svg) [Deugz](https://github.com/Deugz)
+
+![flag alt >](_static/Svg_icons/codepen-svgrepo-com.svg) [Deugz](https://codepen.io/deugz/)
+
+![flag alt >](_static/Svg_icons/youtube-svgrepo-com.svg) [SBFP](https://www.youtube.com/channel/UCfAsBZ1atxP-hyltfiCiM2w)
+
+::::
+    
+    
+    
+:::::
+
+::::::
+
+:::::::
+
+
+<br>
+
+:::::::{admonition} Mon parcours personel et la génèse du projet
+:class: note, dropdown
 
 ::::::{tab-set} 
 
-:::::{tab-item} Etat des lieux 
-
-::::{tab-set} 
-
-:::{tab-item} L'Education
-
-J'ai un regard très critique sur l'éducation, les médias et plus généralement sur la façon dont sont partagés les connaissances. En effet, notre [système éducatif](lienblog) repose sur des fondements idéologiques du 19<sup>ème</sup> siècle, les [médias](lienblog) sont en grande parties possédés par des milliardaires qui ont bien compris qu'il s'agit d'un outils puissant pour manipuler les masses et enfin, la [publication scientifique](lienblog) est gangréné par des intérets financiers qui pousse a la productivité au détriment de la qualité... Un constat bien déprimant dans une époque qui a pourtant un **besoin vitale d'idée nouvelles** pour faire face aux nombreux défis résultant de l'impacte de l'homme sur la planète. Le système éducatif se contente de faire avaler puis régurgiter les connaisances sans préter grande attention a leur assimilation, dans le but de classer les éleves en vue d'un aiguillage sociale. Pour moi c'est une faute grave, qui a un impact immense sur la société car produisant des êtres facilement manipulables et peu armés face a un monde qui se complexifie. C'est pour y remédier que j'ai créé cette plateforme. 
+:::::{tab-item} La recherche
 
 
-:::
 
+J'ai eu la chance et l'honneur de participer a un projet de recherche dont l'objectif était de mieux comprendre la *formation des planètes* ...
 
-:::{tab-item} Les Médias
+WTF Jackie chan meme
 
-```{figure} _static/Images/Wheel-media-2.png
----
-width: 100%
-name: media-wheel
-alt: figure showing the different owners of the most common french medias
----
-Cette figure, produite par le monde diplomatique [Source](https://www.monde-diplomatique.fr/cartes/PPA) - [Github repo](https://github.com/mdiplo/Medias_francais?tab=readme-ov-file), nous présente a qui appartiennent les différents médias.
-```
+:::::
+
+:::::{tab-item} La découverte
+
+::::{grid}
+
+:::{grid-item}
+:columns: 8
 
 :::
 
 
-:::{tab-item} Les Sciences
+:::{grid-item}
+:columns: 4
 
-- Publication scientifique
-
-<div class="embedresize">
-<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/rcgxY__YXEc?start=19" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets7.lottiefiles.com/packages/lf20_ZAY921.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player>
 
 :::
-
-:::{tab-item} La Politique
-
-Lol
-
-
-:::
-
 
 ::::
-  
-:::::
-
-:::::{tab-item} Un Monde en transition
-
-Paragraphe explicatif
 
 :::::
 
+:::::{tab-item} la phase de Test
 
-:::::{tab-item} Reflexion Collective
 
-Besoin de voire le monde dans toute sa complexité
-
-- Interdisciplinarité
 
 :::::
 
+:::::{tab-item} La réflexion
 
-:::::{tab-item} Le besoin d'outil 
 
-paragraphe explicatif
+
+:::::
+
+:::::{tab-item} Implémentation
+
+On en est la
 
 :::::
 
 
-:::::{tab-item} Force Citoyenne
-
-On a besoin de générer une force citoyenne motrice dont le carburant est l'intelligence Collective
-
-:::::
 
 ::::::
 
+:::::::
 
 <br>
-
-<h2> <strong>Objectifs </strong> </h2>
-
 <br>
 
-<p class="emphase2"><strong><em>"Permettre a Chacun"</em></strong></p>
+***
 
-<p class="emphase"><strong>De Digérer l'information</strong></p>
 
+<p class="emphase2"> <strong>Mon Projet</strong> </p>
+
+<p class="emphase"><strong><em>"Des outils et des méthodes qui permettent à chacun de digérer l'information"</em></strong></p>
 
 ::::{grid}
 
@@ -425,7 +727,7 @@ On a besoin de générer une force citoyenne motrice dont le carburant est l'int
 
 <br>
 
-Nous vivons dans un monde ou l'information est omniprésente. Présente sous des formes multiples, elle est accessible d'un simple clique et par le biais du téléphone portable est presque devenue une extension de notre corps. La connaissance en revanche, fruit de l'analyse, l'interprétation et la synthèse approfondie d'une source d'information est beaucoup moins répandue. La raison tient dans le fait qu'elle implique la capacité à questionner, utiliser ces informations et a les relier à d'autres concepts, ce qui n'est pas chose aisé. C'est dans l'optique de faire fructifier mon esprit d'analyse, de synthèse et plus généralement mon esprit critique que j'ai commencé cette oeuvre qui m'apportait beaucoup d'avantages par rapport aux méthodes traditionneles.      
+Nous vivons dans un monde où l'information est omniprésente. Présente sous des formes multiples, elle est accessible d'un simple clic et, par le biais du téléphone portable, elle est presque devenue une extension de notre corps. La connaissance, en revanche, fruit de l'analyse, de l'interprétation et de la synthèse approfondie d'une source d'information, est beaucoup moins répandue. Cela s'explique par le fait qu'elle implique la capacité à questionner, utiliser ces informations et les relier à d'autres concepts, ce qui n'est pas chose aisée. C'est dans l'optique de développer mon esprit d'analyse, de synthèse et, plus généralement, mon esprit critique, que j'ai entrepris cette œuvre, qui m'apporte de nombreux avantages par rapport aux méthodes traditionnelles.     
 
 :::
 
@@ -439,47 +741,124 @@ Nous vivons dans un monde ou l'information est omniprésente. Présente sous des
 
 ::::
 
-::::::{dropdown} Plus d'infos sur l'information
+::::::::{dropdown} Quels outils? Inventaire et cahier des charges
 
-:::::{tab-set} 
+::::::{tab-set} 
 
-::::{tab-item} Les Sources
+:::::{tab-item} Open-Sources
 
+```{note}
 
-{numref}`media-wheel`
-
-::::
-
-::::{tab-item} 
+Définir open source ...
 
 
-
-
-::::
-
-::::{tab-item} 
-
-
-
-
-::::
-
-::::{tab-item} 
-
-
-
-::::
+```
 
 :::::
+
+:::::{tab-item} Gratuits
+
+Je n'ai rien a vendre!
+
+
+:::::
+
+:::::{tab-item} Utiles 
+
+
+Discuter des différents bénéfices a l'echelle individuelle
+
+```{note}
+
+Parler des différents objectifs
+
+
+```
+
+
+:::::
+
+:::::{tab-item} Techniques
+
+Compliqué a prendre en main
+
+:::::
+
+
+
+:::::{tab-item} Adaptables
+
+Expliquer
+
+
+:::::
+
+:::::{tab-item} Evolutifs
+
+Expliquer
+
+
+:::::
+
+:::::{tab-item} et Méconnues!
+
+<p class="emphase">Voici les différents logiciels que j'utilise</p>
+
+::::{tab-set} 
+
+:::{tab-item} Jupyter Lab
+
+
+
+:::
+
+:::{tab-item} Jupyter Book
+
+
+
+:::
+
+:::{tab-item} Github
+
+
+
+:::
+
+::::
+
+- Combien en connais-tu?
+
+```{note}
+
+Utilise la fonction *annotation* pour répoondre.
+
+
+
+```
+
+:::::
+
+
 
 ::::::
 
 
-<br>
+
+::::::::
+
+
 <br>
 
 
-<p class="emphase"><strong>De Batir et Partager ses Connaissances</strong></p>
+
+
+<br>
+
+
+<br>
+
+
+<p class="emphase"><strong><em>"Afin que tous, nous puissions construire et partager nos connaissances"</em></strong></p>
 
 <br>
 <br>
@@ -585,62 +964,19 @@ J'aime apprendre mais surtout j'aime **Faire apprendre**. Le monde naturelle qui
 
 <br>
 <br>
-<br>
-
-<p class="emphase2"> <strong> <em>"Pour Co-créer"</em></strong></p>
 
 
-<p class="emphase"><strong>Des Bases de Réflexions Collaboratives</strong></p>
-
-:::::{grid}
-
-::::{grid-item}
-:columns: 8
-
-> En effet, ... Explication
-
-<br>
+<p class="emphase"><strong><em>"Pour co-créer Des Bases de Réflexions et vivre sur Une Planète Apprenante" </em></strong></p>
 
 
-::::
 
-::::{grid-item}
-:columns: 4
+:::::::::{grid}
+
+::::::::{grid-item}
+:columns: 6
 
 <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
-<dotlottie-player src="https://lottie.host/6a24c561-2443-48f1-902b-3bb4b3230c66/WRkYFkXGnw.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
-
-
-
-::::
-
-:::::
-
-<p class="emphase"><strong>Une Planète Apprenante</strong></p>
-
-:::::{grid}
-
-::::{grid-item}
-:columns: 8
-
-> En effet, ... Explication
-
-<br>
-
-
-::::
-
-::::{grid-item}
-:columns: 4
-
-<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
-<dotlottie-player src="https://lottie.host/84a2604f-6949-4f1b-94b5-2bed45d1d90f/RY3RsVBcFT.json" background="transparent" speed="0.6" style="width: 100%; height: auto;" loop autoplay></dotlottie-player>
-
-::::
-
-:::::
-
-<br>
+<dotlottie-player src="https://lottie.host/6a24c561-2443-48f1-902b-3bb4b3230c66/WRkYFkXGnw.json" background="transparent" speed="1" style="width: 52%; height: auto;" loop autoplay></dotlottie-player>
 
 :::::{dropdown} Petite vidéo explicative
 
@@ -654,146 +990,126 @@ J'aime apprendre mais surtout j'aime **Faire apprendre**. Le monde naturelle qui
 :::::
 
 
-<p class="emphase2"> <strong> <em>"Et ainsi Générer" </em></strong> </p>
 
-<p class="emphase"> <strong> Une Intelligence Collective</strong> </p>
+::::::::
 
-
-<p class="emphase"> <strong> Pour un Monde Plus Durable</strong> </p>
-
-
-<h2> <strong>Mon Champ d'Action </strong> </h2>
-
-<br>
-
-
-<p class="emphase2"><strong><em>"Qui suis-je?"</em></strong></p>
-
-<div id="note">
-
-:::::{grid}
-
-::::{grid-item}
-:columns: 3
-
-<br>
-
-```{image} _static/Images/profile-pic-round.png
-
-```
-
-<br>
-
-
-::::
-
-::::{grid-item}
+::::::::{grid-item}
 :columns: 6
 
-<p class="emphase"><strong>Vincent Deguin</strong></p>
-
-Un citoyen du monde qui aime apprendre mais surtout faire apprendre, le tout de manière fun et créative. La beauté du monde m'émerveille et j'aimerai faire partager cet émerveillement avec le plus grand nombre. 
-
-
-<br>
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+<dotlottie-player src="https://lottie.host/84a2604f-6949-4f1b-94b5-2bed45d1d90f/RY3RsVBcFT.json" background="transparent" speed="0.6" style="width: 80%; height: auto;" loop autoplay></dotlottie-player>
 
 
-::::
-
-    
-::::{grid-item-card}
-:link: https://deugz.github.io/nb-profile/_build/html/intro.html
-:class-header: bg-light
-:columns: 3
-**Mon profile**
-
-^^^
-
-
-```{image} _static/Images/Title-profile-Viny-5.png
-
-```
-
-::::
-
-:::::
-    
-</div>
-  
-
-<br>
-    
-:::::::{admonition} Mon parcours personel et la génèse du projet
-:class: note, dropdown
+:::::::{dropdown} Qu'est ce que j'entends par base de réflexion
 
 ::::::{tab-set} 
 
-:::::{tab-item} La recherche
+:::::{tab-item} Utile
+
+Dans un premier temps, j'aimerai vous expliquer comment j'utilise cette plateforme..
+
+```{note}
+
+Parler des différents objectifs
 
 
-
-J'ai eu la chance et l'honneur de participer a un projet de recherche dont l'objectif était de mieux comprendre la *formation des planètes* ...
-
-WTF Jackie chan meme
+```
 
 :::::
 
-:::::{tab-item} La découverte
+:::::{tab-item} Créative
 
-::::{grid}
+La littérature, les arts visuels, la musique sont autants d'arts qui permettent d'éveiller les sens et de mieux ressentir notre environement. Internet permet de combiner ces différentes formes d'art dans un même format et j'aimerai en associer le plus possible pour créer un contenue qui parle et qui soit agréable au lecteur. En utilsant les outils de mise en page que m'offre le 'language css', J'essaie de mettre en place plusieurs niveaux de lecture. Vous verrez également que certains contenue sont cachés, ou tout de moins le lecteur est obligé de cliquer pour accéder au contenue. J'ai fait cela pour rendre le lecteur actif vis a vis du contenu et ca me permet également de rentrer dans la détail d'un concept et d'en explorer les différentes ramifications sans surcharger la page. Le tou me permettant une immense créativité vis a vis de la **mise en récit** de l'histoire que je souhaite raconter.
+
+
+
+:::::
+
+:::::{tab-item} Libre
+ 
+Ce que j'entend par Libre, c'est que j'écris sur ce qui m'intéresse, sans aucune restriction et de manière totalement subjective. Il en est de même pour toute les personnes qui souhaiteraient participer ou écrire sur le site. La seule chose a laquel je refuse de déroger est la **bienveillance** dans les propos qui sont tenus.
+
+- Coté artistique, création libre
+
+:::::
+
+:::::{tab-item} Evolutive
+
+::::{grid} 2
 
 :::{grid-item}
-:columns: 8
+:columns: 6
+
+
 
 :::
 
-
 :::{grid-item}
-:columns: 4
+:columns: 6
 
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://assets7.lottiefiles.com/packages/lf20_ZAY921.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player>
+<div class="embedresize">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/KJiTSsron0Q?si=Tg63R61xMfEvU4fm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 :::
 
 ::::
 
-:::::
-
-:::::{tab-item} la phase de Test
-
 
 
 :::::
 
-:::::{tab-item} La réflexion
+:::::{tab-item} Open-Source
+
+J'ai construit ce site (et tout les autres), grace a des technologie **Open-Source**. Les deux principales sont [Jupyter Book](https://jupyterbook.org/en/stable/intro.html) et [Github](https://github.com/). J'aimerai d'ailleurs et c'est un des objectifs de ce site, de promouvoir ces technologies open-source et a quels point elles peuvent apporter une alternative viable aux GAFAM (Google, Apple, Facebook, Amazon, et Microsoft)
+
+:::::
+
+:::::{tab-item} Collaborative
+
+J'aimerai beaucoup apporter une dimension collaborative a mon projet et Github m'en donne la possibilité. En revanche, Github est un logiciel technique qui demande un apprentissage approfondie avant de pouvoir l'utiliser de manière routinière (moi même qui l'utilise depuis 2 ans n'en suis qu'a mes débuts). En revanche avant de co-écrire, il vous est tout de même possible de commenter et d'annoter le contenue de chaque page alors faites vous plaisir!
+
+:::::
+
+:::::{tab-item} Gratuite
+
+Oui je n'ai rien payé (en dehors de mon temps et d'un peu de sueur) pour créer ce site. Ce qui rend la méthode quasi universelle (pour qui possède un ordinateur et les connaissances nécessaires a l'utilisation des technologies mentionnés plus haut)
+
+Cela limite le champ d'action comme par example:
+- Une URL longue et difficilement partageable
+- Une limitation au niveau de la taille des fichier (2Go)
+
+
+Mais ca préserve une totale indépendance (et c'est pour l'instant le plus important)
+
+:::::
+
+:::::{tab-item} Ouverte
+
+Oui tout le monde et le bienvenue et peut participer. Je ne récolte aucun cookies (enfin je crois), et ne m'intéresse absolument pas a votre vie privée. Du moment que vous êtes motivés pour naviguer sur les chemins de la connaissances, je veux de vous dans mon équipage. 
 
 
 
 :::::
-
-:::::{tab-item} Implémentation
-
-On en est la
-
-:::::
-
-
 
 ::::::
 
 :::::::
 
+::::::::
+
+:::::::::
+
+
+
+
 <br>
+
+***
+
+<p class="emphase2"> <strong>Ma Base de Connaissance</strong> </p>
+
 <br>
-
-<p class="emphase2"> <strong> <em>"Mes Intérets" </em></strong> </p>
-
-<p class="emphase">  Là ou je peux <strong> contribuer à une société plus durable</strong> </p>
-
-<br>
-
-
 
 :::::{grid} 5
 
@@ -1102,35 +1418,76 @@ A insérer!
 
 <br>
 
+
+
+
+
+<p class="emphase"><strong>Une toile vivante</strong></p>
+
+
+```{image} _static/Map/Map_Encyclopedia.svg
+
+```
+
+
+```{warning}
+
+A retravailler
+
+```
+
+
+
+<br>
+
+<h2> Objectifs </h2>
+
+
+<h3><strong>✅ Bloc-Note, Organiseur, Archives en ligne</strong></h3>
+
+<br>
+
+```{note}
+
+Faire le lien avec bullet journal
+
+
+```
+
+<h3><strong>🔧 Une Fabrique Collective de Savoirs</strong></h3>
+
+<br>
+
+<h3><strong>🔧 Plateforme de Publication & Dialogue</strong></h3>
+
+<br>
+
+<h3><strong>🔎 Toile Educative Sociale & Sémantique</strong></h3>
+
+
+
 <h2> Et Maintenant? </h2>
 
 <br>
 
-<p class="emphase2"> <strong> <em>"Explore,"</em></strong> </p>
 
-::::{grid} 2
+::::::::{grid} 3
 
-:::{grid-item}
-:columns: 5
+:::::::{grid-item}
+:columns: 4
 
+<p class="emphase"> <strong> <em>"Explore,</em></strong> </p>
+
+***
 
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://lottie.host/2da1ae07-1150-49ef-9f50-c33bc4c49d58/CkDXKlbPlx.json" background="#fff" speed="1" style="width: 300px; height: 300px" direction="1" mode="normal" loop autoplay></lottie-player>
+<lottie-player src="https://lottie.host/2da1ae07-1150-49ef-9f50-c33bc4c49d58/CkDXKlbPlx.json" background="#fff" speed="1" style="width: 80%; height: auto" direction="1" mode="normal" loop autoplay></lottie-player>
 
-:::
 
-:::{grid-item}
-:columns: 7
+::::::{dropdown} Quelques conseils de lecture
 
 En fonction de ta curiosité, voyage de planète en planète, de manière fluide en te laissant guider par tes centres d'intérets.
 
-:::
-
-::::
-
-<br>
-
-::::::{dropdown} Quelques conseils de lecture
 
 :::::{tab-set} 
 
@@ -1159,40 +1516,31 @@ Créer une liste de lecture avec les pages les plus abouties
 ::::::
 
 
-<br>
 
-<p class="emphase2"> <strong> <em>"Apprends ..."</em></strong> </p>
+:::::::
 
-<br>
+:::::::{grid-item}
+:columns: 4
 
+<p class="emphase"> <strong> <em>Apprends,</em></strong> </p>
 
-::::{grid} 2
-
-:::{grid-item}
-:columns: 5
+***
 
 <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
 <dotlottie-player src="https://lottie.host/14436da2-b5e7-4163-bddc-bd4974308afd/szPlhrweqe.json" background="transparent" speed="1" style="width: 100%; height: auto;" loop autoplay></dotlottie-player>
 
-:::
 
-:::{grid-item}
-:columns: 7
+:::::::
 
-> Reprendre ce qui a été dit avant (semi conclusion)
+:::::::{grid-item}
+:columns: 4
 
-:::
+<p class="emphase"> <strong> <em>Et Contribue !"</em></strong> </p>
 
-::::
-
-<br>
+***
 
 
-
-
-<p class="emphase2"> <strong> <em>"Et Contribue !"</em></strong> </p>
-
-<br>
+::::::{dropdown} Comment ?
 
 :::::{tab-set} 
 
@@ -1247,7 +1595,31 @@ Tu peux aussi me contacter directement si tu as des questions ou si tu veux cont
 
 :::::
 
+::::::
+
+:::::::
+
+::::::::
+
 <br>
+
+
+
+<p class="emphase2"> 🔥 <strong>Les Actualités </strong> </p>
+
+<br>
+
+
+
+```{note}
+
+Insérer ici les sites sur lequel on travaille
+
+
+```
+
+
+
 
 # Commentaires
 

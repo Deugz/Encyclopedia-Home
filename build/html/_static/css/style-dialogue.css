@@ -1,0 +1,209 @@
+.dialogue input[name=joke]{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.dialogue-container{
+    margin-top: 100px;
+    width: 100%;
+    font-size: 1rem;
+    display: grid;
+    place-content: left;
+}
+
+.dialogue{
+    --_speed: 500ms;
+    position: relative;
+}
+
+.dialogue label{
+    cursor: pointer;
+    display: block;
+    position: relative;
+    transition: all 300ms ease-in-out;
+}
+.avatar{
+    margin-top: 8%;
+    border: 3px solid black;
+    border-top-left-radius: 150px 155px;
+    border-top-right-radius: 150px 150px;
+    border-bottom-right-radius: 150px 150px;
+    border-bottom-left-radius:150px 150px;
+    overflow: hidden;
+    width: 20%;
+    height: 20%;
+    box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 0.16);
+}
+
+.dialogue .speech {
+    --_bg: white;
+    position: absolute;
+    top: -120px;
+    left: -40px;
+    width: 400px;
+    padding: 1.5rem 3rem;
+    border: .25rem solid #000;
+    background-color: var(--_bg);
+    box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 0.16);
+    border-radius: 50%;
+    font-size: 1rem;
+    transition: all 500ms ease-in-out;
+    scale: 0;
+    display: grid;
+    place-content: center;
+    grid-template-areas: 'stack';
+}
+
+.speech::before {
+    content: "";
+    position: absolute;
+    left: 90px;
+    bottom: -50px;
+    width: 12rem;
+    height: 6rem;
+    border-radius: 100%;
+    rotate: -15deg;
+    box-shadow:5px 0, 25px -5px var(--_bg), 25px -5px 0 5px;    
+    clip-path: polygon(0% 50%, 140% 50%, 150% 100%, 0% 100%);
+}
+
+#btn-question,
+#btn-answer{
+    transition: translate 300ms ease-in-out 500ms,opacity 300ms ease-in-out 500ms,background-color 300ms ease-in-out;
+    text-align: center;
+    width: 20%;
+    padding: .5rem .75rem; 
+    white-space: nowrap;
+    background: #FFF;
+    z-index: 99;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 1rem;
+    box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 0.16);
+}
+
+#btn-question{
+	 	translate: 0px 20px;
+}
+
+#btn-answer{
+		opacity: 0;
+	 	translate: 0px -40px;
+		pointer-events: none;
+}
+
+
+@media (min-width: 500px) {
+    .dialogue .speech {
+        top: -100px;
+        left: 20%;
+        width: 80%;
+        height: 100%;
+        font-size: 1rem;
+    }
+
+    .speech::before {
+        left: -20px;
+        bottom: -30px;
+        rotate: -5deg;
+    }
+}
+
+#btn-question:hover,
+#btn-answer:hover{
+    background: linear-gradient(to bottom right, #003300 0%, #009933 120%);
+    color: #FFF;
+}
+.speech p{
+    position: relative;
+    grid-area: stack;
+    transition: opacity var(--_speed);
+    opacity: 0;
+}
+
+.speech p::before,
+.speech p::after{
+    content: '';
+    position: absolute;
+    background-color: var(--_bg);
+    transition: inset 150ms linear;
+}
+.speech p::before{
+    inset: -3px -3px 50% -4px;
+}
+.speech p::after{
+    inset:  50% -3px -3px -4px;
+    transform-origin: left;
+}
+
+
+/* transitions on radio checked */
+/* reveal speech bubble */
+.dialogue input[name=joke]:checked~.speech {
+    scale: 100%;
+}
+
+/* reveal question  */
+input[id=show-question]:checked~.speech #question{
+    opacity: 100%;
+	
+}
+input[id=show-question]:checked ~ .speech #question::before {
+    inset: 0 0 50% 100% !important;
+    transition: inset var(--_speed) linear;
+    transition-delay: var(--_speed);
+}
+input[id=show-question]:checked ~ .speech #question::after {
+    inset: 50% 0 0 100%  !important;
+    transition: inset calc(var(--_speed) * 1.5) linear;
+    transition-delay: calc(var(--_speed) * 2);
+}
+/* reveal answer button */
+input[id=show-question]:checked ~ #btn-answer{
+    translate: 20px -30px;
+    opacity: 100%;
+		pointer-events: auto;
+    transition: translate var(--_speed) calc(var(--_speed) * 6),opacity var(--_speed) calc(var(--_speed) * 6);
+}
+input[id=show-question]:checked ~ #btn-question{
+		opacity: 0;
+		translate: : 0 -40px;
+		pointer-events: none;
+}
+input[id=show-answer]:checked~#btn-question{
+	 	translate: 0;
+    opacity: 100%;
+		pointer-events: auto;
+    transition: translate var(--_speed) calc(var(--_speed) * 8),opacity var(--_speed) calc(var(--_speed) * 8);
+}
+
+/* reveal answer  */
+input[id=show-answer]:checked~.speech #answer {
+    opacity: 100%;
+}
+
+input[id=show-answer]:checked~#btn-answer{
+	translate: 20px -40px;
+	opacity: 0%;
+	
+}
+
+
+input[id=show-answer]:checked~.speech #answer::before {
+    inset: 0 0 50% 100% !important;
+    transition: inset var(--_speed) linear;
+    transition-delay: var(--_speed);
+}
+
+input[id=show-answer]:checked~.speech #answer::after {
+    inset: 50% 0 0 100% !important;
+    transition: inset calc(var(--_speed) * 1.5) linear;
+    transition-delay: calc(var(--_speed) * 2);
+}

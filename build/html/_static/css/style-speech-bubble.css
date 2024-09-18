@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+:root {
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.speech-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%
+  overflow: hidden;
+}
+
+.speech-cloud-container {
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  max-height: 800px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+}
+
+.speech-cloud {
+  position: relative;
+}
+.speech-cloud svg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 600px;
+  height: auto;
+  stroke: #000;
+  stroke-width: 1;
+  filter: drop-shadow(0.5rem 0.5rem 0 #000);
+}
+.speech-cloud span {
+  font-size: clamp(4rem, 40vw, 12rem);
+  color: #fff;
+  -webkit-text-stroke: 8px black;
+  text-stroke: 8px black;
+  position: relative;
+  top: -3rem;
+  z-index: 2;
+  text-shadow: 0.5rem 0.5rem 0 #000;
+}

@@ -71,6 +71,7 @@ Un récit auquel je pouvais donner la direction que je voulais. En effet a parti
 
 
 
+
 ## Mon Projet
 
 <p class="emphase2"><strong>IKIGAI</strong></p>
@@ -167,6 +168,191 @@ Créer un logiciel pour gérer les stocks et les finances de la brasserie en uti
     - [Pandas df ](https://chat-pandas-df.streamlit.app/)
 ```
 
+
+
+
+<h2> <strong>Partager Nos Connaissances </strong> </h2>
+
+<br>
+
+::::::{grid} 3
+
+:::::{grid-item}
+:columns: 5
+
+<br>
+
+
+Pour la première fois peut-être de l'histoire de l'humanité, les humains commencent à avoir collectivement conscience de vivre une transition évolutive, comme celles qui ont mené de la soupe primordiale d'où naquit la vie jusqu'à l'apparition de Sapiens.
+
+<p class="emphase">Une chance extraordinaire</p>
+
+<br>
+
+Plus nous serons nombreux à nous emparer des questions que pose cette nouvelle transition, plus nous saurons mobiliser notre **intelligence collective**, celle des humains comme celle des autres êtres vivants et des machines, plus nous aurons de chance d'apporter des réponses satisfaisantes et d'inventer un avenir plus souhaitable que celui que nous annoncent certains prophètes ou que nous construisent certains technologues.
+
+- [François Taddei](https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Taddei), [Apprendre au XXI siècle](https://www.numilog.com/874037/Apprendre-au-XXIe-siecle.ebook).
+
+:::::
+
+:::::{grid-item}
+:columns: 1
+
+:::::
+
+:::::{grid-item}
+:columns: 6
+
+```{admonition} Avant de commencer
+:class: warning, dropdown
+
+- Ce site est accessible sur ordinateur et mobile via un navigateur web, en revanche il est designé pour se lire uniquement sur un écran d'ordinateur.
+
+- Il se construit de manière organique comme un journal et de nouvelles version sont mise en ligne de manière hebdomadaires. 
+
+- Prenez le temps de lire et explorer.
+
+```
+
+<br>
+
+:::{dropdown} Le Projet en une phrase
+
+Permettre a chacun de construire sa base de connaissance personel pour batir ensemble une vision systémique et durable du monde de demain.
+
+
+:::
+
+<p class="emphase2"> 🤔 </p>
+
+```{admonition} C'est quoi ce truc ?
+:class: note, dropdown
+
+Il s'agit en premier lieu d'un site internet. Il est le fruit de la découverte d'une nouvelle methode pour contruire des sites web qui s'appelle [JupyterBook](https://jupyterbook.org/en/stable/intro.html), que j'utilise pour mon usage personel depuis septembre 2022 (en gros). J'ai commencé petit avec un seul site pour discuter de ma recherche de ma nière ouverte et interactive et puis de fil en aiguille, j'ai construit ma propre encyclopédie. 
+
+```
+
+
+```{admonition} Et pourquoi je suis là ?
+:class: tip, dropdown
+
+Probablement parce que t'es un pote ou un proche a ce stade de l'avancement du projet. Je te conseil de finir la lecture de cette page, ainsi tu en auras une meilleure idée ma démarche et des projets qui s'y attache. 
+
+```
+
+
+```{admonition} Mais attention !
+:class: important, dropdown
+   
+Le contenue de ce site n'a pas été révisé, corrigé. Il s'agit d'une version brute de notes que j'écris de manière plus ou moins assidue (et de manière plus ou moins riguoureuses). 
+
+```
+
+
+```{admonition} Apportez votre contribution
+:class: warning, dropdown
+
+Le but premier de ce site web est de créer une conversation et de féderer autour de cette nouvel methode qui se situe en marge des "réseaux sociaux classiques".
+
+```
+
+<br>
+
+
+:::::
+
+::::::
+
+
+***
+
+<p class="emphase2"><strong><em>"Un Besoin Vitale"</em></strong></p>
+
+<br>
+
+::::::{tab-set} 
+
+:::::{tab-item} Etat des lieux 
+
+::::{tab-set} 
+
+:::{tab-item} L'Education
+
+J'ai un regard très critique sur l'éducation, les médias et plus généralement sur la façon dont sont partagés les connaissances. En effet, notre [système éducatif](lienblog) repose sur des fondements idéologiques du 19<sup>ème</sup> siècle, les [médias](lienblog) sont en grande parties possédés par des milliardaires qui ont bien compris qu'il s'agit d'un outils puissant pour manipuler les masses et enfin, la [publication scientifique](lienblog) est gangréné par des intérets financiers qui pousse a la productivité au détriment de la qualité... Un constat bien déprimant dans une époque qui a pourtant un **besoin vitale d'idée nouvelles** pour faire face aux nombreux défis résultant de l'impacte de l'homme sur la planète. Le système éducatif se contente de faire avaler puis régurgiter les connaisances sans préter grande attention a leur assimilation, dans le but de classer les éleves en vue d'un aiguillage sociale. Pour moi c'est une faute grave, qui a un impact immense sur la société car produisant des êtres facilement manipulables et peu armés face a un monde qui se complexifie. C'est pour y remédier que j'ai créé cette plateforme. 
+
+
+:::
+
+
+:::{tab-item} Les Médias
+
+```{figure} _static/Images/Wheel-media-2.png
+---
+width: 100%
+name: media-wheel
+alt: figure showing the different owners of the most common french medias
+---
+Cette figure, produite par le monde diplomatique [Source](https://www.monde-diplomatique.fr/cartes/PPA) - [Github repo](https://github.com/mdiplo/Medias_francais?tab=readme-ov-file), nous présente a qui appartiennent les différents médias.
+```
+
+:::
+
+
+:::{tab-item} Les Sciences
+
+- Publication scientifique
+
+<div class="embedresize">
+<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/rcgxY__YXEc?start=19" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+:::
+
+:::{tab-item} La Politique
+
+Lol
+
+
+:::
+
+
+::::
+  
+:::::
+
+:::::{tab-item} Un Monde en transition
+
+Paragraphe explicatif
+
+:::::
+
+
+:::::{tab-item} Reflexion Collective
+
+Besoin de voire le monde dans toute sa complexité
+
+- Interdisciplinarité
+
+:::::
+
+
+:::::{tab-item} Le besoin d'outil 
+
+paragraphe explicatif
+
+:::::
+
+
+:::::{tab-item} Force Citoyenne
+
+On a besoin de générer une force citoyenne motrice dont le carburant est l'intelligence Collective
+
+:::::
+
+::::::
+
+
+<br>
 
 
 

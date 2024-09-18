@@ -40,6 +40,10 @@
     <link rel="stylesheet" type="text/css" href="../../../_static/css/style_flipping_card.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/css/style_wheel.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/css/periodic-table.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/css/style-dialogue.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/css/cell-aggregation.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/css/style-bird.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/css/slider.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../../../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
@@ -61,7 +65,8 @@
     <script src="../../../_static/assets/script/script_flipping_card.js"></script>
     <script src="../../../_static/assets/script/script_wheel.js"></script>
     <script src="../../../_static/assets/script/scriptvideo.js"></script>
-    <script src="../../../_static/assets/script/slideshow.js"></script>
+    <script src="../../../_static/assets/script/cell-aggregation.js"></script>
+    <script src="../../../_static/assets/script/slider-script.js"></script>
     <script src="../../../_static/design-tabs.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-E1LZY6PF7T"></script>
@@ -643,6 +648,12 @@ document.write(`
 </div>
 <div class="section" id="introduction">
 <h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this heading">#</a></h2>
+<p class="emphase">Bien! Nous savons désormais aggréger l'information, voyons comment la traiter pour générer des <strong>Connaissances</strong> et <strong>Batir des Savoirs</strong></p>
+<br>
+<div id="cell-container"></div>  
+<p><canvas id="cell-aggregation"></canvas></p>
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js'></script><script  src="../../../_static/assets/script/cell-aggregation.js"></script>
 <br>
 <p class="emphase2"><strong>Définitions</strong></p>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">

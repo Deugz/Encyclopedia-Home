@@ -41,6 +41,10 @@
     <link rel="stylesheet" type="text/css" href="_static/css/style_flipping_card.css" />
     <link rel="stylesheet" type="text/css" href="_static/css/style_wheel.css" />
     <link rel="stylesheet" type="text/css" href="_static/css/periodic-table.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/style-dialogue.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/cell-aggregation.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/style-bird.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/slider.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
@@ -62,7 +66,8 @@
     <script src="_static/assets/script/script_flipping_card.js"></script>
     <script src="_static/assets/script/script_wheel.js"></script>
     <script src="_static/assets/script/scriptvideo.js"></script>
-    <script src="_static/assets/script/slideshow.js"></script>
+    <script src="_static/assets/script/cell-aggregation.js"></script>
+    <script src="_static/assets/script/slider-script.js"></script>
     <script src="_static/design-tabs.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-E1LZY6PF7T"></script>
@@ -533,14 +538,16 @@ document.write(`
 <a class="reference internal image-reference" href="_images/Encyclopedia-3.png"><img alt="_images/Encyclopedia-3.png" src="_images/Encyclopedia-3.png" style="width: 100%;" /></a>
 <br>
 <hr class="docutils" />
-<br>
-<br>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row docutils">
 <div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
-<h1><strong>Web Journal</strong></h1>
+<br>
+<br>
+<br>
+<h1> <strong>Web <br> Journal  </strong> </h1>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<br>
 <br>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row docutils">
@@ -554,6 +561,7 @@ document.write(`
 <span class="hovertext" data-hover="Un lieu de réflexion collective et inclusif, ou tout le monde est le bienvenue"> <img alt="flag alt &gt;&gt;" src="_images/work-together-collaborate-co-operate-join-forces-svgrepo-com.svg" /> </span></div>
 </div>
 </div>
+<br>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row docutils">
 <div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
@@ -569,12 +577,125 @@ document.write(`
 </div>
 </div>
 </div>
-<hr class="docutils" />
-<p class="emphase2"><strong><em>"Réfléchir Ensemble à Demain"</em></strong></p>
 <br>
+<p class="emphase"><strong>Pour documenter mes expériences d'apprentissage et les partager en ligne</strong></p>
+<hr class="docutils" />
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
+<div class="sd-col sd-d-flex-column sd-col-2 sd-col-xs-2 sd-col-sm-2 sd-col-md-2 sd-col-lg-2 docutils">
+</div>
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<div id="sky">
+  <div class="bird">
+    <div class="wind"></div>
+    <div class="wind"></div>
+    <div class="wind"></div>
+    <div class="wind"></div>
+    <div class="wind"></div>
+    <div class="wind"></div>
+    <div class="wind"></div>
+    <div class="wind"></div>
+    <div class="wind"></div>
+    <div class="wind"></div>
+    <div class="bird_body">
+      <div class="bird_head"></div>
+      <div class="bird_wing_left">
+        <div class="bird_wing_left_top"></div>
+      </div>
+      <div class="bird_wing_right">
+        <div class="bird_wing_right_top"></div>
+      </div>
+      <div class="bird_tail_left"></div>
+      <div class="bird_tail_right"></div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-2 sd-col-xs-2 sd-col-sm-2 sd-col-md-2 sd-col-lg-2 docutils">
+</div>
+</div>
+</div>
+<div class="dialogue-container">
+<div class="dialogue">
+<input type="radio" id="show-question" name="joke">
+<input type="radio" id="show-answer" name="joke">
+<label for="show-question" title="Vincent Deguin">
+<img src="_static/Images/profile-pic-round.png" alt="" class="avatar ">
+</label>
+<div class="speech ">
+<p id="question"><br>C'est un projet personnel que j'ai commencé à développer en 2022 pendant ma thèse d'astrochimie à l'Open University. L'objectif initial de la plateforme était d'investiguer et d'expérimenter de nouveaux moyens de communication scientifique grâce aux outils numériques. Il a depuis évolué et est aujourd'hui principalement <strong>une base de construction, de réflexion et de partage de mes connaissances.</strong></p>
+<p id="answer">La science est gangréné par un système de publication commercial qui asservit les chercheurs en les forçant a adopter une démarche productivistes et concurentiels vis a vis de leur résultats. J'ai voulue échapper a ce système en développant mon propre moyen de communication scientifique tout en espérant que cela plaise a mes supérieurs. Malhereusement ce ne fut pas le cas, et je ne suis pas devenue chercheur, mais j'ai continué mes experimentations sur la <strong> publication alternative</strong>.  </p>
+</div>
+<label for="show-question" id="btn-question">C'est quoi ce site?</label>
+<label for="show-answer" id="btn-answer">Je t'explique</label>
+</div>
+</div>
+<br>
+<hr class="docutils" />
+<p class="emphase"> <strong> Explorer collectivement des pistes pour un monde plus durable </strong></p> 
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<p class="emphase"><em>"Trouver des outils et mettre en place des méthodes pour digérer l'information et construire collectivement des savoirs communs. Créer un espace d'expression libre pour partager nos expériences, nos enseignements, et bâtir ensemble le monde de demain."</em></p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<a class="reference internal image-reference" href="_images/Sustainable_Development_Goal_03GoodHealth.svg"><img alt="_images/Sustainable_Development_Goal_03GoodHealth.svg" src="_images/Sustainable_Development_Goal_03GoodHealth.svg" width="100%" /></a>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<a class="reference internal image-reference" href="_images/Sustainable_Development_Goal_04QualityEducation.svg"><img alt="_images/Sustainable_Development_Goal_04QualityEducation.svg" src="_images/Sustainable_Development_Goal_04QualityEducation.svg" width="100%" /></a>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<a class="reference internal image-reference" href="_images/Sustainable_Development_Goal_08DecentWork.svg"><img alt="_images/Sustainable_Development_Goal_08DecentWork.svg" src="_images/Sustainable_Development_Goal_08DecentWork.svg" width="100%" /></a>
+</div>
+</div>
+</div>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<a class="reference internal image-reference" href="_images/Sustainable_Development_Goal_09Industry.svg"><img alt="_images/Sustainable_Development_Goal_09Industry.svg" src="_images/Sustainable_Development_Goal_09Industry.svg" width="100%" /></a>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<a class="reference internal image-reference" href="_images/Sustainable_Development_Goal_10ReducedInequalities.svg"><img alt="_images/Sustainable_Development_Goal_10ReducedInequalities.svg" src="_images/Sustainable_Development_Goal_10ReducedInequalities.svg" width="100%" /></a>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<a class="reference internal image-reference" href="_images/Sustainable_Development_Goal_12ResponsibleConsumption.svg"><img alt="_images/Sustainable_Development_Goal_12ResponsibleConsumption.svg" src="_images/Sustainable_Development_Goal_12ResponsibleConsumption.svg" width="100%" /></a>
+</div>
+</div>
+</div>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<a class="reference internal image-reference" href="_images/Sustainable_Development_Goal_13Climate.svg"><img alt="_images/Sustainable_Development_Goal_13Climate.svg" src="_images/Sustainable_Development_Goal_13Climate.svg" width="100%" /></a>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<a class="reference internal image-reference" href="_images/Sustainable_Development_Goal_16PeaceJusticeInstitutions.svg"><img alt="_images/Sustainable_Development_Goal_16PeaceJusticeInstitutions.svg" src="_images/Sustainable_Development_Goal_16PeaceJusticeInstitutions.svg" width="100%" /></a>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<a class="reference internal image-reference" href="_images/Sustainable_Development_Goal_17Partnerships.svg"><img alt="_images/Sustainable_Development_Goal_17Partnerships.svg" src="_images/Sustainable_Development_Goal_17Partnerships.svg" width="100%" /></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="admonition-pour-se-lancer-en-douceur admonition">
+<p class="first admonition-title">Pour se lancer en douceur …</p>
+<p class="last"><em>Je vous propose de commencer par une plongée dans les ressources produite par le <a class="reference external" href="https://www.learningplanetinstitute.org/" rel="noopener noreferrer" target="_blank">Learning Planet Institute</a>. Ils ont créé une série de vidéo youtube qui explore …</em></p>
+</div>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<p class="emphase2"> <strong> Problèmes </strong></p> 
 <details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
 <summary class="sd-summary-title sd-card-header">
-⚠ De Manière Utile, Créative, Libre, Evolutive, Open-Source, Collaborative, Gratuite et Ouverte ⚠<div class="sd-summary-down docutils">
+Introduction (Youtube playlist)<div class="sd-summary-down docutils">
 <svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
 <div class="sd-summary-up docutils">
 <svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
@@ -582,195 +703,249 @@ document.write(`
 <div class="sd-tab-set docutils">
 <input checked="checked" id="sd-tab-item-0" name="sd-tab-set-0" type="radio">
 </input><label class="sd-tab-label" for="sd-tab-item-0">
-Utile</label><div class="sd-tab-content docutils">
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="sd-card-text last">Parler des différents objectifs</p>
+Ep 1</label><div class="sd-tab-content docutils">
+<div class="embedresize">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/GTP25MoU870?si=Gz1OIExM81cYhETJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+<br>
+<p class="sd-card-text">Ce premier épisode introduit la notion d’anthropocène. Il présente les principales caractéristiques démographiques, économiques, sociales et environnementales du développement humain. Puis il aborde le rôle central de l’énergie dans ces processus de transformation et se poursuit avec les principes de fonctionnement de la biosphère.</p>
 </div>
 <input id="sd-tab-item-1" name="sd-tab-set-0" type="radio">
 </input><label class="sd-tab-label" for="sd-tab-item-1">
-Créative</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">La littérature, les arts visuels, la musique sont autants d’arts qui permettent d’éveiller les sens et de mieux ressentir notre environement. Internet permet de combiner ces différentes formes d’art dans un même format et j’aimerai en associer le plus possible pour créer un contenue qui parle et qui soit agréable au lecteur. En utilsant les outils de mise en page que m’offre le ‘language css’, J’essaie de mettre en place plusieurs niveaux de lecture. Vous verrez également que certains contenue sont cachés, ou tout de moins le lecteur est obligé de cliquer pour accéder au contenue. J’ai fait cela pour rendre le lecteur actif vis a vis du contenu et ca me permet également de rentrer dans la détail d’un concept et d’en explorer les différentes ramifications sans surcharger la page. Le tou me permettant une immense créativité vis a vis de la <strong>mise en récit</strong> de l’histoire que je souhaite raconter.</p>
+Ep 2</label><div class="sd-tab-content docutils">
+<div class="embedresize">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/BcOAtULNV3U?si=xPAELvB8YFeRxvai" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<br>
+<p class="sd-card-text">Cet épisode présente la théorie scientifique des limites planétaires et ses différentes composantes. L’exploration des différents ordres de grandeur du métabolisme de l’humanité commence par l’énergie.</p>
 </div>
 <input id="sd-tab-item-2" name="sd-tab-set-0" type="radio">
 </input><label class="sd-tab-label" for="sd-tab-item-2">
-Libre</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">Ce que j’entend par Libre, c’est que j’écris sur ce qui m’intéresse, sans aucune restriction et de manière totalement subjective. Il en est de même pour toute les personnes qui souhaiteraient participer ou écrire sur le site. La seule chose a laquel je refuse de déroger est la <strong>bienveillance</strong> dans les propos qui sont tenus.</p>
-<ul class="simple">
-<li><p class="sd-card-text first">Coté artistique, création libre</p>
-</li>
-</ul>
+Ep 3</label><div class="sd-tab-content docutils">
+<div class="embedresize">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/3F-r26hL8UM?si=R-nUgLwYVNqtODMN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<br>
+<p class="sd-card-text">A la suite de l’épisode 2, cet épisode introduit les autres ressources et contraintes physiques du métabolisme humain : les ressources minières, les gaz à effet de serre, le changement climatique et les autres types de pollution.</p>
 </div>
 <input id="sd-tab-item-3" name="sd-tab-set-0" type="radio">
 </input><label class="sd-tab-label" for="sd-tab-item-3">
-Evolutive</label><div class="sd-tab-content docutils">
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
-<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
-</div>
-<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+Ep 4</label><div class="sd-tab-content docutils">
 <div class="embedresize">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KJiTSsron0Q?si=Tg63R61xMfEvU4fm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/WYpWltRwuAI?si=JC-B8D9rPzTRv9qH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
-</div>
-</div>
-</div>
-</div>
-<input id="sd-tab-item-4" name="sd-tab-set-0" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-4">
-Open-Source</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">J’ai construit ce site (et tout les autres), grace a des technologie <strong>Open-Source</strong>. Les deux principales sont <a class="reference external" href="https://jupyterbook.org/en/stable/intro.html" rel="noopener noreferrer" target="_blank">Jupyter Book</a> et <a class="reference external" href="https://github.com/" rel="noopener noreferrer" target="_blank">Github</a>. J’aimerai d’ailleurs et c’est un des objectifs de ce site, de promouvoir ces technologies open-source et a quels point elles peuvent apporter une alternative viable aux GAFAM (Google, Apple, Facebook, Amazon, et Microsoft)</p>
-</div>
-<input id="sd-tab-item-5" name="sd-tab-set-0" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-5">
-Collaborative</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">J’aimerai beaucoup apporter une dimension collaborative a mon projet et Github m’en donne la possibilité. En revanche, Github est un logiciel technique qui demande un apprentissage approfondie avant de pouvoir l’utiliser de manière routinière (moi même qui l’utilise depuis 2 ans n’en suis qu’a mes débuts). En revanche avant de co-écrire, il vous est tout de même possible de commenter et d’annoter le contenue de chaque page alors faites vous plaisir!</p>
-</div>
-<input id="sd-tab-item-6" name="sd-tab-set-0" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-6">
-Gratuite</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">Oui je n’ai rien payé (en dehors de mon temps et d’un peu de sueur) pour créer ce site. Ce qui rend la méthode quasi universelle (pour qui possède un ordinateur et les connaissances nécessaires a l’utilisation des technologies mentionnés plus haut)</p>
-<p class="sd-card-text">Cela limite le champ d’action comme par example:</p>
-<ul class="simple">
-<li><p class="sd-card-text first">Une URL longue et difficilement partageable</p>
-</li>
-<li><p class="sd-card-text first">Une limitation au niveau de la taille des fichier (2Go)</p>
-</li>
-</ul>
-<p class="sd-card-text">Mais ca préserve une totale indépendance (et c’est pour l’instant le plus important)</p>
-</div>
-<input id="sd-tab-item-7" name="sd-tab-set-0" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-7">
-Ouverte</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">Oui tout le monde et le bienvenue et peut participer. Je ne récolte aucun cookies (enfin je crois), et ne m’intéresse absolument pas a votre vie privée. Du moment que vous êtes motivés pour naviguer sur les chemins de la connaissances, je veux de vous dans mon équipage.</p>
-</div>
-</div>
-</div>
-</details><br>
-<h2> <strong>Partager Nos Connaissances </strong> </h2>
 <br>
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
-<div class="sd-col sd-d-flex-column sd-col-5 sd-col-xs-5 sd-col-sm-5 sd-col-md-5 sd-col-lg-5 docutils">
-<br>
-<p>Pour la première fois peut-être de l’histoire de l’humanité, les humains commencent à avoir collectivement conscience de vivre une transition évolutive, comme celles qui ont mené de la soupe primordiale d’où naquit la vie jusqu’à l’apparition de Sapiens.</p>
-<p class="emphase">Une chance extraordinaire</p>
-<br>
-<p>Plus nous serons nombreux à nous emparer des questions que pose cette nouvelle transition, plus nous saurons mobiliser notre <strong>intelligence collective</strong>, celle des humains comme celle des autres êtres vivants et des machines, plus nous aurons de chance d’apporter des réponses satisfaisantes et d’inventer un avenir plus souhaitable que celui que nous annoncent certains prophètes ou que nous construisent certains technologues.</p>
-<ul class="simple">
-<li><a class="reference external" href="https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Taddei" rel="noopener noreferrer" target="_blank">François Taddei</a>, <a class="reference external" href="https://www.numilog.com/874037/Apprendre-au-XXIe-siecle.ebook" rel="noopener noreferrer" target="_blank">Apprendre au XXI siècle</a>.</li>
-</ul>
+<p class="sd-card-text">Ce dernier épisode présente les impacts sur la biosphère et les limites de l’exploitation des ressources issues du vivant. Il porte un regard prospectif sur les besoins à venir de l’humanité et passe en revue certains modèles théoriques et cadres institutionnels qui peuvent aider à concevoir des pistes de solutions à ces défis globaux qui seront détaillées dans la deuxième grande partie.</p>
 </div>
-<div class="sd-col sd-d-flex-column sd-col-1 sd-col-xs-1 sd-col-sm-1 sd-col-md-1 sd-col-lg-1 docutils">
 </div>
+</div>
+</details></div>
 <div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
-<div class="warning dropdown admonition">
-<p class="first admonition-title">Avant de commencer</p>
-<ul class="last simple">
-<li>Ce site est accessible sur ordinateur et mobile via un navigateur web, en revanche il est designé pour se lire uniquement sur un écran d’ordinateur.</li>
-<li>Il se construit de manière organique comme un journal et de nouvelles version sont mise en ligne de manière hebdomadaires.</li>
-<li>Prenez le temps de lire et explorer.</li>
-</ul>
-</div>
-<br>
+<p class="emphase2"> <strong> Solutions </strong></p> 
 <details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
 <summary class="sd-summary-title sd-card-header">
-Le Projet en une phrase<div class="sd-summary-down docutils">
+Introduction (Youtube playlist)<div class="sd-summary-down docutils">
 <svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
 <div class="sd-summary-up docutils">
 <svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
 </summary><div class="sd-summary-content sd-card-body docutils">
-<p class="sd-card-text">Permettre a chacun de construire sa base de connaissance personel pour batir ensemble une vision systémique et durable du monde de demain.</p>
-</div>
-</details><p class="emphase2"> 🤔 </p>
-<div class="note dropdown admonition">
-<p class="first admonition-title">C’est quoi ce truc ?</p>
-<p class="last">Il s’agit en premier lieu d’un site internet. Il est le fruit de la découverte d’une nouvelle methode pour contruire des sites web qui s’appelle <a class="reference external" href="https://jupyterbook.org/en/stable/intro.html" rel="noopener noreferrer" target="_blank">JupyterBook</a>, que j’utilise pour mon usage personel depuis septembre 2022 (en gros). J’ai commencé petit avec un seul site pour discuter de ma recherche de ma nière ouverte et interactive et puis de fil en aiguille, j’ai construit ma propre encyclopédie.</p>
-</div>
-<div class="tip dropdown admonition">
-<p class="first admonition-title">Et pourquoi je suis là ?</p>
-<p class="last">Probablement parce que t’es un pote ou un proche a ce stade de l’avancement du projet. Je te conseil de finir la lecture de cette page, ainsi tu en auras une meilleure idée ma démarche et des projets qui s’y attache.</p>
-</div>
-<div class="important dropdown admonition">
-<p class="first admonition-title">Mais attention !</p>
-<p class="last">Le contenue de ce site n’a pas été révisé, corrigé. Il s’agit d’une version brute de notes que j’écris de manière plus ou moins assidue (et de manière plus ou moins riguoureuses).</p>
-</div>
-<div class="warning dropdown admonition">
-<p class="first admonition-title">Apportez votre contribution</p>
-<p class="last">Le but premier de ce site web est de créer une conversation et de féderer autour de cette nouvel methode qui se situe en marge des “réseaux sociaux classiques”.</p>
-</div>
-<br>
-</div>
-</div>
-</div>
-<hr class="docutils" />
-<p class="emphase2"><strong><em>"Un Besoin Vitale"</em></strong></p>
-<br>
 <div class="sd-tab-set docutils">
-<input checked="checked" id="sd-tab-item-8" name="sd-tab-set-1" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-8">
-Etat des lieux </label><div class="sd-tab-content docutils">
-<div class="sd-tab-set docutils">
-<input checked="checked" id="sd-tab-item-13" name="sd-tab-set-2" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-13">
-L’Education</label><div class="sd-tab-content docutils">
-J’ai un regard très critique sur l’éducation, les médias et plus généralement sur la façon dont sont partagés les connaissances. En effet, notre <span class="xref myst">système éducatif</span> repose sur des fondements idéologiques du 19<sup>ème</sup> siècle, les <span class="xref myst">médias</span> sont en grande parties possédés par des milliardaires qui ont bien compris qu’il s’agit d’un outils puissant pour manipuler les masses et enfin, la <span class="xref myst">publication scientifique</span> est gangréné par des intérets financiers qui pousse a la productivité au détriment de la qualité… Un constat bien déprimant dans une époque qui a pourtant un <strong>besoin vitale d’idée nouvelles</strong> pour faire face aux nombreux défis résultant de l’impacte de l’homme sur la planète. Le système éducatif se contente de faire avaler puis régurgiter les connaisances sans préter grande attention a leur assimilation, dans le but de classer les éleves en vue d’un aiguillage sociale. Pour moi c’est une faute grave, qui a un impact immense sur la société car produisant des êtres facilement manipulables et peu armés face a un monde qui se complexifie. C’est pour y remédier que j’ai créé cette plateforme.</div>
-<input id="sd-tab-item-14" name="sd-tab-set-2" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-14">
-Les Médias</label><div class="sd-tab-content docutils">
-<div class="figure align-default" id="media-wheel">
-<a class="reference internal image-reference" href="_images/Wheel-media-2.png"><img alt="figure showing the different owners of the most common french medias" src="_images/Wheel-media-2.png" style="width: 100%;" /></a>
-<p class="caption"><span class="caption-text">Cette figure, produite par le monde diplomatique <a class="reference external" href="https://www.monde-diplomatique.fr/cartes/PPA" rel="noopener noreferrer" target="_blank">Source</a> - <a class="reference external" href="https://github.com/mdiplo/Medias_francais?tab=readme-ov-file" rel="noopener noreferrer" target="_blank">Github repo</a>, nous présente a qui appartiennent les différents médias.</span><a class="headerlink" href="#media-wheel" title="Permalink to this image">#</a></p>
-</div>
-</div>
-<input id="sd-tab-item-15" name="sd-tab-set-2" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-15">
-Les Sciences</label><div class="sd-tab-content docutils">
-<ul class="simple">
-<li>Publication scientifique</li>
-</ul>
+<input checked="checked" id="sd-tab-item-4" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-4">
+1</label><div class="sd-tab-content docutils">
 <div class="embedresize">
-<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/rcgxY__YXEc?start=19" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/ptpE3cModh8?si=BlOUIux3gQ9fgVRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+<br>
+<p class="sd-card-text">Cet épisode d’introduction reprend des éléments clés de la première partie et explique la méthodologie de construction des épisodes suivants.</p>
 </div>
-<input id="sd-tab-item-16" name="sd-tab-set-2" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-16">
-La Politique</label><div class="sd-tab-content docutils">
-Lol</div>
+<input id="sd-tab-item-5" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-5">
+2</label><div class="sd-tab-content docutils">
+<div class="embedresize">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/O0jpae5jnbg?si=m1wdXrj0r4-adrdU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+<br>
+<p class="sd-card-text">Cet épisode s’interroge sur ce qu’il est réellement pertinent d’évaluer. Il présente des travaux sur  les différentes composantes de “la qualité de vie” et sur les manières de mesurer la prospérité de l’humanité.
+L’épisode se termine par des exemples d’indicateurs, alternatifs au PIB, qui ont été proposés pour mesurer “la richesse” de la vie humaine.</p>
+</div>
+<input id="sd-tab-item-6" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-6">
+3</label><div class="sd-tab-content docutils">
+<div class="embedresize">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/YpZ7K23zYyQ?si=i19ajOdhApcPrdXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<br>
+<p class="sd-card-text">Cet épisode aborde les différentes pistes d’action complémentaires envisagées en fonction des secteurs d’activité afin de diminuer les émissions des gaz à effets de serre jusqu’au point “Net zero”, susceptible de stopper le changement climatique.</p>
+</div>
+<input id="sd-tab-item-7" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-7">
+4</label><div class="sd-tab-content docutils">
+<div class="embedresize">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/W4JYWOYHJr8?si=KstNEz8pE7aXRon6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<br>
+<p class="sd-card-text">Dans la continuité de l’épisode sur la stabilisation du climat, cet épisode présente les grands leviers identifiés pour décarboner les systèmes de production énergétique et limiter leurs impacts environnementaux.</p>
+</div>
+<input id="sd-tab-item-8" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-8">
+5</label><div class="sd-tab-content docutils">
+<div class="embedresize">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/w0wbLWVvgNM?si=DAXO0xCHnfvNEpwc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<br>
+<p class="sd-card-text">Dans la continuité de l’épisode sur le système énergétique, cet épisode  aborde la manière dont l’humanité extrait et utilise des ressources pour son fonctionnement. Il présente et illustre d’exemples,  les grands principes permettant de limiter la quantité de matière qui entre dans le cycle de production et de consommation de biens matériels.</p>
 </div>
 <input id="sd-tab-item-9" name="sd-tab-set-1" type="radio">
 </input><label class="sd-tab-label" for="sd-tab-item-9">
-Un Monde en transition</label><div class="sd-tab-content docutils">
-Paragraphe explicatif</div>
+6</label><div class="sd-tab-content docutils">
+<div class="embedresize">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/SHARs58TGEI?si=6rbORZKHx0sZoWUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<br>
+<p class="sd-card-text">Cet épisode  présente différentes approches possibles pour protéger et régénérer la biosphère, ainsi que pour enrayer l’effondrement de la biodiversité. Là encore, les grands principes sont illustrés par des exemples d’initiatives ayant donné de bons résultats.</p>
+</div>
 <input id="sd-tab-item-10" name="sd-tab-set-1" type="radio">
 </input><label class="sd-tab-label" for="sd-tab-item-10">
-Reflexion Collective</label><div class="sd-tab-content docutils">
-<p>Besoin de voire le monde dans toute sa complexité</p>
-<ul class="simple">
-<li>Interdisciplinarité</li>
-</ul>
+7</label><div class="sd-tab-content docutils">
+<div class="embedresize">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/EseSUpmUwZo?si=ukmVqSDVHrGbVp73" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<br>
+<p class="sd-card-text">Cet épisode explore les enjeux de transformation des systèmes agroalimentaires et propose des pistes pour produire et consommer autrement, afin de réduire les pressions environnementales, tout en permettant à l’ensemble de l’humanité de se nourrir sainement.</p>
 </div>
 <input id="sd-tab-item-11" name="sd-tab-set-1" type="radio">
 </input><label class="sd-tab-label" for="sd-tab-item-11">
-Le besoin d’outil </label><div class="sd-tab-content docutils">
-paragraphe explicatif</div>
-<input id="sd-tab-item-12" name="sd-tab-set-1" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-12">
-Force Citoyenne</label><div class="sd-tab-content docutils">
-On a besoin de générer une force citoyenne motrice dont le carburant est l’intelligence Collective</div>
+8</label><div class="sd-tab-content docutils">
+<div class="embedresize">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/HoqoUQh55bg?si=s8wU5Xv0lEXICFhj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 <br>
-<h2> <strong>Objectifs </strong> </h2>
+<p class="sd-card-text">Cet épisode explore les besoins de transformation des modèles éducatifs. Il offre un aperçu des modèles pédagogiques innovants qui émergent afin de répondre aux défis de l’éducation contemporaine. À travers des exemples concrets, il incite à la réflexion sur les nouvelles approches éducatives nécessaires pour préparer les générations d’aujourd’hui et de demain à relever nos défis communs.</p>
+</div>
+</div>
+</div>
+</details></div>
+</div>
+</div>
 <br>
-<p class="emphase2"><strong><em>"Permettre a Chacun"</em></strong></p>
-<p class="emphase"><strong>De Digérer l'information</strong></p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Analyse approfondie<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="sd-card-text last">Créer une analyse approfondie à partir des vidéos ci-dessus. link avec le projet et mettre des liens vers les différentes pages associées</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<ul class="simple">
+<li><p class="sd-card-text first"><a class="reference external" href="https://www.learningplanetinstitute.org/quelles-pistes-de-solutions-pour-un-monde-soutenable/" rel="noopener noreferrer" target="_blank">Source</a></p>
+</li>
+</ul>
+<p class="sd-card-text">Penser a checker les sources et a les implémenter dans les différents sites concernés</p>
+<ul class="last simple">
+<li><p class="sd-card-text first"><a class="reference external" href="https://www.learningplanetinstitute.org/wp-content/uploads/2023/01/WEBSITE2023_fiches_quelles_solutions.pdf" rel="noopener noreferrer" target="_blank">Lien vers les sources</a></p>
+</li>
+</ul>
+</div>
+</div>
+</details><br>
+<h2> Qui suis-je ? </h2>
+<br>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<p class="emphase2"><strong>Vincent Deguin</strong></p>
+<p>J’ aime apprendre mais surtout faire apprendre, le tout de manière fun et créative. La beauté du monde m’émerveille et j’aimerai faire partager cet émerveillement avec le plus grand nombre.</p>
+<br>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<img alt="_images/Vincent-Deguin-OpenUniversity50_crop.jpg" src="_images/Vincent-Deguin-OpenUniversity50_crop.jpg" />
+<br>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Cette photo, prise dans mon laboratoire d’astrocimie, au coté de la première version de mon experience dédié a la production de minuscules particules de glaces amorphes, a été prise en 2022 par <a class="reference external" href="https://www.chrisfloyd.com/" rel="noopener noreferrer" target="_blank">Cris Floyd</a>, a l’occasion des 50 ans de l’Open University <a class="reference external" href="https://ounews.co/student-stories/shooting-for-the-stars-and-beyond/" rel="noopener noreferrer" target="_blank">Source</a>.</p>
+</div>
+<br>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-row sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Mon profile</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<img alt="_images/Title-profile-Viny-5.png" src="_images/Title-profile-Viny-5.png" />
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/nb-profile/_build/html/intro.html" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<p><strong>Réseaux</strong></p>
+<p><img alt="flag alt &gt;" src="_images/researchgate-svgrepo-com.svg" /> <a class="reference external" href="https://www.researchgate.net/profile/Vincent-Deguin" rel="noopener noreferrer" target="_blank">V. Deguin</a></p>
+<p><img alt="flag alt &gt;" src="_images/orcid-svgrepo-com.svg" /> <a class="reference external" href="https://orcid.org/0000-0003-2280-8273" rel="noopener noreferrer" target="_blank">ORCID</a></p>
+<p><img alt="flag alt &gt;" src="_images/github-svgrepo-com.svg" /> <a class="reference external" href="https://github.com/Deugz" rel="noopener noreferrer" target="_blank">Deugz</a></p>
+<p><img alt="flag alt &gt;" src="_images/codepen-svgrepo-com.svg" /> <a class="reference external" href="https://codepen.io/deugz/" rel="noopener noreferrer" target="_blank">Deugz</a></p>
+<p><img alt="flag alt &gt;" src="_images/youtube-svgrepo-com.svg" /> <a class="reference external" href="https://www.youtube.com/channel/UCfAsBZ1atxP-hyltfiCiM2w" rel="noopener noreferrer" target="_blank">SBFP</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="note dropdown admonition">
+<p class="first admonition-title">Mon parcours personel et la génèse du projet</p>
+<div class="sd-tab-set last docutils">
+<input checked="checked" id="sd-tab-item-12" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-12">
+La recherche</label><div class="sd-tab-content docutils">
+<p>J’ai eu la chance et l’honneur de participer a un projet de recherche dont l’objectif était de mieux comprendre la <em>formation des planètes</em> …</p>
+<p>WTF Jackie chan meme</p>
+</div>
+<input id="sd-tab-item-13" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-13">
+La découverte</label><div class="sd-tab-content docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<p><lottie-player src="https://assets7.lottiefiles.com/packages/lf20_ZAY921.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player></p>
+</div>
+</div>
+</div>
+</div>
+<input id="sd-tab-item-14" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-14">
+la phase de Test</label><div class="sd-tab-content docutils">
+</div>
+<input id="sd-tab-item-15" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-15">
+La réflexion</label><div class="sd-tab-content docutils">
+</div>
+<input id="sd-tab-item-16" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-16">
+Implémentation</label><div class="sd-tab-content docutils">
+On en est la</div>
+</div>
+</div>
+<br>
+<br>
+<hr class="docutils" />
+<p class="emphase2"> <strong>Mon Projet</strong> </p>
+<p class="emphase"><strong><em>"Des outils et des méthodes qui permettent à chacun de digérer l'information"</em></strong></p>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row docutils">
 <div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
 <br>
-<p>Nous vivons dans un monde ou l’information est omniprésente. Présente sous des formes multiples, elle est accessible d’un simple clique et par le biais du téléphone portable est presque devenue une extension de notre corps. La connaissance en revanche, fruit de l’analyse, l’interprétation et la synthèse approfondie d’une source d’information est beaucoup moins répandue. La raison tient dans le fait qu’elle implique la capacité à questionner, utiliser ces informations et a les relier à d’autres concepts, ce qui n’est pas chose aisé. C’est dans l’optique de faire fructifier mon esprit d’analyse, de synthèse et plus généralement mon esprit critique que j’ai commencé cette oeuvre qui m’apportait beaucoup d’avantages par rapport aux méthodes traditionneles.</p>
+<p>Nous vivons dans un monde où l’information est omniprésente. Présente sous des formes multiples, elle est accessible d’un simple clic et, par le biais du téléphone portable, elle est presque devenue une extension de notre corps. La connaissance, en revanche, fruit de l’analyse, de l’interprétation et de la synthèse approfondie d’une source d’information, est beaucoup moins répandue. Cela s’explique par le fait qu’elle implique la capacité à questionner, utiliser ces informations et les relier à d’autres concepts, ce qui n’est pas chose aisée. C’est dans l’optique de développer mon esprit d’analyse, de synthèse et, plus généralement, mon esprit critique, que j’ai entrepris cette œuvre, qui m’apporte de nombreux avantages par rapport aux méthodes traditionnelles.</p>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
@@ -780,7 +955,7 @@ On a besoin de générer une force citoyenne motrice dont le carburant est l’i
 </div>
 <details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
 <summary class="sd-summary-title sd-card-header">
-Plus d’infos sur l’information<div class="sd-summary-down docutils">
+Quels outils? Inventaire et cahier des charges<div class="sd-summary-down docutils">
 <svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
 <div class="sd-summary-up docutils">
 <svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
@@ -788,14 +963,74 @@ Plus d’infos sur l’information<div class="sd-summary-down docutils">
 <div class="sd-tab-set docutils">
 <input checked="checked" id="sd-tab-item-17" name="sd-tab-set-3" type="radio">
 </input><label class="sd-tab-label" for="sd-tab-item-17">
-Les Sources</label><div class="sd-tab-content docutils">
-<p class="sd-card-text"><code class="xref std std-numref docutils literal notranslate"><span class="pre">media-wheel</span></code></p>
+Open-Sources</label><div class="sd-tab-content docutils">
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="sd-card-text last">Définir open source …</p>
+</div>
+</div>
+<input id="sd-tab-item-18" name="sd-tab-set-3" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-18">
+Gratuits</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">Je n’ai rien a vendre!</p>
+</div>
+<input id="sd-tab-item-19" name="sd-tab-set-3" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-19">
+Utiles</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">Discuter des différents bénéfices a l’echelle individuelle</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="sd-card-text last">Parler des différents objectifs</p>
+</div>
+</div>
+<input id="sd-tab-item-20" name="sd-tab-set-3" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-20">
+Techniques</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">Compliqué a prendre en main</p>
+</div>
+<input id="sd-tab-item-21" name="sd-tab-set-3" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-21">
+Adaptables</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">Expliquer</p>
+</div>
+<input id="sd-tab-item-22" name="sd-tab-set-3" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-22">
+Evolutifs</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">Expliquer</p>
+</div>
+<input id="sd-tab-item-23" name="sd-tab-set-3" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-23">
+et Méconnues!</label><div class="sd-tab-content docutils">
+<p class="emphase">Voici les différents logiciels que j'utilise</p>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-24" name="sd-tab-set-4" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-24">
+Jupyter Lab</label><div class="sd-tab-content docutils">
+</div>
+<input id="sd-tab-item-25" name="sd-tab-set-4" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-25">
+Jupyter Book</label><div class="sd-tab-content docutils">
+</div>
+<input id="sd-tab-item-26" name="sd-tab-set-4" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-26">
+Github</label><div class="sd-tab-content docutils">
+</div>
+</div>
+<ul class="simple">
+<li><p class="sd-card-text first">Combien en connais-tu?</p>
+</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="sd-card-text last">Utilise la fonction <em>annotation</em> pour répoondre.</p>
+</div>
 </div>
 </div>
 </div>
 </details><br>
 <br>
-<p class="emphase"><strong>De Batir et Partager ses Connaissances</strong></p>
+<br>
+<p class="emphase"><strong><em>"Afin que tous, nous puissions construire et partager nos connaissances"</em></strong></p>
 <br>
 <br>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
@@ -832,8 +1067,8 @@ Plus d’info<div class="sd-summary-down docutils">
 <svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
 </summary><div class="sd-summary-content sd-card-body docutils">
 <div class="sd-tab-set docutils">
-<input checked="checked" id="sd-tab-item-18" name="sd-tab-set-4" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-18">
+<input checked="checked" id="sd-tab-item-27" name="sd-tab-set-5" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-27">
 Apprendre</label><div class="sd-tab-content docutils">
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
@@ -844,53 +1079,28 @@ Apprendre</label><div class="sd-tab-content docutils">
 </div>
 <p class="sd-card-text">J’aime apprendre mais surtout j’aime <strong>Faire apprendre</strong>. Le monde naturelle qui nous entoure, et avec lequel on interragit quotidiennement (souvent sans le savoir), est d’une beauté incommensurable qui n’a d’égale que sa complexité. J’ai eu la chance de rencontrer trés top une enseignante qui m’a donné le gout de la lecture et c’est je pense la seule fois ou le millieux éducatif a eu un impact positif, en me développant un esprit <strong>curieux</strong>. Le reste de mon cursus peut se résumer a un long et incipide cheminement visant a m’aiguiller vers une case sociale, définit par un travaille, un salaire et donc un statut sociale.</p>
 </div>
-<input id="sd-tab-item-19" name="sd-tab-set-4" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-19">
+<input id="sd-tab-item-28" name="sd-tab-set-5" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-28">
 Documenter</label><div class="sd-tab-content docutils">
 </div>
-<input id="sd-tab-item-20" name="sd-tab-set-4" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-20">
+<input id="sd-tab-item-29" name="sd-tab-set-5" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-29">
 Transmettre</label><div class="sd-tab-content docutils">
 </div>
-<input id="sd-tab-item-21" name="sd-tab-set-4" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-21">
+<input id="sd-tab-item-30" name="sd-tab-set-5" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-30">
 De manière fun et créative</label><div class="sd-tab-content docutils">
 </div>
 </div>
 </div>
 </details><br>
 <br>
-<br>
-<p class="emphase2"> <strong> <em>"Pour Co-créer"</em></strong></p>
-<p class="emphase"><strong>Des Bases de Réflexions Collaboratives</strong></p>
+<p class="emphase"><strong><em>"Pour co-créer Des Bases de Réflexions et vivre sur Une Planète Apprenante" </em></strong></p>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row docutils">
-<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
-<blockquote>
-<div>En effet, … Explication</div></blockquote>
-<br>
-</div>
-<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
 <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
-<p><dotlottie-player src="https://lottie.host/6a24c561-2443-48f1-902b-3bb4b3230c66/WRkYFkXGnw.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player></p>
-</div>
-</div>
-</div>
-<p class="emphase"><strong>Une Planète Apprenante</strong></p>
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row docutils">
-<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
-<blockquote>
-<div>En effet, … Explication</div></blockquote>
-<br>
-</div>
-<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
-<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
-<p><dotlottie-player src="https://lottie.host/84a2604f-6949-4f1b-94b5-2bed45d1d90f/RY3RsVBcFT.json" background="transparent" speed="0.6" style="width: 100%; height: auto;" loop autoplay></dotlottie-player></p>
-</div>
-</div>
-</div>
-<br>
+<p><dotlottie-player src="https://lottie.host/6a24c561-2443-48f1-902b-3bb4b3230c66/WRkYFkXGnw.json" background="transparent" speed="1" style="width: 52%; height: auto;" loop autoplay></dotlottie-player></p>
 <details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
 <summary class="sd-summary-title sd-card-header">
 Petite vidéo explicative<div class="sd-summary-down docutils">
@@ -902,80 +1112,92 @@ Petite vidéo explicative<div class="sd-summary-down docutils">
 <iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/n4kOa4ASMDU?si=KNhK8pnLSDWUfIso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 </div>
-</details><p class="emphase2"> <strong> <em>"Et ainsi Générer" </em></strong> </p>
-<p class="emphase"> <strong> Une Intelligence Collective</strong> </p>
-<p class="emphase"> <strong> Pour un Monde Plus Durable</strong> </p>
-<h2> <strong>Mon Champ d'Action </strong> </h2>
-<br>
-<p class="emphase2"><strong><em>"Qui suis-je?"</em></strong></p>
-<div id="note">
+</details></div>
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+<p><dotlottie-player src="https://lottie.host/84a2604f-6949-4f1b-94b5-2bed45d1d90f/RY3RsVBcFT.json" background="transparent" speed="0.6" style="width: 80%; height: auto;" loop autoplay></dotlottie-player></p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Qu’est ce que j’entends par base de réflexion<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-31" name="sd-tab-set-6" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-31">
+Utile</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">Dans un premier temps, j’aimerai vous expliquer comment j’utilise cette plateforme..</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="sd-card-text last">Parler des différents objectifs</p>
+</div>
+</div>
+<input id="sd-tab-item-32" name="sd-tab-set-6" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-32">
+Créative</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">La littérature, les arts visuels, la musique sont autants d’arts qui permettent d’éveiller les sens et de mieux ressentir notre environement. Internet permet de combiner ces différentes formes d’art dans un même format et j’aimerai en associer le plus possible pour créer un contenue qui parle et qui soit agréable au lecteur. En utilsant les outils de mise en page que m’offre le ‘language css’, J’essaie de mettre en place plusieurs niveaux de lecture. Vous verrez également que certains contenue sont cachés, ou tout de moins le lecteur est obligé de cliquer pour accéder au contenue. J’ai fait cela pour rendre le lecteur actif vis a vis du contenu et ca me permet également de rentrer dans la détail d’un concept et d’en explorer les différentes ramifications sans surcharger la page. Le tou me permettant une immense créativité vis a vis de la <strong>mise en récit</strong> de l’histoire que je souhaite raconter.</p>
+</div>
+<input id="sd-tab-item-33" name="sd-tab-set-6" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-33">
+Libre</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">Ce que j’entend par Libre, c’est que j’écris sur ce qui m’intéresse, sans aucune restriction et de manière totalement subjective. Il en est de même pour toute les personnes qui souhaiteraient participer ou écrire sur le site. La seule chose a laquel je refuse de déroger est la <strong>bienveillance</strong> dans les propos qui sont tenus.</p>
+<ul class="simple">
+<li><p class="sd-card-text first">Coté artistique, création libre</p>
+</li>
+</ul>
+</div>
+<input id="sd-tab-item-34" name="sd-tab-set-6" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-34">
+Evolutive</label><div class="sd-tab-content docutils">
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row docutils">
-<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
-<br>
-<img alt="_images/profile-pic-round.png" src="_images/profile-pic-round.png" />
-<br>
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
 </div>
 <div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
-<p class="emphase"><strong>Vincent Deguin</strong></p>
-<p>Un citoyen du monde qui aime apprendre mais surtout faire apprendre, le tout de manière fun et créative. La beauté du monde m’émerveille et j’aimerai faire partager cet émerveillement avec le plus grand nombre.</p>
-<br>
-</div>
-<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
-<div class="sd-card-header bg-light docutils">
-<p class="sd-card-text"><strong>Mon profile</strong></p>
-</div>
-<div class="sd-card-body docutils">
-<img alt="_images/Title-profile-Viny-5.png" src="_images/Title-profile-Viny-5.png" />
-</div>
-<a class="sd-stretched-link reference external" href="https://deugz.github.io/nb-profile/_build/html/intro.html" rel="noopener noreferrer" target="_blank"></a></div>
+<div class="embedresize">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/KJiTSsron0Q?si=Tg63R61xMfEvU4fm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 </div>
 </div>
 </div>
-<br>
-<div class="note dropdown admonition">
-<p class="first admonition-title">Mon parcours personel et la génèse du projet</p>
-<div class="sd-tab-set last docutils">
-<input checked="checked" id="sd-tab-item-22" name="sd-tab-set-5" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-22">
-La recherche</label><div class="sd-tab-content docutils">
-<p>J’ai eu la chance et l’honneur de participer a un projet de recherche dont l’objectif était de mieux comprendre la <em>formation des planètes</em> …</p>
-<p>WTF Jackie chan meme</p>
 </div>
-<input id="sd-tab-item-23" name="sd-tab-set-5" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-23">
-La découverte</label><div class="sd-tab-content docutils">
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row docutils">
-<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<input id="sd-tab-item-35" name="sd-tab-set-6" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-35">
+Open-Source</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">J’ai construit ce site (et tout les autres), grace a des technologie <strong>Open-Source</strong>. Les deux principales sont <a class="reference external" href="https://jupyterbook.org/en/stable/intro.html" rel="noopener noreferrer" target="_blank">Jupyter Book</a> et <a class="reference external" href="https://github.com/" rel="noopener noreferrer" target="_blank">Github</a>. J’aimerai d’ailleurs et c’est un des objectifs de ce site, de promouvoir ces technologies open-source et a quels point elles peuvent apporter une alternative viable aux GAFAM (Google, Apple, Facebook, Amazon, et Microsoft)</p>
 </div>
-<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<p><lottie-player src="https://assets7.lottiefiles.com/packages/lf20_ZAY921.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player></p>
+<input id="sd-tab-item-36" name="sd-tab-set-6" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-36">
+Collaborative</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">J’aimerai beaucoup apporter une dimension collaborative a mon projet et Github m’en donne la possibilité. En revanche, Github est un logiciel technique qui demande un apprentissage approfondie avant de pouvoir l’utiliser de manière routinière (moi même qui l’utilise depuis 2 ans n’en suis qu’a mes débuts). En revanche avant de co-écrire, il vous est tout de même possible de commenter et d’annoter le contenue de chaque page alors faites vous plaisir!</p>
+</div>
+<input id="sd-tab-item-37" name="sd-tab-set-6" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-37">
+Gratuite</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">Oui je n’ai rien payé (en dehors de mon temps et d’un peu de sueur) pour créer ce site. Ce qui rend la méthode quasi universelle (pour qui possède un ordinateur et les connaissances nécessaires a l’utilisation des technologies mentionnés plus haut)</p>
+<p class="sd-card-text">Cela limite le champ d’action comme par example:</p>
+<ul class="simple">
+<li><p class="sd-card-text first">Une URL longue et difficilement partageable</p>
+</li>
+<li><p class="sd-card-text first">Une limitation au niveau de la taille des fichier (2Go)</p>
+</li>
+</ul>
+<p class="sd-card-text">Mais ca préserve une totale indépendance (et c’est pour l’instant le plus important)</p>
+</div>
+<input id="sd-tab-item-38" name="sd-tab-set-6" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-38">
+Ouverte</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">Oui tout le monde et le bienvenue et peut participer. Je ne récolte aucun cookies (enfin je crois), et ne m’intéresse absolument pas a votre vie privée. Du moment que vous êtes motivés pour naviguer sur les chemins de la connaissances, je veux de vous dans mon équipage.</p>
 </div>
 </div>
 </div>
-</div>
-<input id="sd-tab-item-24" name="sd-tab-set-5" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-24">
-la phase de Test</label><div class="sd-tab-content docutils">
-</div>
-<input id="sd-tab-item-25" name="sd-tab-set-5" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-25">
-La réflexion</label><div class="sd-tab-content docutils">
-</div>
-<input id="sd-tab-item-26" name="sd-tab-set-5" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-26">
-Implémentation</label><div class="sd-tab-content docutils">
-On en est la</div>
+</details></div>
 </div>
 </div>
 <br>
-<br>
-<p class="emphase2"> <strong> <em>"Mes Intérets" </em></strong> </p>
-<p class="emphase">  Là ou je peux <strong> contribuer à une société plus durable</strong> </p>
+<hr class="docutils" />
+<p class="emphase2"> <strong>Ma Base de Connaissance</strong> </p>
 <br>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-5 sd-row-cols-xs-5 sd-row-cols-sm-5 sd-row-cols-md-5 sd-row-cols-lg-5 docutils">
@@ -1082,8 +1304,8 @@ Plus d’info<div class="sd-summary-down docutils">
 <svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
 </summary><div class="sd-summary-content sd-card-body docutils">
 <div class="sd-tab-set docutils">
-<input checked="checked" id="sd-tab-item-27" name="sd-tab-set-6" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-27">
+<input checked="checked" id="sd-tab-item-39" name="sd-tab-set-7" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-39">
 Research</label><div class="sd-tab-content docutils">
 <ul class="simple">
 <li><p class="sd-card-text first"><a class="reference external" href="https://deugz.github.io/jb-background/_build/html/intro.html" rel="noopener noreferrer" target="_blank">Background</a></p>
@@ -1118,8 +1340,8 @@ Research</label><div class="sd-tab-content docutils">
 </li>
 </ul>
 </div>
-<input id="sd-tab-item-28" name="sd-tab-set-6" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-28">
+<input id="sd-tab-item-40" name="sd-tab-set-7" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-40">
 Education</label><div class="sd-tab-content docutils">
 <ul class="simple">
 <li><p class="sd-card-text first"><a class="reference external" href="https://deugz.github.io/jb-astronomy/_build/html/intro.html" rel="noopener noreferrer" target="_blank">Astronomy</a></p>
@@ -1143,8 +1365,8 @@ Education</label><div class="sd-tab-content docutils">
 </li>
 </ul>
 </div>
-<input id="sd-tab-item-29" name="sd-tab-set-6" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-29">
+<input id="sd-tab-item-41" name="sd-tab-set-7" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-41">
 Hiphop</label><div class="sd-tab-content docutils">
 <br>
 <hr class="docutils" />
@@ -1157,8 +1379,8 @@ Hiphop</label><div class="sd-tab-content docutils">
 </li>
 </ul>
 </div>
-<input id="sd-tab-item-30" name="sd-tab-set-6" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-30">
+<input id="sd-tab-item-42" name="sd-tab-set-7" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-42">
 Parmacie</label><div class="sd-tab-content docutils">
 <br>
 <br>
@@ -1172,8 +1394,8 @@ Parmacie</label><div class="sd-tab-content docutils">
 </li>
 </ul>
 </div>
-<input id="sd-tab-item-31" name="sd-tab-set-6" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-31">
+<input id="sd-tab-item-43" name="sd-tab-set-7" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-43">
 Société</label><div class="sd-tab-content docutils">
 <br>
 <br>
@@ -1190,20 +1412,33 @@ Société</label><div class="sd-tab-content docutils">
 </div>
 </div>
 </details><br>
+<p class="emphase"><strong>Une toile vivante</strong></p>
+<img alt="_images/Map_Encyclopedia2.svg" src="_images/Map_Encyclopedia2.svg" /><div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">A retravailler</p>
+</div>
+<br>
+<h2> Objectifs </h2>
+<h3><strong>✅ Bloc-Note, Organiseur, Archives en ligne</strong></h3>
+<br>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Faire le lien avec bullet journal</p>
+</div>
+<h3><strong>🔧 Une Fabrique Collective de Savoirs</strong></h3>
+<br>
+<h3><strong>🔧 Plateforme de Publication & Dialogue</strong></h3>
+<br>
+<h3><strong>🔎 Toile Educative Sociale & Sémantique</strong></h3>
 <h2> Et Maintenant? </h2>
 <br>
-<p class="emphase2"> <strong> <em>"Explore,"</em></strong> </p>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
-<div class="sd-col sd-d-flex-column sd-col-5 sd-col-xs-5 sd-col-sm-5 sd-col-md-5 sd-col-lg-5 docutils">
+<div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<p class="emphase"> <strong> <em>"Explore,</em></strong> </p>
+<hr class="docutils" />
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<p><lottie-player src="https://lottie.host/2da1ae07-1150-49ef-9f50-c33bc4c49d58/CkDXKlbPlx.json" background="#fff" speed="1" style="width: 300px; height: 300px" direction="1" mode="normal" loop autoplay></lottie-player></p>
-</div>
-<div class="sd-col sd-d-flex-column sd-col-7 sd-col-xs-7 sd-col-sm-7 sd-col-md-7 sd-col-lg-7 docutils">
-En fonction de ta curiosité, voyage de planète en planète, de manière fluide en te laissant guider par tes centres d’intérets.</div>
-</div>
-</div>
-<br>
+<p><lottie-player src="https://lottie.host/2da1ae07-1150-49ef-9f50-c33bc4c49d58/CkDXKlbPlx.json" background="#fff" speed="1" style="width: 80%; height: auto" direction="1" mode="normal" loop autoplay></lottie-player></p>
 <details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
 <summary class="sd-summary-title sd-card-header">
 Quelques conseils de lecture<div class="sd-summary-down docutils">
@@ -1211,14 +1446,15 @@ Quelques conseils de lecture<div class="sd-summary-down docutils">
 <div class="sd-summary-up docutils">
 <svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
 </summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">En fonction de ta curiosité, voyage de planète en planète, de manière fluide en te laissant guider par tes centres d’intérets.</p>
 <div class="sd-tab-set docutils">
-<input checked="checked" id="sd-tab-item-32" name="sd-tab-set-7" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-32">
+<input checked="checked" id="sd-tab-item-44" name="sd-tab-set-8" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-44">
 Utilise un ordinateur</label><div class="sd-tab-content docutils">
 <p class="sd-card-text">Alors je sais qu’aujourd’hui une bonne partie du contenue est consommé a partir des téléphones portables.</p>
 </div>
-<input id="sd-tab-item-33" name="sd-tab-set-7" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-33">
+<input id="sd-tab-item-45" name="sd-tab-set-8" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-45">
 Prends le temps de lire</label><div class="sd-tab-content docutils">
 <p class="sd-card-text">Oui c’est important de prendre le temps de regarder et lire le contenue.</p>
 <ul class="simple">
@@ -1226,78 +1462,94 @@ Prends le temps de lire</label><div class="sd-tab-content docutils">
 </li>
 </ul>
 </div>
-<input id="sd-tab-item-34" name="sd-tab-set-7" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-34">
+<input id="sd-tab-item-46" name="sd-tab-set-8" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-46">
 Par ou commencer?</label><div class="sd-tab-content docutils">
 <p class="sd-card-text">Créer une liste de lecture avec les pages les plus abouties</p>
 </div>
 </div>
 </div>
-</details><br>
-<p class="emphase2"> <strong> <em>"Apprends ..."</em></strong> </p>
-<br>
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
-<div class="sd-col sd-d-flex-column sd-col-5 sd-col-xs-5 sd-col-sm-5 sd-col-md-5 sd-col-lg-5 docutils">
+</details></div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<p class="emphase"> <strong> <em>Apprends,</em></strong> </p>
+<hr class="docutils" />
 <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
 <p><dotlottie-player src="https://lottie.host/14436da2-b5e7-4163-bddc-bd4974308afd/szPlhrweqe.json" background="transparent" speed="1" style="width: 100%; height: auto;" loop autoplay></dotlottie-player></p>
 </div>
-<div class="sd-col sd-d-flex-column sd-col-7 sd-col-xs-7 sd-col-sm-7 sd-col-md-7 sd-col-lg-7 docutils">
-<blockquote>
-<div>Reprendre ce qui a été dit avant (semi conclusion)</div></blockquote>
-</div>
-</div>
-</div>
-<br>
-<p class="emphase2"> <strong> <em>"Et Contribue !"</em></strong> </p>
-<br>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<p class="emphase"> <strong> <em>Et Contribue !"</em></strong> </p>
+<hr class="docutils" />
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Comment ?<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
 <div class="sd-tab-set docutils">
-<input checked="checked" id="sd-tab-item-35" name="sd-tab-set-8" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-35">
+<input checked="checked" id="sd-tab-item-47" name="sd-tab-set-9" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-47">
 Commentaires</label><div class="sd-tab-content docutils">
-<p>Il y a en bas de chaque page une section <em>Commentaires</em>. Cette section te permet de donner un avis générale sur le contenue de la page, axes d’amélioration …</p>
+<p class="sd-card-text">Il y a en bas de chaque page une section <em>Commentaires</em>. Cette section te permet de donner un avis générale sur le contenue de la page, axes d’amélioration …</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">Insérer capture d’écran</p>
+<p class="sd-card-text last">Insérer capture d’écran</p>
 </div>
 <ul class="simple">
-<li>Charte des commentaires ?</li>
+<li><p class="sd-card-text first">Charte des commentaires ?</p>
+</li>
 </ul>
 </div>
-<input id="sd-tab-item-36" name="sd-tab-set-8" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-36">
+<input id="sd-tab-item-48" name="sd-tab-set-9" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-48">
 Annotations</label><div class="sd-tab-content docutils">
-Intéragit directement avec le contenue pour demander des précisions, poser une question ou bien montrer qu’il ya une erreur …</div>
-<input id="sd-tab-item-37" name="sd-tab-set-8" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-37">
+<p class="sd-card-text">Intéragit directement avec le contenue pour demander des précisions, poser une question ou bien montrer qu’il ya une erreur …</p>
+</div>
+<input id="sd-tab-item-49" name="sd-tab-set-9" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-49">
 Modifie directement la page</label><div class="sd-tab-content docutils">
-<p>Pas encore disponible. Utiliser la fonction Github Branches pour permettre a chacun de télécharger la doc complète et d’effectuer directement des modifications sur la page.</p>
+<p class="sd-card-text">Pas encore disponible. Utiliser la fonction Github Branches pour permettre a chacun de télécharger la doc complète et d’effectuer directement des modifications sur la page.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <ul class="last simple">
-<li>Compétence avancées de Github a obtenir</li>
-<li>Workflow spécifique a mettre en place</li>
+<li><p class="sd-card-text first">Compétence avancées de Github a obtenir</p>
+</li>
+<li><p class="sd-card-text first">Workflow spécifique a mettre en place</p>
+</li>
 </ul>
 </div>
 </div>
-<input id="sd-tab-item-38" name="sd-tab-set-8" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-38">
+<input id="sd-tab-item-50" name="sd-tab-set-9" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-50">
 Contribution Financières</label><div class="sd-tab-content docutils">
 <ul class="simple">
-<li>Kofi</li>
-<li>Patreon</li>
+<li><p class="sd-card-text first">Kofi</p>
+</li>
+<li><p class="sd-card-text first">Patreon</p>
+</li>
 </ul>
 </div>
-<input id="sd-tab-item-39" name="sd-tab-set-8" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-39">
+<input id="sd-tab-item-51" name="sd-tab-set-9" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-51">
 Contact</label><div class="sd-tab-content docutils">
-<p>Tu peux aussi me contacter directement si tu as des questions ou si tu veux contribuer de manière plus importante. J’ai un nombre infinit d’idées, certaines assés farfelues comme le fait d’ajouter des planches de bandes déssinés pour complémenter le contenue et créer des personnages auquel le lecteur puisse s’identifier. Je n’ai aucune compétence dans le dessin (à mon grand regret), mais peut être que toi tu en as :), si c’est le cas et que tu as le temps d’apprter ta contribution n’hésite pas a me contacter.</p>
+<p class="sd-card-text">Tu peux aussi me contacter directement si tu as des questions ou si tu veux contribuer de manière plus importante. J’ai un nombre infinit d’idées, certaines assés farfelues comme le fait d’ajouter des planches de bandes déssinés pour complémenter le contenue et créer des personnages auquel le lecteur puisse s’identifier. Je n’ai aucune compétence dans le dessin (à mon grand regret), mais peut être que toi tu en as :), si c’est le cas et que tu as le temps d’apprter ta contribution n’hésite pas a me contacter.</p>
 <ul class="simple">
-<li>mail: ()</li>
+<li><p class="sd-card-text first">mail: ()</p>
+</li>
 </ul>
+</div>
+</div>
+</div>
+</details></div>
 </div>
 </div>
 <br>
+<p class="emphase2"> 🔥 <strong>Les Actualités </strong> </p>
+<br>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Insérer ici les sites sur lequel on travaille</p>
+</div>
 <div class="section" id="commentaires">
 <h1>Commentaires<a class="headerlink" href="#commentaires" title="Permalink to this heading">#</a></h1>
 <script src="https://utteranc.es/client.js"

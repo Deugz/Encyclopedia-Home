@@ -45,6 +45,16 @@
 
 ```
 
+```{note}
+
+Pour illustrer le fait qu'il existe différents types de récit, parler des oeuvres de Emily Carroll:
+
+- [Exemple](https://emcarroll.com/comics/prettyplace/)
+
+Internet offre de nouvelles possibilité créatives pour construire un récit
+
+
+```
 
 
 ## Le Besoin

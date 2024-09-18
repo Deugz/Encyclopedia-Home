@@ -1,5 +1,24 @@
 # To include
 
+## Taddei
+
+- Chapitre sur **carte des possibles** (page 241)
+
+- 
+
+## Badges
+
+- [Echos.life](https://www.echos.life/)
+
+
+```{note}
+
+Projet du LICA. Peut etre cool a mettre en place dans la section school
+
+
+```
+
+
 ## Learning planet 
 
 ### Thesis
