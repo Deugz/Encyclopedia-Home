@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Encyclopedia 3.A'
-copyright = '2023, Vincent Deguin'
+copyright = '2025, Vincent Deguin'
 author = 'Vincent Deguin'
 release = '0.0.1'
 
@@ -62,27 +62,22 @@ html_theme_options = {
     "external_links": [
         {
             "url": "https://deugz.github.io/sp-Science_Journey/build/html/index.html",
-            "name": "&nbsp &nbsp 💫 Research",
+            "name": "&nbsp &nbsp &nbsp &nbsp 💫 Research",
             "attributes": {"target": "_blank"},
         },
         {
             "url": "https://deugz.github.io/sp-Education_Journey/build/html/index.html",
-            "name": "&nbsp &nbsp 🧠 Education",
+            "name": "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 🧠 Education",
             "attributes": {"target": "_blank"},
         },
         {
             "url": "https://deugz.github.io/sp-Hiphop_Journey/build/html/index.html",
-            "name": "&nbsp &nbsp 🎤 Culture ",
-            "attributes": {"target": "_blank"},
-        },
-        {
-            "url": "https://deugz.github.io/sp-Pharma_Journey/build/html/index.html",
-            "name": "&nbsp &nbsp 💊 Santé",
+            "name": "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 🎤 Culture ",
             "attributes": {"target": "_blank"},
         },
         {
             "url": "https://deugz.github.io/sp-Politique_Journey/build/html/index.html",
-            "name": " &nbsp &nbsp ✊ Société",
+            "name": " &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp ✊ Société",
             "attributes": {"target": "_blank"},
         },
     ],
@@ -94,19 +89,9 @@ html_theme_options = {
             "icon": "fa-brands fa-github",
         },
         {
-            "name": "Home",
-            "url": "https://deugz.github.io/Encyclopedia-Home/build/html/index.html",
-            "icon": "fa-solid fa-house",
-        },
-        {
-            "name": "Profile",
-            "url": "https://deugz.github.io/nb-profile/_build/html/intro.html",
-            "icon": "fa-solid fa-user",
-        },
-        {
-            "name": "Blog",
-            "url": "https://deugz.github.io/ab-blog/_website/index.html",
-            "icon": "fa-solid fa-blog",
+            "name": "Bullet Journal",
+            "url": "https://deugz.github.io/jb-bullet-2025/_build/html/intro.html",
+            "icon": "fa-solid fa-compass",
         },
         {
             "name": "Tools",
@@ -114,14 +99,14 @@ html_theme_options = {
             "icon": "fa-solid fa-screwdriver-wrench",
         },
         {
-            "name": "Forum",
-            "url": "https://deugz.github.io",
-            "icon": "fa-solid fa-comments",
+            "name": "Blog",
+            "url": "https://deugz.github.io/ab-blog/_website/index.html",
+            "icon": "fa-solid fa-blog",
         },
     ],   
 
     "logo": {
-        "text": " &nbsp V. Deguin &nbsp ",
+        "text": " &nbsp Viny 3.A &nbsp ",
         "image_dark": "_static/Logo/Encyclopedia-logo.png",
         "alt_text": " &nbsp V. Deguin &nbsp &nbsp",
     },
@@ -132,7 +117,7 @@ html_theme_options = {
 }
 
 
-html_css_files = ["css/custom_style.css", "css/Cube.css", "css/coffee_cup.css", "css/kittons.css", "css/style_book_shell.css", "css/style_flipping_card.css", "css/style_wheel.css", "css/periodic-table.css", "css/style-dialogue.css", "css/cell-aggregation.css", "css/style-bird.css", "css/slider.css"]
+html_css_files = ["css/custom_style.css", "css/Cube.css", "css/coffee_cup.css", "css/kittons.css", "css/style_book_shell.css", "css/style_flipping_card.css", "css/style_wheel.css", "css/periodic-table.css", "css/style-dialogue.css", "css/cell-aggregation.css", "css/style-bird.css", "css/slider.css",'https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Montserrat:wght@400;700&display=swap']
 html_js_files = ["assets/script/kittons.js", "assets/script/script_flipping_card.js", "assets/script/script_wheel.js", "assets/script/scriptvideo.js", "assets/script/cell-aggregation.js", "assets/script/slider-script.js"]
 
     

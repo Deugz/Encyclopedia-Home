@@ -1,6 +1,27 @@
 @import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+
+:root {
+    
+    --primary-color: #000000; /* Couleur principale noir*/
+    --secondary-color: #9B3086; /* Couleur secondaire magenta*/
+    --tertiary-color: #CC8CB8; /* Couleur secondaire rose*/
+    --text-color: #333333; /* Couleur du texte */
+}
+
 html {
   height: 100%;
+}
+
+
+h1 {
+    font-family: 'Fredoka', sans-serif;
+    line-height: 1.8em !important;
+    font-style: bold !important;
+    margin-top: 30px !important;
+    margin-bottom:40px !important;
+    color: var(--primary-color) !important;
+    text-align: center !important ;
+    font-size: 3.8em !important; 
 }
 
 p {
@@ -26,14 +47,14 @@ justify-content: center;
 
 }
 
-h1 {
-    font-family: Garamond;
-    text-align: center !important ;
-    margin-bottom:30px; ;
-    font-size: 4em !important; 
-    color: black !important; 
+.rounded-box {
+  margin: 10px; /* Marges autour de la div */
+  padding: 10px; /* Espacement interne */
+  border: 2px solid black; /* Bordure solide */
+  border-radius: 10px; /* Coins arrondis */
+  background-color: #f9f9f9; /* Couleur de fond optionnelle */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Ombre pour un effet esthétique */
 }
-
 
 #site-title.site-logo {
   font-size: 1.4em !important; 

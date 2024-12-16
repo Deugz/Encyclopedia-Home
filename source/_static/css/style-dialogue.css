@@ -123,6 +123,7 @@
 }
 .speech p{
     position: relative;
+    margin: 30px;
     grid-area: stack;
     transition: opacity var(--_speed);
     opacity: 0;
@@ -133,6 +134,7 @@
     content: '';
     position: absolute;
     background-color: var(--_bg);
+
     transition: inset 150ms linear;
 }
 .speech p::before{

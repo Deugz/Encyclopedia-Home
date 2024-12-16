@@ -17,12 +17,11 @@ Introduction/Contribute/Contribute
 :hidden:
 
 Sections/Panorama
-Sections//Research/Research
+Sections/Research/Research
 Sections/Education/Education
 Sections/Music/Music
 Sections/Pharma/Pharma
 Sections/Societe/Societe
-
 
 ```
 

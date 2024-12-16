@@ -15,42 +15,36 @@ html_theme.sidebar_secondary.remove: true
 content/index
 ```
 
-<br>
-<br>
-
-:::{image} _static/Title/Encyclopedia-3.png
+:::{image} _static/Title/Viny-3.png
 :width: 100%
+:align: center
 :::
 
 <br>
 
-
-***
-
 ::::::{grid}
 
 :::::{grid-item}
-:columns: 6
+:columns: 7
 
-<br>
-<br>
-<br>
+<div class="rounded-box">
 
-<h1> <strong>Web <br> Journal  </strong> </h1>
+<h1> <strong>Encyclopédie</strong> <br> collaborative</h1>
 
+</div>
 
 :::::
 
-:::::{grid-item}
-:columns: 6
 
-<br>
+:::::{grid-item}
+:columns: 5
+
 <br>
 
 ::::{grid}
 
 :::{grid-item}
-:columns: 3
+:columns: 4
 
 <span class="hovertext" data-hover="Ce projet, débuté en 2022 (au cours de mes recherches) est actuellement en construction."> ![flag alt >>](_static/Svg_icons/Under_construction.svg) </span> 
 
@@ -58,7 +52,7 @@ content/index
 
 
 :::{grid-item}
-:columns: 3
+:columns: 4
 
 <span class="hovertext" data-hover="Il s'agit d'une experience visant a mettre en place une méthode de pédagogie alternative."> ![flag alt >>](_static/SVG_files/human-head-silhouette-with-cogwheels-svgrepo-com.svg) </span>
 
@@ -66,17 +60,39 @@ content/index
 :::
 
 :::{grid-item}
-:columns: 3
+:columns: 4
 
 <span class="hovertext" data-hover="Une collection de ressource en libre accès (licence CC), que j'implémente au fil de mon apprentissage"> ![flag alt >>](_static/Svg_icons/folders-svgrepo-com.svg) </span>
 
 :::
 
+
+::::
+
+<br>
+
+::::{grid}
+
 :::{grid-item}
-:columns: 3
+:columns: 4
+
+<span class="hovertext" data-hover="Il n'existe pas de cheminement prédéfinie et chacun est libre de créer son propre parcours en fonction de sa curiosité "> ![flag alt >>](_static/Svg_icons/treasure-map-svgrepo-com.svg) </span>
 
 
-<span class="hovertext" data-hover="Un lieu de réflexion collective et inclusif, ou tout le monde est le bienvenue"> ![flag alt >>](_static/SVG_files/work-together-collaborate-co-operate-join-forces-svgrepo-com.svg) </span>
+:::
+
+:::{grid-item}
+:columns: 4
+
+<span class="hovertext" data-hover="Une oeuvre collaborative, ou chacun peut apporter sa pierre a l'édifice en déposant son trésor de connaissance"> ![flag alt >>](_static/Svg_icons/treasure-svgrepo-com.svg) </span> 
+
+:::
+
+:::{grid-item}
+:columns: 4
+
+
+<span class="hovertext" data-hover="Ce(s) sites sont construits comme des livres, et il faudra donc se poser et prendre votre temps pour les lire si vous voulez en tirer toute leur quintescence"> ![flag alt >>](_static/Svg_icons/book-svgrepo-com.svg) </span>
 
 :::
 
@@ -87,47 +103,26 @@ content/index
 ::::{grid}
 
 :::{grid-item}
-:columns: 3
-
-<span class="hovertext" data-hover="Il n'existe pas de cheminement prédéfinie et chacun est libre de créer son propre parcours en fonction de sa curiosité "> ![flag alt >>](_static/Svg_icons/treasure-map-svgrepo-com.svg) </span>
+:columns: 4
 
 
-:::
-
-:::{grid-item}
-:columns: 3
-
-<span class="hovertext" data-hover="Une oeuvre collaborative, ou chacun peut apporter sa pierre a l'édifice en déposant son trésor de connaissance"> ![flag alt >>](_static/Svg_icons/treasure-svgrepo-com.svg) </span> 
-
-:::
-
-
-
-
-:::{grid-item}
-:columns: 3
-
-
-<span class="hovertext" data-hover="Ce(s) sites sont construits comme des livres, et il faudra donc se poser et prendre votre temps pour les lire si vous voulez en tirer toute leur quintescence"> ![flag alt >>](_static/Svg_icons/book-svgrepo-com.svg) </span>
+<span class="hovertext" data-hover="Un lieu de réflexion collective et inclusif, ou tout le monde est le bienvenue"> ![flag alt >>](_static/SVG_files/work-together-collaborate-co-operate-join-forces-svgrepo-com.svg) </span>
 
 :::
 
 :::{grid-item}
-:columns: 3
+:columns: 4
 
 <span class="hovertext" data-hover="Enfin toute contribution (même minime) et la bienvenue, je vous encourage donc a me contacter si vous souhaitez contribuer"> ![flag alt >>](_static/Svg_icons/handshake-deal-svgrepo-com.svg) </span>
 
 :::
 
-::::
-
 :::::
+
 
 ::::::
 
-<br>
-
-<p class="emphase"><strong>Pour documenter mes expériences d'apprentissage et les partager en ligne</strong></p>
+<p class="emphase"><strong>Pour co-construire et documenter nos expériences d'apprentissages </strong></p>
 
 ***
 
@@ -189,374 +184,15 @@ content/index
 <img src="_static/Images/profile-pic-round.png" alt="" class="avatar ">
 </label>
 <div class="speech ">
-<p id="question"><br>C'est un projet personnel que j'ai commencé à développer en 2022 pendant ma thèse d'astrochimie à l'Open University. L'objectif initial de la plateforme était d'investiguer et d'expérimenter de nouveaux moyens de communication scientifique grâce aux outils numériques. Il a depuis évolué et est aujourd'hui principalement <strong>une base de construction, de réflexion et de partage de mes connaissances.</strong></p>
+<p id="question"><br>Bienvenue sur la page d'acceuil de mon encyclopédie en ligne.  <strong>une base de construction, de réflexion et de partage de mes connaissances.</strong></p>
 <p id="answer">La science est gangréné par un système de publication commercial qui asservit les chercheurs en les forçant a adopter une démarche productivistes et concurentiels vis a vis de leur résultats. J'ai voulue échapper a ce système en développant mon propre moyen de communication scientifique tout en espérant que cela plaise a mes supérieurs. Malhereusement ce ne fut pas le cas, et je ne suis pas devenue chercheur, mais j'ai continué mes experimentations sur la <strong> publication alternative</strong>.  </p>
 </div>
-<label for="show-question" id="btn-question">C'est quoi ce site?</label>
+<label for="show-question" id="btn-question">👋 Bienvenue</label>
 <label for="show-answer" id="btn-answer">Je t'explique</label>
 </div>
 </div>
 
 <br>
-
-***
-
-<p class="emphase"> <strong> Explorer collectivement des pistes pour un monde plus durable </strong></p> 
-
-<br>
-
-::::::::{grid} 2
-
-:::::::{grid-item}
-:columns: 8
-
-
-
-<p class="emphase"><em>"Trouver des outils et mettre en place des méthodes pour digérer l'information et construire collectivement des savoirs communs. Créer un espace d'expression libre pour partager nos expériences, nos enseignements, et bâtir ensemble le monde de demain."</em></p>
-
-:::::::
-
-
-:::::::{grid-item}
-:columns: 4
-
-
-
-::::::{grid} 3
-
-:::::{grid-item}
-:columns: 4
-
-```{image} _static/SVG_files/Development_goals/Sustainable_Development_Goal_03GoodHealth.svg
-:width: 100%
-
-```
-
-:::::
-
-:::::{grid-item}
-:columns: 4
-
-```{image} _static/SVG_files/Development_goals/Sustainable_Development_Goal_04QualityEducation.svg
-:width: 100%
-
-```
-
-:::::
-
-:::::{grid-item}
-:columns: 4
-
-```{image} _static/SVG_files/Development_goals/Sustainable_Development_Goal_08DecentWork.svg
-:width: 100%
-
-```
-
-:::::
-
-::::::
-
-::::::{grid} 3
-
-
-:::::{grid-item}
-:columns: 4
-
-```{image} _static/SVG_files/Development_goals/Sustainable_Development_Goal_09Industry.svg
-:width: 100%
-
-```
-
-:::::
-
-:::::{grid-item}
-:columns: 4
-
-```{image} _static/SVG_files/Development_goals/Sustainable_Development_Goal_10ReducedInequalities.svg
-:width: 100%
-
-```
-
-:::::
-
-:::::{grid-item}
-:columns: 4
-
-```{image} _static/SVG_files/Development_goals/Sustainable_Development_Goal_12ResponsibleConsumption.svg
-:width: 100%
-
-```
-
-:::::
-
-::::::
-
-
-::::::{grid} 3
-
-
-:::::{grid-item}
-:columns: 4
-
-```{image} _static/SVG_files/Development_goals/Sustainable_Development_Goal_13Climate.svg
-:width: 100%
-
-```
-
-:::::
-
-:::::{grid-item}
-:columns: 4
-
-```{image} _static/SVG_files/Development_goals/Sustainable_Development_Goal_16PeaceJusticeInstitutions.svg
-:width: 100%
-
-```
-
-:::::
-
-:::::{grid-item}
-:columns: 4
-
-```{image} _static/SVG_files/Development_goals/Sustainable_Development_Goal_17Partnerships.svg
-:width: 100%
-
-```
-
-:::::
-
-
-::::::
-
-:::::::
-
-::::::::
-
-<br>
-
-
-```{admonition} Pour se lancer en douceur ...
-
-<em>Je vous propose de commencer par une plongée dans les ressources produite par le [Learning Planet Institute](https://www.learningplanetinstitute.org/). Ils ont créé une série de vidéo youtube qui explore ...</em>
-
-
-
-```
-
-<br>
-
-:::::::::{grid} 2
-
-::::::::{grid-item}
-:columns: 6
-
-<p class="emphase2"> <strong> Problèmes </strong></p> 
-
-
-:::::::{dropdown} Introduction (Youtube playlist)
-
-::::::{tab-set}
-
-:::::{tab-item} Ep 1
-
-<div class="embedresize">
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/GTP25MoU870?si=Gz1OIExM81cYhETJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
-<br>
-
-Ce premier épisode introduit la notion d’anthropocène. Il présente les principales caractéristiques démographiques, économiques, sociales et environnementales du développement humain. Puis il aborde le rôle central de l’énergie dans ces processus de transformation et se poursuit avec les principes de fonctionnement de la biosphère.
-
-:::::
-
-:::::{tab-item} Ep 2
-
-<div class="embedresize">
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/BcOAtULNV3U?si=xPAELvB8YFeRxvai" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
-<br>
-
-Cet épisode présente la théorie scientifique des limites planétaires et ses différentes composantes. L’exploration des différents ordres de grandeur du métabolisme de l’humanité commence par l’énergie.
-
-:::::
-    
-:::::{tab-item} Ep 3
-
-<div class="embedresize">
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/3F-r26hL8UM?si=R-nUgLwYVNqtODMN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
-<br>
-
-A la suite de l’épisode 2, cet épisode introduit les autres ressources et contraintes physiques du métabolisme humain : les ressources minières, les gaz à effet de serre, le changement climatique et les autres types de pollution.
-
-:::::
-
-:::::{tab-item} Ep 4
-
-<div class="embedresize">
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/WYpWltRwuAI?si=JC-B8D9rPzTRv9qH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
-<br>
-
-Ce dernier épisode présente les impacts sur la biosphère et les limites de l’exploitation des ressources issues du vivant. Il porte un regard prospectif sur les besoins à venir de l’humanité et passe en revue certains modèles théoriques et cadres institutionnels qui peuvent aider à concevoir des pistes de solutions à ces défis globaux qui seront détaillées dans la deuxième grande partie.
-
-:::::
-
-::::::
-
-:::::::
-
-::::::::
-
-::::::::{grid-item}
-:columns: 6
-
-
-<p class="emphase2"> <strong> Solutions </strong></p> 
-
-
-:::::::{dropdown} Introduction (Youtube playlist)
-
-::::::{tab-set}
-
-:::::{tab-item}  1
-
-<div class="embedresize">
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/ptpE3cModh8?si=BlOUIux3gQ9fgVRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
-<br>
-
-Cet épisode d’introduction reprend des éléments clés de la première partie et explique la méthodologie de construction des épisodes suivants.
-
-:::::
-
-:::::{tab-item}  2
-
-<div class="embedresize">
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/O0jpae5jnbg?si=m1wdXrj0r4-adrdU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
-<br>
-
-Cet épisode s’interroge sur ce qu’il est réellement pertinent d’évaluer. Il présente des travaux sur  les différentes composantes de “la qualité de vie” et sur les manières de mesurer la prospérité de l’humanité.
-L’épisode se termine par des exemples d’indicateurs, alternatifs au PIB, qui ont été proposés pour mesurer “la richesse” de la vie humaine.
-
-:::::
-    
-:::::{tab-item}  3
-
-<div class="embedresize">
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/YpZ7K23zYyQ?si=i19ajOdhApcPrdXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
-<br>
-
-Cet épisode aborde les différentes pistes d’action complémentaires envisagées en fonction des secteurs d’activité afin de diminuer les émissions des gaz à effets de serre jusqu’au point “Net zero”, susceptible de stopper le changement climatique.
-
-:::::
-
-:::::{tab-item} 4
-
-<div class="embedresize">
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/W4JYWOYHJr8?si=KstNEz8pE7aXRon6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
-<br>
-
-Dans la continuité de l’épisode sur la stabilisation du climat, cet épisode présente les grands leviers identifiés pour décarboner les systèmes de production énergétique et limiter leurs impacts environnementaux.
-
-:::::
-
-:::::{tab-item} 5
-
-<div class="embedresize">
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/w0wbLWVvgNM?si=DAXO0xCHnfvNEpwc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
-<br>
-
-Dans la continuité de l’épisode sur le système énergétique, cet épisode  aborde la manière dont l’humanité extrait et utilise des ressources pour son fonctionnement. Il présente et illustre d’exemples,  les grands principes permettant de limiter la quantité de matière qui entre dans le cycle de production et de consommation de biens matériels.
-
-:::::
-
-:::::{tab-item} 6
-
-<div class="embedresize">
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/SHARs58TGEI?si=6rbORZKHx0sZoWUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
-<br>
-
-Cet épisode  présente différentes approches possibles pour protéger et régénérer la biosphère, ainsi que pour enrayer l’effondrement de la biodiversité. Là encore, les grands principes sont illustrés par des exemples d’initiatives ayant donné de bons résultats.
-
-:::::
-
-:::::{tab-item} 7
-
-<div class="embedresize">
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/EseSUpmUwZo?si=ukmVqSDVHrGbVp73" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
-<br>
-
-Cet épisode explore les enjeux de transformation des systèmes agroalimentaires et propose des pistes pour produire et consommer autrement, afin de réduire les pressions environnementales, tout en permettant à l’ensemble de l’humanité de se nourrir sainement.
-
-:::::
-
-:::::{tab-item} 8
-
-<div class="embedresize">
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/HoqoUQh55bg?si=s8wU5Xv0lEXICFhj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
-<br>
-
-Cet épisode explore les besoins de transformation des modèles éducatifs. Il offre un aperçu des modèles pédagogiques innovants qui émergent afin de répondre aux défis de l’éducation contemporaine. À travers des exemples concrets, il incite à la réflexion sur les nouvelles approches éducatives nécessaires pour préparer les générations d’aujourd’hui et de demain à relever nos défis communs.
-
-:::::
-
-::::::
-
-:::::::
-
-
-
-::::::::
-
-:::::::::
-
-<br>
-
-
-
-:::{dropdown} Analyse approfondie
-
-```{note}
-
-Créer une analyse approfondie à partir des vidéos ci-dessus. link avec le projet et mettre des liens vers les différentes pages associées
-
-
-```
-
-
-
-```{note}
-
-- [Source](https://www.learningplanetinstitute.org/quelles-pistes-de-solutions-pour-un-monde-soutenable/)
-
-Penser a checker les sources et a les implémenter dans les différents sites concernés
-
-- [Lien vers les sources](https://www.learningplanetinstitute.org/wp-content/uploads/2023/01/WEBSITE2023_fiches_quelles_solutions.pdf)
-
-```
-
-
-:::
-
 
 
 
@@ -566,88 +202,90 @@ Penser a checker les sources et a les implémenter dans les différents sites co
 <h2> Qui suis-je ? </h2>
 
 <br>
-<br>
-
-:::::::{grid}
-
-::::::{grid-item}
-:columns: 6
 
 <p class="emphase2"><strong>Vincent Deguin</strong></p>
 
-J' aime apprendre mais surtout faire apprendre, le tout de manière fun et créative. La beauté du monde m'émerveille et j'aimerai faire partager cet émerveillement avec le plus grand nombre. 
-
-
 <br>
 
 
-::::::
+::::{grid} 3
 
-::::::{grid-item}
+:::{grid-item}
 :columns: 6
 
+<p class="emphase"><em>"Explorateur de la connaissance et aventurier de l'intelligence collective"</em></p>
 
-```{image} _static/Images/Vincent-Deguin-OpenUniversity50_crop.jpg
 
-```
+> Je considère chaque projet que j’entreprends comme une nouvelle aventure, une occasion de repousser les limites et d’explorer de nouvelles idées.
+
+:::
+
+:::{grid-item}
+:columns: 1
+<br>
+:::
+
+
+:::{grid-item}
+:columns: 5
 
 <br>
 
-```{tip}
-
-Cette photo, prise dans mon laboratoire d'astrocimie, au coté de la première version de mon experience dédié a la production de minuscules particules de glaces amorphes, a été prise en 2022 par [Cris Floyd](https://www.chrisfloyd.com/), a l'occasion des 50 ans de l'Open University [Source](https://ounews.co/student-stories/shooting-for-the-stars-and-beyond/). 
-
+```{image} _static/Images/Profile-BG.jpg 
 
 ```
 
-<br>
-<br>
+<div id="colour">
     
-:::::{grid} 2    
-    
-    
-::::{grid-item-card}
-:link: https://deugz.github.io/nb-profile/_build/html/intro.html
-:class-header: bg-light
-:columns: 8
-**Mon profile**
+![flag alt >](_static/Svg_icons/flag-for-flag-france-svgrepo-com.svg) Français (33 ans)
 
-^^^
+![flag alt >](_static/Svg_icons/Study_level.svg) Plusieurs (cf infographie ci-dessous)
 
+![flag alt >](_static/Svg_icons/university-svgrepo-com.svg) Freelance, Social Entrepreneur
 
-```{image} _static/Images/Title-profile-Viny-5.png
+![flag alt >](_static/Svg_icons/mail-svgrepo-com.svg) v.deguin@gmail.com
 
-```
+![flag alt >](_static/Svg_icons/researchgate-svgrepo-com.svg) [Vincent Deguin](https://www.researchgate.net/profile/Vincent-Deguin)
 
-::::
-
-::::{grid-item}
-:columns: 4
-
-**Réseaux**
-
-![flag alt >](_static/Svg_icons/researchgate-svgrepo-com.svg) [V. Deguin](https://www.researchgate.net/profile/Vincent-Deguin)
-
-![flag alt >](_static/Svg_icons/orcid-svgrepo-com.svg) [ORCID](https://orcid.org/0000-0003-2280-8273)
+![flag alt >](_static/Svg_icons/orcid-svgrepo-com.svg) [0000-0003-2280-8273](https://orcid.org/0000-0003-2280-8273)
 
 ![flag alt >](_static/Svg_icons/github-svgrepo-com.svg) [Deugz](https://github.com/Deugz)
 
 ![flag alt >](_static/Svg_icons/codepen-svgrepo-com.svg) [Deugz](https://codepen.io/deugz/)
 
-![flag alt >](_static/Svg_icons/youtube-svgrepo-com.svg) [SBFP](https://www.youtube.com/channel/UCfAsBZ1atxP-hyltfiCiM2w)
+![flag alt >](_static/Svg_icons/youtube-svgrepo-com.svg) [Science By & For People](https://www.youtube.com/channel/UCfAsBZ1atxP-hyltfiCiM2w)
+
+- Linkedin    
+    
+- Facebook
+    
+- Twitter
+    
+
+
+</div>
+    
+:::
 
 ::::
-    
-    
-    
-:::::
-
-::::::
-
-:::::::
-
 
 <br>
+
+
+<p class="emphase2"><strong>Mon Parcours</strong></p>
+
+<div style="position: relative; width: 100%; height: 0; padding-top: 100.0000%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAGYmc6vtPY/e1pgHGiH-Vp7g8MhTgNlgQ/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGYmc6vtPY&#x2F;e1pgHGiH-Vp7g8MhTgNlgQ&#x2F;view?utm_content=DAGYmc6vtPY&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Architecture WEB</a> par Vincent Deguin
+
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 200%; padding-top: 0; height: 0;"><iframe title="DETECTIVE VIBRANT" frameborder="0" width="800" height="1600" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/675eb6c92050a4cf2a127d35" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+
+
 
 :::::::{admonition} Mon parcours personel et la génèse du projet
 :class: note, dropdown
